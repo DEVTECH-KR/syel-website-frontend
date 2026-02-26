@@ -1,0 +1,133 @@
+export interface Branch {
+  slug: string;
+  name: string;
+  region: "Africa" | "Europe" | "Americas" | "Asia" | "Middle East";
+  country: string;
+  city: string;
+  description: string;
+  longDescription: string;
+  established: string;
+  memberCount: number;
+  projectCount: number;
+  image: string;
+  contactEmail: string;
+  contactPhone: string;
+  address: string;
+}
+
+export const branches: Branch[] = [
+  {
+    slug: "syel-energie",
+    name: "Syel Énergie",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Douala",
+    description:
+      "Notre filiale énergie développe des solutions de production et de distribution d'énergie solaire, thermique et hybride à travers l'Afrique centrale et de l'Ouest.",
+    longDescription:
+      "Syel Énergie, créée en 2012, est le pilier énergétique du Groupe Syel. Basée à Douala avec des bureaux opérationnels à Yaoundé et Libreville, la filiale conçoit, construit et exploite des centrales solaires photovoltaïques, des groupes électrogènes industriels et des mini-réseaux hybrides pour les zones rurales et périurbaines. Syel Énergie a installé plus de 45 MW de capacité solaire cumulée au Cameroun, au Gabon et au Congo-Brazzaville. L'entreprise fournit également des solutions d'électrification hors réseau pour les entreprises minières et les camps industriels. En 2025, Syel Énergie a remporté un contrat majeur pour l'électrification de 120 villages dans la région de l'Est du Cameroun, consolidant sa position de leader régional dans les énergies renouvelables. L'équipe de 620 ingénieurs, techniciens et commerciaux porte une vision claire : accélérer la transition énergétique du continent africain.",
+    established: "2012",
+    memberCount: 620,
+    projectCount: 38,
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
+    contactEmail: "energie@groupesyel.com",
+    contactPhone: "+237 233 42 18 90",
+    address: "Boulevard de la Liberté, Akwa, Douala, Cameroun",
+  },
+  {
+    slug: "syel-transport",
+    name: "Syel Transport",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Douala",
+    description:
+      "Syel Transport opère une flotte de plus de 350 véhicules assurant le transport de marchandises, la logistique portuaire et la distribution sur les corridors économiques d'Afrique centrale.",
+    longDescription:
+      "Fondée en 2010 en même temps que le Groupe Syel, Syel Transport est la filiale historique du groupe. Spécialisée dans le transport routier de marchandises, la logistique portuaire et la gestion de la chaîne d'approvisionnement, elle opère sur les corridors Douala–N'Djamena, Douala–Bangui et Douala–Libreville. La flotte comprend plus de 350 camions, semi-remorques et véhicules spécialisés, gérés depuis un hub logistique de 12 000 m² situé dans la zone industrielle de Bonabéri. Syel Transport est le partenaire logistique de référence pour les grands importateurs, les organisations humanitaires et les projets d'infrastructure de la sous-région. En 2024, la filiale a lancé un système de suivi GPS en temps réel et un portail client digital, améliorant les délais de livraison de 35 %. L'entreprise emploie 850 collaborateurs, dont 480 chauffeurs professionnels certifiés.",
+    established: "2010",
+    memberCount: 850,
+    projectCount: 52,
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    contactEmail: "transport@groupesyel.com",
+    contactPhone: "+237 233 39 55 10",
+    address: "Zone Industrielle de Bonabéri, Douala, Cameroun",
+  },
+  {
+    slug: "syel-agroalimentaire",
+    name: "Syel Agroalimentaire",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Bafoussam",
+    description:
+      "Syel Agroalimentaire transforme et commercialise des produits agricoles locaux — cacao, café, huile de palme, manioc — en créant de la valeur ajoutée pour les agriculteurs et les consommateurs.",
+    longDescription:
+      "Syel Agroalimentaire a été lancée en 2014 pour répondre au défi de la transformation locale des matières premières agricoles en Afrique. Implantée à Bafoussam, au cœur de la région agricole de l'Ouest Cameroun, la filiale exploite deux unités de transformation : une usine de torréfaction et d'emballage de café d'une capacité de 5 000 tonnes par an, et une unité de transformation de manioc en farine et amidon. Syel Agroalimentaire travaille en partenariat avec plus de 3 000 agriculteurs organisés en coopératives, leur garantissant des prix d'achat stables et un accès à des intrants de qualité. La marque « Saveurs du Terroir » est désormais distribuée dans 4 pays d'Afrique centrale. En 2025, la filiale a inauguré une nouvelle ligne de production d'huile de palme raffinée certifiée durable (RSPO), positionnant le Groupe Syel comme un acteur responsable de l'agro-industrie africaine. L'effectif atteint 480 employés permanents et plus de 200 saisonniers.",
+    established: "2014",
+    memberCount: 480,
+    projectCount: 24,
+    image:
+      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+    contactEmail: "agro@groupesyel.com",
+    contactPhone: "+237 233 44 72 30",
+    address: "Route de Bamenda, Zone Industrielle, Bafoussam, Cameroun",
+  },
+  {
+    slug: "syel-technologies",
+    name: "Syel Technologies",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Yaoundé",
+    description:
+      "Syel Technologies accompagne la transformation digitale des entreprises africaines avec des solutions ERP, cloud, cybersécurité et développement sur mesure.",
+    longDescription:
+      "Créée en 2016, Syel Technologies est le bras numérique du Groupe Syel. Basée à Yaoundé avec un bureau de développement à Kigali (Rwanda), la filiale propose des services de conseil en transformation digitale, d'intégration de systèmes ERP (SAP, Odoo), de développement d'applications métier, de cybersécurité et d'hébergement cloud. Syel Technologies compte parmi ses clients des banques, des opérateurs télécoms, des administrations publiques et des PME à forte croissance. Le projet phare de 2024 a été le déploiement d'une plateforme de gestion intégrée pour le Port Autonome de Douala, connectant 15 modules opérationnels et réduisant les délais de traitement des conteneurs de 40 %. L'équipe de 320 ingénieurs et consultants, dont 60 % sont titulaires de certifications internationales (AWS, Cisco, SAP), fait de Syel Technologies un partenaire technologique de premier plan sur le continent.",
+    established: "2016",
+    memberCount: 320,
+    projectCount: 45,
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+    contactEmail: "tech@groupesyel.com",
+    contactPhone: "+237 222 31 08 45",
+    address: "Quartier Bastos, Yaoundé, Cameroun",
+  },
+  {
+    slug: "syel-btp",
+    name: "Syel BTP",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Douala",
+    description:
+      "Syel BTP réalise des ouvrages de génie civil, des bâtiments commerciaux et des infrastructures routières dans toute l'Afrique centrale et de l'Ouest.",
+    longDescription:
+      "Syel BTP, fondée en 2013, est la filiale construction et travaux publics du Groupe Syel. Elle intervient dans la construction de bâtiments commerciaux et industriels, les travaux routiers, les ouvrages d'art (ponts, dalots), l'aménagement de zones industrielles et la construction de logements. Avec un parc de plus de 80 engins lourds (pelles, bulldozers, grues, centrales à béton), Syel BTP a la capacité d'exécuter simultanément plusieurs chantiers de grande envergure. Parmi les réalisations marquantes : la construction du centre commercial Syel Mall à Douala (25 000 m²), la réhabilitation de 45 km de routes nationales dans la région du Littoral, et l'édification du siège social du Groupe Syel. La filiale est certifiée ISO 9001 et emploie 780 collaborateurs, incluant ingénieurs civils, conducteurs de travaux, topographes et ouvriers qualifiés. Syel BTP ambitionne de devenir l'un des cinq premiers constructeurs d'Afrique centrale d'ici 2030.",
+    established: "2013",
+    memberCount: 780,
+    projectCount: 34,
+    image:
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    contactEmail: "btp@groupesyel.com",
+    contactPhone: "+237 233 42 90 15",
+    address: "Rue de l'Industrie, Bassa, Douala, Cameroun",
+  },
+  {
+    slug: "syel-immobilier",
+    name: "Syel Immobilier",
+    region: "Africa",
+    country: "Cameroun",
+    city: "Douala",
+    description:
+      "Syel Immobilier développe des programmes résidentiels, des espaces de bureaux et des complexes commerciaux pour répondre à la demande croissante du marché immobilier africain.",
+    longDescription:
+      "Syel Immobilier, lancée en 2015, porte l'ambition du Groupe Syel dans le secteur de la promotion immobilière. La filiale conçoit et commercialise des programmes de logements résidentiels (du standing économique au haut de gamme), des immeubles de bureaux et des centres commerciaux. Son portefeuille actuel comprend plus de 1 200 unités de logement livrées ou en cours de construction à Douala, Yaoundé et Libreville. Le projet emblématique « Les Jardins de Bonabéri » — une résidence de 280 appartements avec piscine, salle de sport et espaces verts — a été livré en 2024 et primé au MIPIM Africa pour son design et son intégration environnementale. Syel Immobilier propose également des solutions de financement en partenariat avec des banques locales, rendant l'accession à la propriété accessible à la classe moyenne africaine. L'équipe de 450 collaborateurs comprend des architectes, des urbanistes, des commerciaux et des gestionnaires de patrimoine.",
+    established: "2015",
+    memberCount: 450,
+    projectCount: 18,
+    image:
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+    contactEmail: "immobilier@groupesyel.com",
+    contactPhone: "+237 233 43 67 20",
+    address: "Rue Joss, Bonanjo, Douala, Cameroun",
+  },
+];

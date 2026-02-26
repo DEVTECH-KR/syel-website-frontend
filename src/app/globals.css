@@ -1,26 +1,253 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ===== Design System: Unite Global Foundation ===== */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Primary — Brand Green #27685d */
+  --color-primary-50: #f0f7f5;
+  --color-primary-100: #d4ede8;
+  --color-primary-200: #a8dbd0;
+  --color-primary-300: #6dbbad;
+  --color-primary-400: #3e9484;
+  --color-primary-500: #27685d;
+  --color-primary-600: #1f534a;
+  --color-primary-700: #173f38;
+  --color-primary-800: #102b26;
+  --color-primary-900: #081714;
+
+  /* Teal — Alias to primary for accent states */
+  --color-teal-50: #f0f7f5;
+  --color-teal-100: #d4ede8;
+  --color-teal-200: #a8dbd0;
+  --color-teal-300: #6dbbad;
+  --color-teal-400: #3e9484;
+  --color-teal-500: #27685d;
+  --color-teal-600: #1f534a;
+  --color-teal-700: #173f38;
+  --color-teal-800: #102b26;
+  --color-teal-900: #081714;
+
+  /* Accent — Amber #ee9d2b */
+  --color-gold-50: #fef7eb;
+  --color-gold-100: #fceacc;
+  --color-gold-200: #f9d599;
+  --color-gold-300: #f5c066;
+  --color-gold-400: #ee9d2b;
+  --color-gold-500: #d48922;
+  --color-gold-600: #aa6e1b;
+  --color-gold-700: #805314;
+  --color-gold-800: #55370d;
+  --color-gold-900: #2b1c07;
+
+  /* Warm neutrals — Cream/Surface tones */
+  --color-warm-50: #fbfaf9;
+  --color-warm-100: #f6f4ee;
+  --color-warm-200: #eeebe4;
+  --color-warm-300: #e7e4df;
+  --color-warm-400: #c5c0b8;
+  --color-warm-500: #9c9689;
+  --color-warm-600: #6a7581;
+  --color-warm-700: #4d5560;
+  --color-warm-800: #363c44;
+  --color-warm-900: #1f2329;
+
+  /* Dark base — for text and dark sections #171f26 */
+  --color-base-50: #f4f5f6;
+  --color-base-100: #e2e5e8;
+  --color-base-200: #c5cad0;
+  --color-base-300: #a0a8b0;
+  --color-base-400: #6e7a85;
+  --color-base-500: #3d4a56;
+  --color-base-600: #2c3642;
+  --color-base-700: #212a34;
+  --color-base-800: #171f26;
+  --color-base-900: #0d1218;
+
+  /* Fonts */
+  --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 4px 14px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.07), 0 12px 32px rgba(0, 0, 0, 0.05);
+  --shadow-nav: 0 1px 4px rgba(0, 0, 0, 0.06);
+  --shadow-hero: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+  /* Animation durations */
+  --animate-duration-fast: 150ms;
+  --animate-duration-base: 300ms;
+  --animate-duration-slow: 500ms;
+  --animate-duration-slower: 800ms;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===== Base Styles ===== */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  color: var(--color-base-800);
+  background-color: var(--color-warm-50);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ===== Typography ===== */
+/* NOTE: No forced `color` here — let Tailwind utility classes control text color */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+}
+
+h4 {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+}
+
+p {
+  line-height: 1.8;
+}
+
+/* ===== Selection ===== */
+
+::selection {
+  background: var(--color-primary-200);
+  color: var(--color-primary-900);
+}
+
+/* ===== Scrollbar ===== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-warm-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-warm-400);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-warm-500);
+}
+
+/* ===== Utility Classes ===== */
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+.container-custom {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Gradient overlays */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--color-base-700) 0%, var(--color-base-900) 100%);
+}
+
+.gradient-teal {
+  background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-700) 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(
+    180deg,
+    rgba(8, 23, 20, 0.85) 0%,
+    rgba(23, 31, 38, 0.7) 45%,
+    rgba(39, 104, 93, 0.75) 100%
+  );
+}
+
+.gradient-warm {
+  background: linear-gradient(180deg, #ffffff 0%, var(--color-warm-50) 100%);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-primary-500), var(--color-gold-400));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Line decoration */
+.line-accent {
+  position: relative;
+}
+
+.line-accent::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary-500), var(--color-gold-400));
+  border-radius: 2px;
+  margin-top: 1rem;
+}
+
+.line-accent-center::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
 }
