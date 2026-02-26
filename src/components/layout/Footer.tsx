@@ -67,7 +67,7 @@ export function Footer() {
             <p className="text-sm leading-relaxed text-warm-500 mb-6">
               A diversified corporate group driving excellence across energy,
               transport, agri-food, technology, construction, and real estate
-              from Douala, Cameroon to the world.
+              from Kinshasa to the world.
             </p>
 
             <div className="flex items-center gap-3">

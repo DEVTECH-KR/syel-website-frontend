@@ -24,8 +24,8 @@ const slides: HeroSlide[] = [
     headline: "Powering Growth.\nAcross Industries.",
     highlight: "Since 2010.",
     subtitle:
-      "Groupe Syel is a leading Cameroonian conglomerate driving progress across Energy, Transport, Agri-food, Technologies, Construction, and Real Estate — with operations spanning Africa and beyond.",
-  },
+      "The Syel Group is positioned as a major economic player and a leading strategic partner in the Republic of Congo. With its multi-sector expertise, it contributes significantly to progress and development in the fields of energy, transportation, agri-food, technology, construction, and real estate, with activities spanning Africa and beyond.",
+},
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&q=80",

@@ -47,7 +47,7 @@ function PageHero() {
           <h1 className="font-heading text-white">About Groupe Syel</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-warm-200 md:text-xl">
             A diversified corporate group driving innovation, excellence, and
-            sustainable growth across Cameroon since 2010.
+            sustainable growth across DRC since 2010.
           </p>
         </motion.div>
       </div>
@@ -78,7 +78,7 @@ function OurStory() {
 
             <div className="mt-8 space-y-5 text-warm-700 leading-relaxed">
               <p>
-                Groupe Syel was founded in 2010 in Douala, Cameroon, by a group
+                Groupe Syel was founded in 2010 in KINSHASA/RDC by a group
                 of visionary entrepreneurs who saw an opportunity to build a
                 world-class conglomerate rooted in African excellence. Starting
                 with a single energy distribution venture, the founders combined
