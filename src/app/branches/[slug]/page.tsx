@@ -52,14 +52,14 @@ export default function BranchDetailPage() {
     return (
       <main className="flex min-h-[60vh] flex-col items-center justify-center section-padding">
         <h1 className="font-heading text-3xl font-bold text-base-800">
-          Subsidiary Not Found
+          Filiale Non Trouvée
         </h1>
         <p className="mt-4 text-warm-600">
-          The subsidiary you&apos;re looking for doesn&apos;t exist.
+          La filiale que vous recherchez n&apos;existe pas.
         </p>
         <Button href="/branches" variant="primary" className="mt-8">
           <ArrowLeft className="h-4 w-4" />
-          Back to All Subsidiaries
+          Retour à Toutes les Filiales
         </Button>
       </main>
     );
@@ -70,7 +70,7 @@ export default function BranchDetailPage() {
 
   return (
     <main>
-      {/* Branch Hero */}
+      {/* Hero de la filiale */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden">
         <Image
           src={branch.image}
@@ -90,7 +90,7 @@ export default function BranchDetailPage() {
             animate={heroInView ? "visible" : "hidden"}
           >
             <Badge variant="default" className="mb-4">
-              Region: {branch.region}
+              Région : {branch.region}
             </Badge>
             <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               {branch.name}
@@ -102,20 +102,20 @@ export default function BranchDetailPage() {
               </span>
               <span className="flex items-center gap-2">
                 <Calendar className="h-5 w-5" />
-                Established {branch.established}
+                Créée en {branch.established}
               </span>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* About This Branch */}
+      {/* À propos de cette filiale */}
       <section className="section-padding">
         <div className="container-custom">
           <SectionHeading
-            eyebrow="About"
-            title="About This Subsidiary"
-            highlight="This Subsidiary"
+            eyebrow="À propos"
+            title="À Propos de Cette Filiale"
+            highlight="Cette Filiale"
           />
 
           <div className="mt-12 grid gap-12 lg:grid-cols-5">
@@ -153,14 +153,14 @@ export default function BranchDetailPage() {
             >
               <Card hoverable={false} className="p-6">
                 <h3 className="font-heading text-lg font-bold text-base-800">
-                  Key Facts
+                  Informations Clés
                 </h3>
                 <dl className="mt-5 space-y-4">
                   <div className="flex items-start gap-3">
                     <Calendar className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Established
+                        Création
                       </dt>
                       <dd className="text-base-700">{branch.established}</dd>
                     </div>
@@ -169,7 +169,7 @@ export default function BranchDetailPage() {
                     <Users className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Members
+                        Membres
                       </dt>
                       <dd className="text-base-700">
                         {branch.memberCount.toLocaleString()}
@@ -180,7 +180,7 @@ export default function BranchDetailPage() {
                     <FolderHeart className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Projects
+                        Projets
                       </dt>
                       <dd className="text-base-700">{branch.projectCount}</dd>
                     </div>
@@ -198,7 +198,7 @@ export default function BranchDetailPage() {
                     <Phone className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Phone
+                        Téléphone
                       </dt>
                       <dd className="text-base-700">{branch.contactPhone}</dd>
                     </div>
@@ -207,7 +207,7 @@ export default function BranchDetailPage() {
                     <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Address
+                        Adresse
                       </dt>
                       <dd className="text-base-700">{branch.address}</dd>
                     </div>
@@ -219,15 +219,15 @@ export default function BranchDetailPage() {
         </div>
       </section>
 
-      {/* Branch Team */}
+      {/* Équipe de la filiale */}
       {branchTeam.length > 0 && (
         <section className="section-padding bg-warm-50">
           <div className="container-custom">
             <SectionHeading
-              eyebrow="Team"
-              title="Subsidiary Team"
-              highlight="Team"
-              subtitle="Meet the professionals leading operations at this subsidiary."
+              eyebrow="Équipe"
+              title="Équipe de la Filiale"
+              highlight="Équipe"
+              subtitle="Rencontrez les professionnels qui dirigent les opérations de cette filiale."
               centered
             />
 
@@ -268,15 +268,15 @@ export default function BranchDetailPage() {
         </section>
       )}
 
-      {/* Branch Projects */}
+      {/* Projets de la filiale */}
       {branchProjects.length > 0 && (
         <section className="section-padding">
           <div className="container-custom">
             <SectionHeading
-              eyebrow="Projects"
-              title="Subsidiary Projects"
-              highlight="Projects"
-              subtitle="Key projects and initiatives driven by this subsidiary."
+              eyebrow="Projets"
+              title="Projets de la Filiale"
+              highlight="Projets"
+              subtitle="Projets et initiatives clés menés par cette filiale."
               centered
             />
 
@@ -314,8 +314,9 @@ export default function BranchDetailPage() {
                                 : "primary"
                           }
                         >
-                          {project.status.charAt(0).toUpperCase() +
-                            project.status.slice(1)}
+                          {project.status === "active" && "En cours"}
+                          {project.status === "completed" && "Terminé"}
+                          {project.status === "upcoming" && "À venir"}
                         </Badge>
                       </div>
 
@@ -327,10 +328,10 @@ export default function BranchDetailPage() {
                         {truncate(project.description, 120)}
                       </p>
 
-                      {/* Progress bar */}
+                      {/* Barre de progression */}
                       <div className="mt-4">
                         <div className="flex items-center justify-between text-xs text-warm-500">
-                          <span>Progress</span>
+                          <span>Progression</span>
                           <span className="font-semibold text-base-700">
                             {project.progress}%
                           </span>
@@ -347,7 +348,7 @@ export default function BranchDetailPage() {
                         href={`/projects/${project.slug}`}
                         className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
                       >
-                        View Project
+                        Voir le Projet
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     </div>
@@ -359,14 +360,14 @@ export default function BranchDetailPage() {
         </section>
       )}
 
-      {/* Contact Section */}
+      {/* Section Contact */}
       <section className="section-padding bg-warm-50">
         <div className="container-custom">
           <SectionHeading
             eyebrow="Contact"
-            title="Get in Touch"
-            highlight="in Touch"
-            subtitle="Reach out to this subsidiary directly."
+            title="Prenez Contact"
+            highlight="Contact"
+            subtitle="Contactez directement cette filiale."
             centered
           />
 
@@ -402,7 +403,7 @@ export default function BranchDetailPage() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-base-800">
-                      Phone
+                      Téléphone
                     </p>
                     <a
                       href={`tel:${branch.contactPhone}`}
@@ -419,7 +420,7 @@ export default function BranchDetailPage() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-base-800">
-                      Address
+                      Adresse
                     </p>
                     <p className="text-warm-600">{branch.address}</p>
                   </div>
@@ -430,7 +431,7 @@ export default function BranchDetailPage() {
         </div>
       </section>
 
-      {/* Back link */}
+      {/* Lien de retour */}
       <section className="border-t border-warm-200 bg-white">
         <div className="container-custom py-8">
           <Link
@@ -438,7 +439,7 @@ export default function BranchDetailPage() {
             className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to All Subsidiaries
+            Retour à Toutes les Filiales
           </Link>
         </div>
       </section>

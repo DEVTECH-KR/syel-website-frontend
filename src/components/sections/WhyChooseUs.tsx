@@ -194,7 +194,7 @@ export function WhyChooseUs() {
               </blockquote>
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">
-                  Paul-Henri Nkoulou
+                  Olivier Kameshera
                 </p>
                 <p className="text-xs text-warm-400">
                   Président-Directeur Général, Groupe Syel

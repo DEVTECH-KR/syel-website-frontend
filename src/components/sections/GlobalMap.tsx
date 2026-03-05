@@ -44,10 +44,10 @@ function AnimatedCounter({
 }
 
 const stats = [
-  { value: 8, suffix: "+", label: "Countries", icon: <Globe className="w-6 h-6" /> },
-  { value: 6, suffix: "", label: "Subsidiaries", icon: <Building2 className="w-6 h-6" /> },
-  { value: 3500, suffix: "+", label: "Employees", icon: <Users className="w-6 h-6" /> },
-  { value: 200, suffix: "+", label: "Projects", icon: <FolderHeart className="w-6 h-6" /> },
+  { value: 8, suffix: "+", label: "Pays", icon: <Globe className="w-6 h-6" /> },
+  { value: 6, suffix: "", label: "Filiales", icon: <Building2 className="w-6 h-6" /> },
+  { value: 3500, suffix: "+", label: "Employés", icon: <Users className="w-6 h-6" /> },
+  { value: 200, suffix: "+", label: "Projets", icon: <FolderHeart className="w-6 h-6" /> },
 ];
 
 const cities = [
@@ -70,7 +70,7 @@ export function GlobalMap() {
       id="global-map"
       className="relative overflow-hidden"
     >
-      {/* Background image */}
+      {/* Image de fond */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -78,10 +78,10 @@ export function GlobalMap() {
             "url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1920&q=80')",
         }}
       />
-      {/* Dark overlay */}
+      {/* Superposition sombre */}
       <div className="absolute inset-0 bg-base-900/88" />
 
-      {/* Subtle diagonal line texture */}
+      {/* Texture subtile de lignes diagonales */}
       <div
         className="absolute inset-0 opacity-[0.025] pointer-events-none"
         style={{
@@ -92,17 +92,17 @@ export function GlobalMap() {
 
       <div className="relative z-10 section-padding" ref={ref}>
         <div className="container-custom">
-          {/* ===== Heading ===== */}
+          {/* ===== Titre ===== */}
           <SectionHeading
-            eyebrow="Our Presence"
-            title="Strategically Positioned Across Africa & Beyond"
-            highlight="Africa & Beyond"
-            subtitle="From our headquarters in Douala to operations spanning 8 countries, Groupe Syel maintains a strong footprint across the continent's most dynamic markets."
+            eyebrow="Notre Présence"
+            title="Stratégiquement Positionnés en Afrique et au-delà"
+            highlight="Afrique et au-delà"
+            subtitle="De notre siège à Douala aux opérations couvrant 8 pays, le Groupe Syel maintient une empreinte solide à travers les marchés les plus dynamiques du continent."
             centered
             light
           />
 
-          {/* ===== Stats ===== */}
+          {/* ===== Statistiques ===== */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
@@ -127,7 +127,7 @@ export function GlobalMap() {
             ))}
           </motion.div>
 
-          {/* ===== Divider ===== */}
+          {/* ===== Séparateur ===== */}
           <motion.div
             initial={{ scaleX: 0 }}
             animate={isInView ? { scaleX: 1 } : { scaleX: 0 }}
@@ -135,7 +135,7 @@ export function GlobalMap() {
             className="mt-14 h-px bg-gradient-to-r from-transparent via-white/15 to-transparent"
           />
 
-          {/* ===== City Presence Strip ===== */}
+          {/* ===== Bande des Villes ===== */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
@@ -143,7 +143,7 @@ export function GlobalMap() {
             className="mt-14"
           >
             <p className="text-center text-xs font-bold uppercase tracking-[0.25em] text-warm-500 mb-8">
-              Where We Operate
+              Où Nous Opérons
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 lg:gap-4">
@@ -176,7 +176,7 @@ export function GlobalMap() {
                   <span className="text-sm font-medium">{city.name}</span>
                   {city.hq && (
                     <span className="ml-1 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-gold-400/25 text-gold-300 rounded-full">
-                      HQ
+                      SIÈGE
                     </span>
                   )}
                 </motion.div>
@@ -184,7 +184,7 @@ export function GlobalMap() {
             </div>
           </motion.div>
 
-          {/* ===== Brief narrative + CTA ===== */}
+          {/* ===== Brève description + Appel à l'action ===== */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -192,16 +192,16 @@ export function GlobalMap() {
             className="mt-14 max-w-2xl mx-auto text-center"
           >
             <p className="text-warm-400 text-sm lg:text-base leading-relaxed">
-              With deep roots in Cameroon and a growing presence across Central
-              and West Africa, Groupe Syel is building the infrastructure,
-              logistics, and digital backbone that the continent needs to thrive.
+              Avec des racines profondes au Cameroun et une présence croissante en Afrique
+              centrale et de l&apos;Ouest, le Groupe Syel construit l&apos;infrastructure,
+              la logistique et l&apos;ossature numérique dont le continent a besoin pour prospérer.
             </p>
 
             <Link
               href="/branches"
               className="mt-8 inline-flex items-center gap-2 px-7 py-3.5 bg-primary-500 hover:bg-primary-400 text-white text-sm font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl group"
             >
-              Discover Our Subsidiaries
+              Découvrir Nos Filiales
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </motion.div>

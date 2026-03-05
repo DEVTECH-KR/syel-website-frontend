@@ -15,19 +15,19 @@ import {
 } from "lucide-react";
 
 const quickLinks = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Subsidiaries", href: "/subsidiaries" },
-  { label: "Projects", href: "/projects" },
-  { label: "News", href: "/news" },
+  { label: "Accueil", href: "/" },
+  { label: "À Propos", href: "/about" },
+  { label: "Filiales", href: "/subsidiaries" },
+  { label: "Projets", href: "/projects" },
+  { label: "Actualités", href: "/news" },
   { label: "Contact", href: "/contact" },
 ];
 
 const careerLinks = [
-  { label: "Open Positions", href: "/careers#positions" },
-  { label: "Internships", href: "/careers#internships" },
-  { label: "Why Join Us", href: "/careers#why-join" },
-  { label: "Our Culture", href: "/careers#culture" },
+  { label: "Offres d'emploi", href: "/careers#positions" },
+  { label: "Stages", href: "/careers#internships" },
+  { label: "Pourquoi nous rejoindre", href: "/careers#why-join" },
+  { label: "Notre Culture", href: "/careers#culture" },
 ];
 
 const socials = [
@@ -41,7 +41,7 @@ const socials = [
 export function Footer() {
   return (
     <footer className="relative bg-base-800 text-warm-300">
-      {/* Gradient Separator */}
+      {/* Séparateur avec dégradé */}
       <div
         className="h-1 w-full bg-gradient-to-r from-primary-500 via-primary-400 to-gold-400"
         aria-hidden="true"
@@ -49,7 +49,7 @@ export function Footer() {
 
       <div className="container-custom py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-          {/* Column 1 — Brand */}
+          {/* Colonne 1 — Marque */}
           <div className="lg:pr-6">
             <Link href="/" className="inline-flex items-center gap-0.5 mb-5">
               <span className="font-heading text-2xl tracking-tight text-white">
@@ -65,9 +65,9 @@ export function Footer() {
             </Link>
 
             <p className="text-sm leading-relaxed text-warm-500 mb-6">
-              A diversified corporate group driving excellence across energy,
-              transport, agri-food, technology, construction, and real estate
-              from Kinshasa to the world.
+              Un groupe diversifié qui stimule l&apos;excellence dans les secteurs
+              de l&apos;énergie, du transport, de l&apos;agroalimentaire, de la technologie,
+              de la construction et de l&apos;immobilier, de Kinshasa au monde entier.
             </p>
 
             <div className="flex items-center gap-3">
@@ -86,10 +86,10 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Column 2 — Quick Links */}
+          {/* Colonne 2 — Liens Rapides */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-5">
-              Quick Links
+              Liens Rapides
             </h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -105,10 +105,10 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 — Careers */}
+          {/* Colonne 3 — Carrières */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-5">
-              Careers
+              Carrières
             </h4>
             <ul className="space-y-3">
               {careerLinks.map((link) => (
@@ -124,10 +124,10 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 — Contact & Newsletter */}
+          {/* Colonne 4 — Contact & Newsletter */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-5">
-              Contact Us
+              Contactez-nous
             </h4>
 
             <ul className="space-y-3 mb-8">
@@ -154,7 +154,7 @@ export function Footer() {
                 <span className="text-sm text-warm-500">
                   Boulevard de la Liberté, Akwa
                   <br />
-                  Douala, Cameroon
+                  Douala, Cameroun
                 </span>
               </li>
             </ul>
@@ -164,7 +164,7 @@ export function Footer() {
               Newsletter
             </h4>
             <p className="text-xs text-warm-500 mb-3">
-              Stay updated on our latest ventures and opportunities.
+              Restez informé de nos derniers projets et opportunités.
             </p>
             <form
               className="flex"
@@ -172,13 +172,13 @@ export function Footer() {
             >
               <input
                 type="email"
-                placeholder="Your email"
-                aria-label="Email for newsletter"
+                placeholder="Votre email"
+                aria-label="Email pour la newsletter"
                 className="flex-1 min-w-0 px-3.5 py-2.5 text-sm bg-base-700 border border-base-600 rounded-l-lg text-white placeholder:text-warm-600 focus:outline-none focus:border-primary-500 transition-colors"
               />
               <button
                 type="submit"
-                aria-label="Subscribe to newsletter"
+                aria-label="S'abonner à la newsletter"
                 className="px-3.5 py-2.5 bg-primary-600 hover:bg-primary-500 text-white rounded-r-lg transition-colors duration-200 shrink-0"
               >
                 <ArrowRight className="w-4 h-4" />
@@ -188,13 +188,13 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+      {/* Barre du bas */}
       <div className="border-t border-base-700">
         <div className="container-custom py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-warm-600 flex items-center gap-1">
-            &copy; {new Date().getFullYear()} Groupe Syel. Building Tomorrow&apos;s
+            &copy; {new Date().getFullYear()} Groupe Syel. Construire les industries
             <Briefcase className="w-3 h-3 text-primary-500 inline" />
-            Industries.
+            de demain.
           </p>
 
           <div className="flex items-center gap-6">
@@ -202,13 +202,13 @@ export function Footer() {
               href="/privacy-policy"
               className="text-xs text-warm-600 hover:text-warm-400 transition-colors"
             >
-              Privacy Policy
+              Politique de Confidentialité
             </Link>
             <Link
               href="/terms-of-service"
               className="text-xs text-warm-600 hover:text-warm-400 transition-colors"
             >
-              Terms of Service
+              Conditions d&apos;Utilisation
             </Link>
           </div>
         </div>

@@ -101,7 +101,7 @@ function SectorCard({
           : "bg-white/90 backdrop-blur-sm shadow-lg shadow-black/[0.04] hover:shadow-xl"
       }`}
     >
-      {/* Icon */}
+      {/* Icône */}
       <div
         className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 transition-transform duration-300 group-hover:scale-110 ${
           isFeatured
@@ -148,7 +148,7 @@ export function SectorsGrid() {
 
   return (
     <section className="relative section-padding overflow-hidden">
-      {/* Background image */}
+      {/* Image de fond */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -156,10 +156,10 @@ export function SectorsGrid() {
             "url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80')",
         }}
       />
-      {/* Overlay */}
+      {/* Superposition */}
       <div className="absolute inset-0 bg-warm-100/92 backdrop-blur-[2px]" />
 
-      {/* Dot texture */}
+      {/* Texture de points */}
       <div
         className="absolute inset-0 opacity-[0.35] pointer-events-none"
         style={{
@@ -170,9 +170,9 @@ export function SectorsGrid() {
       />
 
       <div className="container-custom relative z-10" ref={ref}>
-        {/* ===== Desktop: Scattered Mosaic Layout ===== */}
+        {/* ===== Desktop: Disposition en mosaïque ===== */}
         <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-6 lg:gap-y-5">
-          {/* Row 1: Heading block | Featured card | Card 2 */}
+          {/* Ligne 1: Bloc titre | Carte vedette | Carte 2 */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
@@ -183,18 +183,18 @@ export function SectorsGrid() {
               Nos Filiales
             </span>
             <h2 className="font-heading text-base-800 leading-[1.15] line-accent">
-              Six Sectors,{" "}
-              <span className="text-gold-400">One Ambition</span>
+              Six Secteurs,{" "}
+              <span className="text-gold-400">Une Ambition</span>
             </h2>
             <p className="mt-5 text-warm-600 text-[0.95rem] leading-relaxed">
-              Each subsidiary operates with autonomy and excellence, while
-              leveraging the collective strength of Groupe Syel.
+              Chaque filiale opère avec autonomie et excellence, tout en
+              exploitant la force collective du Groupe Syel.
             </p>
             <Link
               href="/branches"
               className="mt-7 group inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-500 text-primary-600 hover:bg-primary-500 hover:text-white text-sm font-semibold rounded-full transition-all duration-300 w-fit"
             >
-              View All Subsidiaries
+              Voir Toutes les Filiales
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </motion.div>
@@ -207,7 +207,7 @@ export function SectorsGrid() {
             <SectorCard sector={sectors[1]} index={1} isInView={isInView} />
           </div>
 
-          {/* Row 2: Card 3 | Card 4 | Card 5 */}
+          {/* Ligne 2: Carte 3 | Carte 4 | Carte 5 */}
           <div className="pt-2">
             <SectorCard sector={sectors[2]} index={2} isInView={isInView} />
           </div>
@@ -220,7 +220,7 @@ export function SectorsGrid() {
             <SectorCard sector={sectors[4]} index={4} isInView={isInView} />
           </div>
 
-          {/* Row 3: Empty | Card 6 | Empty */}
+          {/* Ligne 3: Vide | Carte 6 | Vide */}
           <div />
           <div className="pt-2">
             <SectorCard sector={sectors[5]} index={5} isInView={isInView} />
@@ -228,19 +228,19 @@ export function SectorsGrid() {
           <div />
         </div>
 
-        {/* ===== Mobile: Standard Layout ===== */}
+        {/* ===== Mobile: Disposition standard ===== */}
         <div className="lg:hidden">
           <div className="text-center mb-12">
             <span className="text-sm font-semibold uppercase tracking-widest text-primary-500 mb-3 block">
               Nos Filiales
             </span>
             <h2 className="font-heading text-base-800 leading-[1.15] line-accent line-accent-center">
-              Six Sectors,{" "}
-              <span className="text-gold-400">One Ambition</span>
+              Six Secteurs,{" "}
+              <span className="text-gold-400">Une Ambition</span>
             </h2>
             <p className="mt-5 text-warm-600 text-[0.95rem] leading-relaxed max-w-lg mx-auto">
-              Each subsidiary operates with autonomy and excellence, while
-              leveraging the collective strength of Groupe Syel.
+              Chaque filiale opère avec autonomie et excellence, tout en
+              exploitant la force collective du Groupe Syel.
             </p>
           </div>
 
@@ -260,7 +260,7 @@ export function SectorsGrid() {
               href="/branches"
               className="group inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-500 text-primary-600 hover:bg-primary-500 hover:text-white text-sm font-semibold rounded-full transition-all duration-300"
             >
-              View All Subsidiaries
+              Voir Toutes les Filiales
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>

@@ -37,17 +37,17 @@ function StatCounter({
 }
 
 const bottomStats = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 15, suffix: "+", label: "Années d'expérience" },
   { value: 3500, suffix: "+", label: "Collaborateurs" },
-  { value: 200, suffix: "+", label: "Projects Completed" },
-  { value: 8, suffix: "+", label: "Countries" },
+  { value: 200, suffix: "+", label: "Projets réalisés" },
+  { value: 8, suffix: "+", label: "Pays" },
 ];
 
 const highlights = [
-  "Diversified across 6 strategic sectors",
-  "Operational in 8+ African and international markets",
-  "ISO 9001 certified, world-class standards",
-  "Committed to sustainable, community-driven growth",
+  "Diversifié dans 6 secteurs stratégiques",
+  "Présent dans plus de 8 marchés africains et internationaux",
+  "Certifié ISO 9001, standards de classe mondiale",
+  "Engagé pour une croissance durable et communautaire",
 ];
 
 export function AboutSection() {
@@ -55,7 +55,7 @@ export function AboutSection() {
 
   return (
     <section id="about" className="relative section-padding bg-white overflow-hidden">
-      {/* Subtle dot texture */}
+      {/* Texture subtile de points */}
       <div
         className="absolute inset-0 opacity-[0.25] pointer-events-none"
         style={{
@@ -67,30 +67,30 @@ export function AboutSection() {
 
       <div className="container-custom relative z-10" ref={ref}>
         <div className="grid gap-14 lg:gap-20 lg:grid-cols-2 items-center">
-          {/* ===== LEFT: Image Composition ===== */}
+          {/* ===== GAUCHE : Composition d'images ===== */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -40 }}
             transition={{ duration: 0.8, ease: cubicEase }}
             className="relative"
           >
-            {/* Decorative accent shape behind images */}
+            {/* Forme décorative derrière les images */}
             <div className="absolute -top-6 -left-6 w-48 h-48 bg-primary-100 rounded-3xl -z-10 hidden lg:block" />
             <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-gold-100 rounded-3xl -z-10 hidden lg:block" />
 
-            {/* Main image */}
+            {/* Image principale */}
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <div className="aspect-[4/3]">
                 <Image
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
-                  alt="Groupe Syel corporate team"
+                  alt="Équipe du Groupe Syel"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
 
-              {/* Play button overlay (decorative, adds visual interest) */}
+              {/* Bouton play superposé (décoratif) */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-16 h-16 lg:w-20 lg:h-20 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/40 flex items-center justify-center cursor-pointer hover:bg-white/30 transition-colors group">
                   <Play className="w-6 h-6 lg:w-7 lg:h-7 text-white ml-1 group-hover:scale-110 transition-transform" />
@@ -98,7 +98,7 @@ export function AboutSection() {
               </div>
             </div>
 
-            {/* Secondary image — overlapping bottom-right */}
+            {/* Image secondaire — chevauchante en bas à droite */}
             <motion.div
               initial={{ opacity: 0, y: 30, scale: 0.92 }}
               animate={
@@ -112,7 +112,7 @@ export function AboutSection() {
               <div className="aspect-[4/3]">
                 <Image
                   src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
-                  alt="Groupe Syel construction operations"
+                  alt="Opérations de construction du Groupe Syel"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 40vw, 25vw"
@@ -120,7 +120,7 @@ export function AboutSection() {
               </div>
             </motion.div>
 
-            {/* Decorative dots pattern */}
+            {/* Motif de points décoratif */}
             <div
               className="absolute -bottom-14 left-8 w-20 h-20 opacity-25 hidden lg:block z-0"
               style={{
@@ -131,37 +131,38 @@ export function AboutSection() {
             />
           </motion.div>
 
-          {/* ===== RIGHT: Content ===== */}
+          {/* ===== DROITE : Contenu ===== */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 40 }}
             transition={{ duration: 0.8, delay: 0.15, ease: cubicEase }}
           >
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary-500 mb-3">
-              About Groupe Syel
+              À propos du Groupe Syel
             </span>
 
             <h2 className="font-heading text-base-800 leading-[1.15]">
-              Building Africa&apos;s{" "}
-              <span className="text-gold-400">Industries</span> of Tomorrow
+              Construire les{" "}
+              <span className="text-gold-400">Industries</span> de l&apos;Afrique de Demain
             </h2>
 
             <div className="mt-3 w-16 h-1 rounded-full bg-gradient-to-r from-primary-500 to-gold-400" />
 
             <p className="mt-6 text-warm-600 text-base lg:text-[1.05rem] leading-relaxed">
-              Founded in 2010 in Douala, Cameroon, Groupe Syel has grown from a
-              single transport venture into one of Central Africa&apos;s most
-              diversified corporate groups — delivering excellence across energy,
-              logistics, agri-food, technology, construction, and real estate.
+              Fondé en 2010 à Kinshasa, RDC, le Groupe Syel est passé à un groupe diversifié le plus
+              important d&apos;Afrique centrale — offrant l&apos;excellence dans les domaines
+              de l&apos;énergie, du transport, de l&apos;agroalimentaire, de la technologie,
+              de la construction et de l&apos;immobilier.
             </p>
 
             <p className="mt-4 text-warm-600 text-base lg:text-[1.05rem] leading-relaxed">
-              Our mission is simple: build industries that drive economic growth,
-              create thousands of jobs, and raise the bar for what African
-              enterprises can achieve on the global stage.
+              Notre mission est simple : construire des industries qui stimulent la
+              croissance économique, créent des milliers d&apos;emplois et élèvent le niveau
+              de ce que les entreprises africaines peuvent accomplir sur la scène
+              mondiale.
             </p>
 
-            {/* Highlights */}
+            {/* Points forts */}
             <ul className="mt-7 space-y-3">
               {highlights.map((item, i) => (
                 <motion.li
@@ -185,7 +186,7 @@ export function AboutSection() {
               ))}
             </ul>
 
-            {/* CTA */}
+            {/* Appel à l'action */}
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={
@@ -198,14 +199,14 @@ export function AboutSection() {
                 href="/about"
                 className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                Discover Our Story
+                Découvrir Notre Histoire
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
             </motion.div>
           </motion.div>
         </div>
 
-        {/* ===== Stats Row ===== */}
+        {/* ===== Ligne de statistiques ===== */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}

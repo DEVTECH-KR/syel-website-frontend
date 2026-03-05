@@ -45,9 +45,9 @@ function StatCounter({
 const pillars = [
   {
     icon: Target,
-    title: "Our Mission",
+    title: "Notre Mission",
     description:
-      "To empower communities worldwide through sustainable development, education, and humanitarian support — creating lasting change from the ground up.",
+      "Autonomiser les communautés du monde entier grâce au développement durable, à l'éducation et au soutien humanitaire — créer un changement durable à partir de la base.",
     accent: "bg-primary-500",
     accentLight: "bg-primary-50",
     accentText: "text-primary-600",
@@ -55,9 +55,9 @@ const pillars = [
   },
   {
     icon: Eye,
-    title: "Our Vision",
+    title: "Notre Vision",
     description:
-      "A world where every community thrives with dignity, equal opportunity, and hope — regardless of geography, background, or circumstance.",
+      "Un monde où chaque communauté prospère avec dignité, égalité des chances et espoir — indépendamment de la géographie, de l'origine ou des circonstances.",
     accent: "bg-gold-400",
     accentLight: "bg-gold-50",
     accentText: "text-gold-600",
@@ -65,9 +65,9 @@ const pillars = [
   },
   {
     icon: Heart,
-    title: "Our Values",
+    title: "Nos Valeurs",
     description:
-      "Transparency, unity, respect for human dignity, and an unwavering commitment to measurable, sustainable impact in everything we do.",
+      "Transparence, unité, respect de la dignité humaine et un engagement inébranlable en faveur d'un impact mesurable et durable dans tout ce que nous entreprenons.",
     accent: "bg-base-700",
     accentLight: "bg-base-50",
     accentText: "text-base-600",
@@ -76,10 +76,10 @@ const pillars = [
 ];
 
 const highlights = [
-  "Locally led, globally connected",
-  "100% transparent fund allocation",
-  "Community-first approach to development",
-  "Sustainable, long-term impact focus",
+  "Piloté localement, connecté mondialement",
+  "Allocation des fonds 100% transparente",
+  "Approche de développement centrée sur la communauté",
+  "Focus sur un impact durable et à long terme",
 ];
 
 export function AboutStrip() {
@@ -91,12 +91,12 @@ export function AboutStrip() {
   return (
     <section id="about" className="section-padding bg-white overflow-hidden">
       <div className="container-custom">
-        {/* ===== TOP: Split Layout — Images + Content ===== */}
+        {/* ===== HAUT : Disposition fractionnée — Images + Contenu ===== */}
         <div
           ref={topRef}
           className="grid gap-12 lg:gap-20 lg:grid-cols-2 items-center"
         >
-          {/* Left — Image Composition */}
+          {/* Gauche — Composition d'images */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={topInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
@@ -104,18 +104,18 @@ export function AboutStrip() {
             className="relative"
           >
             <div className="relative">
-              {/* Main image */}
+              {/* Image principale */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
                 <Image
                   src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800&q=80"
-                  alt="Unite Global community outreach"
+                  alt="Action communautaire Unite Global"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
 
-              {/* Overlapping secondary image */}
+              {/* Image secondaire chevauchante */}
               <motion.div
                 initial={{ opacity: 0, y: 30, scale: 0.9 }}
                 animate={
@@ -129,7 +129,7 @@ export function AboutStrip() {
                 <div className="relative aspect-[4/3]">
                   <Image
                     src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&q=80"
-                    alt="Education program in action"
+                    alt="Programme éducatif en action"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 50vw, 25vw"
@@ -137,7 +137,7 @@ export function AboutStrip() {
                 </div>
               </motion.div>
 
-              {/* Floating experience badge */}
+              {/* Badge d'expérience flottant */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={
@@ -152,11 +152,11 @@ export function AboutStrip() {
                   12+
                 </p>
                 <p className="text-xs font-medium text-primary-100 mt-0.5">
-                  Years of Impact
+                  Années d&apos;Impact
                 </p>
               </motion.div>
 
-              {/* Decorative dot pattern */}
+              {/* Motif de points décoratif */}
               <div
                 className="absolute -bottom-12 -left-6 w-24 h-24 opacity-20 hidden lg:block"
                 style={{
@@ -168,26 +168,26 @@ export function AboutStrip() {
             </div>
           </motion.div>
 
-          {/* Right — Content */}
+          {/* Droite — Contenu */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={topInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.8, delay: 0.15, ease: cubicEase }}
           >
             <SectionHeading
-              eyebrow="Who We Are"
-              title="United by Purpose, Driven by Impact"
+              eyebrow="Qui Nous Sommes"
+              title="Unis par un Objectif, Animés par l'Impact"
             />
 
             <p className="mt-6 text-warm-600 text-base lg:text-lg leading-relaxed">
-              Unite Global Foundation is a non-profit organization dedicated to
-              building stronger, more resilient communities across the world.
-              Since 2012, we have been on the frontlines of sustainable
-              development — empowering people through education, healthcare,
-              clean water, and economic opportunity.
+              La Fondation Unite Global est une organisation à but non l&apos;ucratif dédiée
+              à la construction de communautés plus fortes et plus résilientes à travers
+              le monde. Depuis 2012, nous sommes en première ligne du développement
+              durable — autonomisant les populations grâce à l&apos;éducation, aux soins de
+              santé, à leau potable et aux opportunités économiques.
             </p>
 
-            {/* Highlights checklist */}
+            {/* Liste des points forts */}
             <ul className="mt-6 space-y-3">
               {highlights.map((item, i) => (
                 <motion.li
@@ -211,44 +211,44 @@ export function AboutStrip() {
               ))}
             </ul>
 
-            {/* Stats row */}
+            {/* Ligne de statistiques */}
             <div className="mt-10 flex items-center gap-6 lg:gap-10">
               <StatCounter
                 value={12}
                 suffix="+"
-                label="Countries"
+                label="Pays"
                 enabled={topInView}
               />
               <div className="w-px h-12 bg-warm-300" />
               <StatCounter
                 value={50000}
                 suffix="+"
-                label="Lives Impacted"
+                label="Vies Impactées"
                 enabled={topInView}
               />
               <div className="w-px h-12 bg-warm-300" />
               <StatCounter
                 value={150}
                 suffix="+"
-                label="Projects"
+                label="Projets"
                 enabled={topInView}
               />
             </div>
 
-            {/* CTA */}
+            {/* Appel à l'action */}
             <div className="mt-10">
               <Link
                 href="/about"
                 className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                Learn More About Us
+                En Savoir Plus Sur Nous
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
             </div>
           </motion.div>
         </div>
 
-        {/* ===== BOTTOM: Mission / Vision / Values Cards ===== */}
+        {/* ===== BAS : Cartes Mission / Vision / Valeurs ===== */}
         <div
           ref={bottomRef}
           className="mt-24 lg:mt-32 grid gap-6 md:gap-8 md:grid-cols-3"
@@ -272,7 +272,7 @@ export function AboutStrip() {
                 whileHover={{ y: -8, transition: { duration: 0.3 } }}
                 className={`relative rounded-2xl border ${pillar.accentBorder} ${pillar.accentLight} p-8 lg:p-10 overflow-hidden group cursor-default`}
               >
-                {/* Accent top bar */}
+                {/* Barre d'accent en haut */}
                 <div
                   className={`absolute top-0 left-0 right-0 h-1 ${pillar.accent}`}
                 />
@@ -291,7 +291,7 @@ export function AboutStrip() {
                   {pillar.description}
                 </p>
 
-                {/* Decorative corner shape */}
+                {/* Forme d'angle décorative */}
                 <div
                   className={`absolute -bottom-6 -right-6 w-24 h-24 rounded-full ${pillar.accent} opacity-[0.06] transition-transform duration-500 group-hover:scale-150`}
                 />

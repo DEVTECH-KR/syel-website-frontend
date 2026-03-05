@@ -32,7 +32,7 @@ function PageHero() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1920&q=80"
-          alt="Groupe Syel corporate headquarters"
+          alt="Siège social du Groupe Syel"
           className="h-full w-full object-cover"
         />
         <div className="gradient-hero absolute inset-0" />
@@ -44,10 +44,10 @@ function PageHero() {
           initial="hidden"
           animate="visible"
         >
-          <h1 className="font-heading text-white">About Groupe Syel</h1>
+          <h1 className="font-heading text-white">À Propos du Groupe Syel</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-warm-200 md:text-xl">
-            A diversified corporate group driving innovation, excellence, and
-            sustainable growth across DRC since 2010.
+            Un groupe diversifié qui stimule l&apos;innovation, l&apos;excellence et la
+            croissance durable à travers la RDC depuis 2010.
           </p>
         </motion.div>
       </div>
@@ -70,41 +70,41 @@ function OurStory() {
             animate={isInView ? "visible" : "hidden"}
           >
             <SectionHeading
-              eyebrow="Who We Are"
-              title="Our Story"
-              highlight="Story"
-              subtitle="A journey of ambition, diversification, and relentless commitment to building Cameroon's economic future."
+              eyebrow="Qui Nous Sommes"
+              title="Notre Histoire"
+              highlight="Histoire"
+              subtitle="Un parcours d'ambition, de diversification et d'engagement sans faille pour construire l'avenir économique du Cameroun."
             />
 
             <div className="mt-8 space-y-5 text-warm-700 leading-relaxed">
               <p>
-                Groupe Syel was founded in 2010 in KINSHASA/RDC by a group
-                of visionary entrepreneurs who saw an opportunity to build a
-                world-class conglomerate rooted in African excellence. Starting
-                with a single energy distribution venture, the founders combined
-                deep local expertise with international best practices to create
-                a company that could compete on the global stage.
+                
+                Le Groupe Syel a été fondé en 2010 à KINSHASA/RDC par un groupe
+                d&apos;entrepreneurs visionnaires qui ont vu l&apos;opportunité de construire un
+                conglomérat de classe mondiale ancré dans l&apos;excellence africaine. Commençant
+                avec une seule entreprise de distribution d&apos;énergie, les fondateurs ont combiné
+                une expertise locale approfondie avec les meilleures pratiques internationales pour
+                créer une entreprise capable de rivaliser sur la scène mondiale.
               </p>
               <p>
-                What began as a focused energy business quickly expanded as the
-                team identified underserved markets across key sectors. Within
-                three years, Groupe Syel had diversified into transport and
-                logistics, leveraging Douala&apos;s position as Cameroon&apos;s economic
-                capital. The founding principle was clear: deliver operational
-                excellence, invest in local talent, and build infrastructure that
-                transforms communities and industries alike.
+                Ce qui a commencé comme une entreprise énergétique ciblée s&apos;est rapidement développé
+                lorsque l&apos;équipe a identifié des marchés mal desservis dans des secteurs clés. En
+                trois ans, le Groupe Syel s&apos;est diversifié dans le transport et la logistique,
+                tirant parti de la position de Douala en tant que capitale économique du Cameroun.
+                Le principe fondateur était clair : offrir l&apos;excellence opérationnelle,
+                investir dans les talents locaux et construire des infrastructures qui
+                transforment les communautés et les industries.
               </p>
               <p>
-                Over fifteen years, Groupe Syel has grown from that single
-                venture into a diversified group with six subsidiaries spanning
-                energy, transport, agribusiness, technology, construction, and
-                real estate. With over 1,200 employees and operations across
-                Central Africa, we have delivered more than 150 projects and
-                earned a reputation for integrity, innovation, and sustainable
-                growth. Our culture remains rooted in that original
-                entrepreneurial spirit: ambitious, disciplined, and fiercely
-                dedicated to building lasting value for our stakeholders and
-                communities.
+                En quinze ans, le Groupe Syel est passé de cette seule entreprise
+                à un groupe diversifié avec six filiales couvrant l&apos;énergie,
+                le transport, l&apos;agroalimentaire, la technologie, la construction et
+                l&apos;immobilier. Avec plus de 1 200 employés et des opérations à travers
+                l&apos;Afrique centrale, nous avons réalisé plus de 150 projets et
+                acquis une réputation d&apos;intégrité, d&apos;innovation et de croissance
+                durable. Notre culture reste ancrée dans cet esprit entrepreneurial
+                original : ambitieux, discipliné et farouchement dévoué à créer une
+                valeur durable pour nos parties prenantes et nos communautés.
               </p>
             </div>
           </motion.div>
@@ -118,7 +118,7 @@ function OurStory() {
             <div className="overflow-hidden rounded-2xl shadow-hero">
               <Image
                 src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
-                alt="Groupe Syel team at work"
+                alt="L'équipe du Groupe Syel au travail"
                 width={800}
                 height={600}
                 className="h-auto w-full object-cover"
@@ -127,7 +127,7 @@ function OurStory() {
             <div className="absolute -bottom-6 -left-6 rounded-xl bg-teal-500 px-6 py-4 text-white shadow-lg">
               <p className="font-heading text-3xl font-bold">15+</p>
               <p className="text-sm font-medium text-teal-100">
-                Years of Growth
+                Années de Croissance
               </p>
             </div>
           </motion.div>
@@ -142,51 +142,51 @@ function OurStory() {
 const milestones = [
   {
     year: "2010",
-    title: "Founded in Douala",
+    title: "Fondation à Douala",
     description:
-      "Groupe Syel was established in Douala, Cameroon, with an initial focus on energy distribution, laying the foundation for a diversified corporate group.",
+      "Le Groupe Syel est établi à Douala, au Cameroun, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié.",
   },
   {
     year: "2012",
-    title: "Syel Transport Launched",
+    title: "Lancement de Syel Transport",
     description:
-      "Expanded into logistics and transport, capitalizing on Douala's strategic port location to build a regional freight and passenger network.",
+      "Expansion dans la logistique et le transport, capitalisant sur l'emplacement stratégique du port de Douala pour construire un réseau régional de fret et de transport de passagers.",
   },
   {
     year: "2014",
-    title: "Agribusiness Expansion",
+    title: "Expansion Agroalimentaire",
     description:
-      "Created Syel Agroalimentaire to invest in food processing and agricultural value chains, supporting local farmers and food security across Cameroon.",
+      "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers le Cameroun.",
   },
   {
     year: "2016",
-    title: "Technology & Innovation",
+    title: "Technologie & Innovation",
     description:
-      "Launched Syel Technologies to drive digital transformation, offering IT solutions, software development, and connectivity services to businesses and communities.",
+      "Lancement de Syel Technologies pour piloter la transformation numérique, offrant des solutions informatiques, du développement logiciel et des services de connectivité aux entreprises et aux communautés.",
   },
   {
     year: "2018",
-    title: "Construction & Real Estate",
+    title: "Construction & Immobilier",
     description:
-      "Entered the construction and real estate sectors with Syel BTP and Syel Immobilier, delivering infrastructure projects and modern housing developments.",
+      "Entrée dans les secteurs de la construction et de l'immobilier avec Syel BTP et Syel Immobilier, livrant des projets d'infrastructure et des développements de logements modernes.",
   },
   {
     year: "2020",
-    title: "1,000+ Employees",
+    title: "1 000+ Employés",
     description:
-      "Surpassed one thousand employees across all subsidiaries, reinforcing our commitment to job creation and professional development in Central Africa.",
+      "Dépassement du millier d'employés dans toutes les filiales, renforçant notre engagement en faveur de la création d'emplois et du développement professionnel en Afrique centrale.",
   },
   {
     year: "2023",
-    title: "Regional Expansion",
+    title: "Expansion Régionale",
     description:
-      "Extended operations beyond Cameroon into neighboring Central African markets, establishing partnerships and project offices in Gabon and Equatorial Guinea.",
+      "Extension des opérations au-delà du Cameroun vers les marchés voisins d'Afrique centrale, établissant des partenariats et des bureaux de projet au Gabon et en Guinée équatoriale.",
   },
   {
     year: "2025",
-    title: "Digital Transformation",
+    title: "Transformation Numérique",
     description:
-      "Launched an integrated digital platform connecting all subsidiaries, partners, and clients in real-time, enabling greater efficiency and transparency across the group.",
+      "Lancement d'une plateforme numérique intégrée connectant toutes les filiales, partenaires et clients en temps réel, permettant une plus grande efficacité et transparence au sein du groupe.",
   },
 ];
 
@@ -202,16 +202,16 @@ function Timeline() {
           animate={isInView ? "visible" : "hidden"}
         >
           <SectionHeading
-            eyebrow="Our Journey"
-            title="Key Milestones"
-            highlight="Milestones"
-            subtitle="From a single energy venture to a diversified corporate group — here are the milestones that shaped Groupe Syel."
+            eyebrow="Notre Parcours"
+            title="Étapes Clés"
+            highlight="Clés"
+            subtitle="D'une seule entreprise énergétique à un groupe diversifié — voici les étapes qui ont façonné le Groupe Syel."
             centered
           />
         </motion.div>
 
         <div className="relative mt-16">
-          {/* Vertical line */}
+          {/* Ligne verticale */}
           <div className="absolute left-6 top-0 hidden h-full w-0.5 bg-gradient-to-b from-teal-300 via-teal-500 to-primary-500 md:left-1/2 md:block md:-translate-x-px" />
           <div className="absolute left-6 top-0 block h-full w-0.5 bg-gradient-to-b from-teal-300 via-teal-500 to-primary-500 md:hidden" />
 
@@ -230,16 +230,16 @@ function Timeline() {
                   variants={staggerItem}
                   className="relative flex items-start gap-6 md:gap-0"
                 >
-                  {/* Mobile dot */}
+                  {/* Point mobile */}
                   <div className="relative z-10 flex shrink-0 md:hidden">
                     <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-white bg-teal-500 shadow-md">
                       <Calendar className="h-4 w-4 text-white" />
                     </div>
                   </div>
 
-                  {/* Desktop layout */}
+                  {/* Disposition desktop */}
                   <div className="hidden w-full md:grid md:grid-cols-[1fr_auto_1fr] md:gap-8">
-                    {/* Left content */}
+                    {/* Contenu gauche */}
                     <div
                       className={`flex ${isLeft ? "justify-end" : ""}`}
                     >
@@ -258,14 +258,18 @@ function Timeline() {
                       )}
                     </div>
 
-                    {/* Center dot */}
+                    {/* Point central */}
                     <div className="relative z-10 flex items-start justify-center pt-4">
                       <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-white bg-teal-500 shadow-md">
                         <Calendar className="h-4 w-4 text-white" />
                       </div>
                     </div>
 
-                    {/* Right content */}
+
+
+
+
+                    {/* Contenu droit */}
                     <div className={`flex ${!isLeft ? "" : ""}`}>
                       {!isLeft && (
                         <div className="max-w-md rounded-xl bg-white p-6 shadow-card">
@@ -283,7 +287,7 @@ function Timeline() {
                     </div>
                   </div>
 
-                  {/* Mobile content */}
+                  {/* Contenu mobile */}
                   <div className="flex-1 md:hidden">
                     <div className="rounded-xl bg-white p-5 shadow-card">
                       <span className="inline-block rounded-full bg-teal-100 px-3 py-1 text-sm font-bold text-teal-700">
@@ -312,23 +316,23 @@ function Timeline() {
 const missionData = [
   {
     icon: Target,
-    title: "Our Mission",
+    title: "Notre Mission",
     description:
-      "To drive sustainable economic growth across Central Africa by delivering world-class services in energy, transport, agribusiness, technology, construction, and real estate. We invest in people, infrastructure, and innovation to create lasting value for our clients, partners, employees, and the communities we serve.",
+      "Stimuler la croissance économique durable en Afrique centrale en offrant des services de classe mondiale dans les domaines de l'énergie, du transport, de l'agroalimentaire, de la technologie, de la construction et de l'immobilier. Nous investissons dans les personnes, les infrastructures et l'innovation pour créer une valeur durable pour nos clients, partenaires, employés et les communautés que nous servons.",
     gradient: "from-primary-500 to-primary-700",
   },
   {
     icon: Eye,
-    title: "Our Vision",
+    title: "Notre Vision",
     description:
-      "To become the leading diversified corporate group in Central Africa, recognized for operational excellence, innovation, and integrity. We envision a future where African enterprises set global standards, where local talent drives international competitiveness, and where economic development uplifts entire communities.",
+      "Devenir le principal groupe diversifié en Afrique centrale, reconnu pour son excellence opérationnelle, son innovation et son intégrité. Nous envisageons un avenir où les entreprises africaines établissent des normes mondiales, où les talents locaux stimulent la compétitivité internationale et où le développement économique élève des communautés entières.",
     gradient: "from-teal-500 to-teal-700",
   },
   {
     icon: Heart,
-    title: "Our Values",
+    title: "Nos Valeurs",
     description:
-      "Innovation drives our approach — we embrace new technologies and methods to stay ahead. Excellence defines our standards — every project meets the highest benchmarks. Integrity guides every decision — we are transparent, accountable, and ethical. Sustainability ensures that our growth benefits future generations as much as the present.",
+      "L'innovation guide notre approche — nous adoptons les nouvelles technologies et méthodes pour rester en tête. L'excellence définit nos standards — chaque projet répond aux normes les plus élevées. L'intégrité guide chaque décision — nous sommes transparents, responsables et éthiques. La durabilité garantit que notre croissance profite aux générations futures autant qu'au présent.",
     gradient: "from-gold-400 to-gold-600",
   },
 ];
@@ -348,10 +352,10 @@ function MissionVisionValues() {
           animate={isInView ? "visible" : "hidden"}
         >
           <SectionHeading
-            eyebrow="What Drives Us"
-            title="Mission, Vision & Values"
-            highlight="Vision & Values"
-            subtitle="The principles that guide every decision, project, and partnership across Groupe Syel."
+            eyebrow="Ce Qui Nous Anime"
+            title="Mission, Vision & Valeurs"
+            highlight="Vision & Valeurs"
+            subtitle="Les principes qui guident chaque décision, projet et partenariat à travers le Groupe Syel."
             centered
             light
           />
@@ -401,10 +405,10 @@ function LeadershipTeam() {
           animate={isInView ? "visible" : "hidden"}
         >
           <SectionHeading
-            eyebrow="The People Behind the Group"
-            title="Our Leadership"
-            highlight="Leadership"
-            subtitle="Meet the experienced team guiding Groupe Syel's strategy, operations, and growth across Central Africa."
+            eyebrow="Les Personnes Derrière le Groupe"
+            title="Notre Direction"
+            highlight="Direction"
+            subtitle="Rencontrez l'équipe expérimentée qui guide la stratégie, les opérations et la croissance du Groupe Syel à travers l'Afrique centrale."
             centered
           />
         </motion.div>
@@ -426,7 +430,7 @@ function LeadershipTeam() {
                     height={450}
                     className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  {/* Social overlay on hover */}
+                  {/* Superposition sociale au survol */}
                   <div className="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-base-900/80 via-base-900/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <div className="flex gap-3 pb-4">
                       {member.linkedin && (
@@ -452,7 +456,6 @@ function LeadershipTeam() {
                     </div>
                   </div>
                 </div>
-
                 <div className="p-5">
                   <h4 className="font-heading text-lg font-bold text-base-700">
                     {member.name}
@@ -474,12 +477,12 @@ function LeadershipTeam() {
 }
 
 // --- Page Component ---
-
-// NOTE: For metadata (title, description), add a layout.tsx in this directory
-// or use generateMetadata in a server component wrapper, since "use client"
-// pages cannot export metadata directly.
+// NOTE: Pour les métadonnées (titre, description), ajoute un layout.tsx dans ce répertoire
+// ou utilise generateMetadata dans un composant serveur wrapper, puisque les pages
+// "use client" ne peuvent pas exporter directement les métadonnées.
 
 export default function AboutPage() {
+  
   return (
     <>
       <PageHero />

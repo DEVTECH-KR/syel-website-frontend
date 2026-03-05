@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -129,8 +130,14 @@ export function Header() {
             <div className="flex items-center justify-between h-16 lg:h-[70px]">
               {/* Logo */}
               <Link href="/" className="flex items-center gap-2.5 group shrink-0">
-                <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-primary-500 group-hover:bg-primary-400 transition-colors">
-                  <Building2 className="w-5 h-5 text-white" />
+                <div className="flex items-center justify-center w-12 h-12 rounded-lg transition-colors overflow-hidden">
+                  <Image
+                    src="/logo-groupe-syel.png" // à rmplacer par le chemin réel de ton petit logo
+                    alt="Groupe Syel"
+                    width={50}
+                    height={50}
+                    className="object-contai"
+                  />
                 </div>
                 <div className="flex items-baseline gap-0.5">
                   <span className="font-heading text-[1.55rem] lg:text-[1.7rem] tracking-tight text-white">
@@ -142,7 +149,7 @@ export function Header() {
                 </div>
               </Link>
 
-              {/* Center — Tagline (hidden on small screens) */}
+              {/* Center — Tagline (hidden on small screens) */}              
               <div className="hidden xl:flex items-center">
                 <p className="text-sm text-warm-500 tracking-wide">
                   Building Tomorrow&apos;s Industries

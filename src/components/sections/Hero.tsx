@@ -20,47 +20,47 @@ const slides: HeroSlide[] = [
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
-    eyebrow: "Groupe Syel — Diversified Excellence",
-    headline: "Powering Growth.\nAcross Industries.",
-    highlight: "Since 2010.",
+    eyebrow: "Groupe Syel — Excellence diversifiée",
+    headline: "Stimuler la croissance.\nDans tous les secteurs d'activité.",
+    highlight: "Depuis 2010.",
     subtitle:
-      "The Syel Group is positioned as a major economic player and a leading strategic partner in the Republic of Congo. With its multi-sector expertise, it contributes significantly to progress and development in the fields of energy, transportation, agri-food, technology, construction, and real estate, with activities spanning Africa and beyond.",
-},
+      "Le groupe Syel se positionne comme un acteur économique majeur et un partenaire stratégique de premier plan en République du Congo. Fort de son expertise multisectorielle, il contribue de manière significative au progrès et au développement dans les domaines de l'énergie, des transports, de l'agroalimentaire, des technologies, de la construction et de l'immobilier, avec des activités qui s'étendent à l'Afrique et au-delà.",
+  },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&q=80",
     eyebrow: "Syel Énergie",
-    headline: "Lighting the Path\nTo a Sustainable Future.",
-    highlight: "Clean Energy for All.",
+    headline: "Éclairer la voie\nvers un avenir durable.",
+    highlight: "Une énergie propre pour tous.",
     subtitle:
-      "From solar farms to hydroelectric projects, Syel Énergie delivers reliable, sustainable power solutions that fuel economic growth and improve millions of lives across the continent.",
+      "Des fermes solaires aux projets hydroélectriques, Syel Énergie fournit des solutions énergétiques fiables et durables qui alimentent la croissance économique et améliorent la vie de millions de personnes à travers le continent.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1920&q=80",
     eyebrow: "Syel Transport",
-    headline: "Moving Africa\nForward.",
-    highlight: "Reliably.",
+    headline: "Faire avancer\nl'Afrique.",
+    highlight: "En toute fiabilité.",
     subtitle:
-      "With a modern fleet and strategic corridor coverage from Douala to N'Djamena, Syel Transport is the trusted logistics partner for businesses across Central Africa.",
+      "Avec une flotte moderne et une couverture stratégique des corridors de Douala à N'Djamena, Syel Transport est le partenaire logistique de confiance pour les entreprises d'Afrique centrale.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80",
     eyebrow: "Syel Agroalimentaire",
-    headline: "From Farm\nTo Table.",
-    highlight: "Excellence in Every Step.",
+    headline: "De la ferme\nà la table.",
+    highlight: "L'excellence à chaque étape.",
     subtitle:
-      "We partner with thousands of local farmers, transform premium agricultural products, and bring quality Cameroonian goods to markets across the region and the world.",
+      "Nous collaborons avec des milliers d'agriculteurs locaux, transformons des produits agricoles de qualité et apportons les meilleurs produits camerounais aux marchés de la région et du monde entier.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
-    eyebrow: "Innovation & Growth",
-    headline: "Building Tomorrow's\nIndustries.",
-    highlight: "Today.",
+    eyebrow: "Innovation & Croissance",
+    headline: "Construire les industries\nde demain.",
+    highlight: "Dès aujourd'hui.",
     subtitle:
-      "Through cutting-edge technology, world-class construction, and visionary real estate developments, Groupe Syel is shaping the infrastructure of a modern Africa.",
+      "Grâce à des technologies de pointe, une construction de classe mondiale et des développements immobiliers visionnaires, Groupe Syel façonne les infrastructures d'une Afrique moderne.",
   },
 ];
 
@@ -140,7 +140,7 @@ export function Hero() {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      {/* ===== Background Media Carousel ===== */}
+      {/* ===== Carrousel d'images de fond ===== */}
       <AnimatePresence initial={false} custom={direction} mode="popLayout">
         <motion.div
           key={`bg-${current}`}
@@ -172,10 +172,10 @@ export function Hero() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Gradient overlay — always on top of media */}
+      {/* Superposition dégradée — toujours au-dessus du média */}
       <div className="absolute inset-0 z-[1] gradient-hero" />
 
-      {/* ===== Slide Dots ===== */}
+      {/* ===== Indicateurs de diapositives ===== */}
       <div className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 flex gap-2.5">
         {slides.map((_, i) => (
           <button
@@ -186,12 +186,12 @@ export function Hero() {
                 ? "w-8 bg-gold-400"
                 : "w-2 bg-white/30 hover:bg-white/50"
             }`}
-            aria-label={`Go to slide ${i + 1}`}
+            aria-label={`Aller à la diapositive ${i + 1}`}
           />
         ))}
       </div>
 
-      {/* ===== Content ===== */}
+      {/* ===== Contenu ===== */}
       <div className="container-custom relative z-10 text-center pb-10 lg:pb-20 lg:pt-8">
         <AnimatePresence mode="wait" initial={false}>
           <motion.div
@@ -227,33 +227,33 @@ export function Hero() {
 
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button href="/subsidiaries" size="lg">
-                Our Subsidiaries
+                Nos Filiales
               </Button>
               <Button href="/about" variant="outline-light" size="lg">
-                Discover More
+                En Savoir Plus
               </Button>
             </div>
           </motion.div>
         </AnimatePresence>
       </div>
 
-      {/* ===== Arrow Navigation ===== */}
+      {/* ===== Navigation par flèches ===== */}
       <button
         onClick={prev}
         className="absolute left-4 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-11 h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200 lg:left-8"
-        aria-label="Previous slide"
+        aria-label="Diapositive précédente"
       >
         <ChevronLeft className="w-5 h-5" />
       </button>
       <button
         onClick={next}
         className="absolute right-4 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-11 h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200 lg:right-8"
-        aria-label="Next slide"
+        aria-label="Diapositive suivante"
       >
         <ChevronRight className="w-5 h-5" />
       </button>
 
-      {/* ===== Slide Counter ===== */}
+      {/* ===== Compteur de diapositives ===== */}
       <div className="absolute bottom-5 right-6 z-20 flex items-center gap-2 text-white/50 text-sm font-medium lg:right-12">
         <span className="text-white text-lg font-heading font-bold">
           {String(current + 1).padStart(2, "0")}
@@ -262,7 +262,7 @@ export function Hero() {
         <span>{String(slides.length).padStart(2, "0")}</span>
       </div>
 
-      {/* ===== Scroll Indicator ===== */}
+      {/* ===== Indicateur de défilement ===== */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
