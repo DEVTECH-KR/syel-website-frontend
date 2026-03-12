@@ -152,7 +152,7 @@ export function Header() {
               {/* Center — Tagline (hidden on small screens) */}              
               <div className="hidden xl:flex items-center">
                 <p className="text-sm text-warm-500 tracking-wide">
-                  Building Tomorrow&apos;s Industries
+                  Construire les industries de demain
                 </p>
               </div>
 
@@ -179,10 +179,10 @@ export function Header() {
                         Call Us
                       </p>
                       <a
-                        href="tel:+237233421580"
+                        href="tel:+243815123456"
                         className="text-sm font-semibold text-white hover:text-primary-300 transition-colors"
                       >
-                        +237 233 42 15 80
+                        +243 815 123 456
                       </a>
                     </div>
                   </div>

@@ -31,7 +31,7 @@ const sectors: Sector[] = [
     title: "Syel Énergie",
     slug: "syel-energie",
     description:
-      "Solaire, thermique et hybride — 45 MW de capacité installée à travers l'Afrique centrale.",
+      "Solaire, thermique et hybride — 45 MW de capacité installée à travers la République Démocratique du Congo.",
     accent: "bg-primary-500",
     featured: true,
   },
@@ -40,7 +40,7 @@ const sectors: Sector[] = [
     title: "Syel Transport",
     slug: "syel-transport",
     description:
-      "350+ véhicules sur les corridors stratégiques Douala–N'Djamena et Douala–Bangui.",
+      "350+ véhicules sur les corridors stratégiques Kinshasa–Matadi, Kinshasa–Lubumbashi et Kinshasa–Goma.",
     accent: "bg-sky-500",
   },
   {
@@ -56,7 +56,7 @@ const sectors: Sector[] = [
     title: "Syel Technologies",
     slug: "syel-technologies",
     description:
-      "ERP, cloud et cybersécurité pour la transformation digitale des entreprises africaines.",
+      "ERP, cloud et cybersécurité pour la transformation digitale des entreprises congolaises.",
     accent: "bg-violet-500",
   },
   {
@@ -72,7 +72,7 @@ const sectors: Sector[] = [
     title: "Syel Immobilier",
     slug: "syel-immobilier",
     description:
-      "1 200+ logements livrés — résidentiel, bureaux et centres commerciaux à Douala et Yaoundé.",
+      "1 200+ logements livrés — résidentiel, bureaux et centres commerciaux à Kinshasa, Lubumbashi et Goma.",
     accent: "bg-rose-500",
   },
 ];

@@ -24,15 +24,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "centrale-solaire-maroua",
-    title: "Centrale Solaire de Maroua",
+    slug: "centrale-solaire-lubumbashi",
+    title: "Centrale Solaire de Lubumbashi",
     category: "Énergie",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-energie",
     description:
-      "Construction d'une centrale solaire photovoltaïque de 30 MW dans la région de l'Extrême-Nord du Cameroun, alimentant plus de 50 000 foyers en énergie propre.",
+      "Construction d'une centrale solaire photovoltaïque de 30 MW dans le Haut-Katanga, alimentant plus de 50 000 foyers en énergie propre.",
     longDescription:
-      "La Centrale Solaire de Maroua est le projet le plus ambitieux de Syel Énergie à ce jour. Située sur un terrain de 60 hectares dans la plaine du Diamaré, cette installation photovoltaïque de 30 MW utilise des panneaux monocristallins de dernière génération et un système de stockage par batteries lithium-ion de 10 MWh. Le projet, réalisé en partenariat avec la Banque Africaine de Développement et l'Agence d'Électrification Rurale du Cameroun, vise à réduire la dépendance de la région aux générateurs diesel et à combler le déficit énergétique chronique du septentrion camerounais. La phase de construction a mobilisé plus de 400 ouvriers locaux et a inclus un programme de formation pour 50 techniciens solaires issus des communautés environnantes. La centrale produit suffisamment d'électricité pour alimenter 50 000 foyers et réduire les émissions de CO₂ de 25 000 tonnes par an.",
+      "La Centrale Solaire de Lubumbashi est le projet le plus ambitieux de Syel Énergie à ce jour. Située sur un terrain de 60 hectares en périphérie de Lubumbashi, cette installation photovoltaïque de 30 MW utilise des panneaux monocristallins de dernière génération et un système de stockage par batteries lithium-ion de 10 MWh. Le projet, réalisé en partenariat avec la Banque Africaine de Développement et la SNEL, vise à réduire la dépendance de la région aux générateurs diesel et à combler le déficit énergétique chronique du Katanga. La phase de construction a mobilisé plus de 400 ouvriers locaux et a inclus un programme de formation pour 50 techniciens solaires issus des communautés environnantes. La centrale produit suffisamment d'électricité pour alimenter 50 000 foyers et réduire les émissions de CO₂ de 25 000 tonnes par an.",
     impact:
       "50 000 foyers alimentés en énergie propre, 25 000 tonnes de CO₂ évitées par an",
     beneficiaries: 50000,
@@ -48,15 +48,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "corridor-logistique-douala-ndjamena",
-    title: "Corridor Logistique Douala–N'Djamena",
+    slug: "corridor-logistique-kinshasa-matadi",
+    title: "Corridor Logistique Kinshasa–Matadi",
     category: "Transport",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-transport",
     description:
-      "Modernisation et sécurisation du corridor de transport reliant le port de Douala à N'Djamena, avec la construction d'un hub logistique intermédiaire à Ngaoundéré.",
+      "Modernisation et sécurisation du corridor de transport reliant le Port de Matadi à Kinshasa, avec la construction d'un hub logistique à Boma.",
     longDescription:
-      "Le projet Corridor Logistique Douala–N'Djamena est une initiative stratégique de Syel Transport visant à fluidifier les échanges commerciaux entre le Cameroun et le Tchad. Le corridor de 1 800 km, vital pour l'approvisionnement du Tchad (pays enclavé), souffrait de temps de transit excessifs (jusqu'à 15 jours) et de taux de sinistralité élevés. Syel Transport a investi dans la construction d'un hub logistique de 8 000 m² à Ngaoundéré, point de rupture de charge stratégique, équipé d'entrepôts climatisés, d'une aire de stationnement sécurisée pour 200 camions et d'un centre de maintenance. L'ensemble de la flotte affectée au corridor (120 véhicules) a été équipé de systèmes GPS et de capteurs IoT permettant le suivi en temps réel des marchandises. Le temps de transit moyen a été réduit à 6 jours et le taux de pertes et avaries a chuté de 70 %.",
+      "Le projet Corridor Logistique Kinshasa–Matadi est une initiative stratégique de Syel Transport visant à fluidifier les échanges commerciaux entre la capitale et le principal port maritime de la RDC. Le corridor d'environ 350 km, vital pour l'approvisionnement du pays, souffrait de temps de transit excessifs et de taux de sinistralité élevés. Syel Transport a investi dans la construction d'un hub logistique de 8 000 m² à Boma, point de rupture de charge stratégique, équipé d'entrepôts climatisés, d'une aire de stationnement sécurisée pour 200 camions et d'un centre de maintenance. L'ensemble de la flotte affectée au corridor (120 véhicules) a été équipé de systèmes GPS et de capteurs IoT permettant le suivi en temps réel des marchandises. Le temps de transit moyen a été réduit de 60 % et le taux de pertes et avaries a chuté de 70 %.",
     impact:
       "Temps de transit réduit de 60 %, 120 véhicules équipés en suivi temps réel",
     beneficiaries: 15000,
@@ -73,15 +73,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "usine-transformation-cafe-ouest",
-    title: "Usine de Transformation du Café — Région de l'Ouest",
+    slug: "usine-transformation-cafe-kivu",
+    title: "Usine de Transformation du Café — Kivu",
     category: "Agroalimentaire",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-agroalimentaire",
     description:
-      "Construction et mise en exploitation d'une unité moderne de torréfaction et d'emballage de café arabica, en partenariat avec 1 500 producteurs de la région de l'Ouest.",
+      "Construction et mise en exploitation d'une unité moderne de torréfaction et d'emballage de café arabica, en partenariat avec 1 500 producteurs du Nord-Kivu et du Sud-Kivu.",
     longDescription:
-      "Ce projet phare de Syel Agroalimentaire vise à capter la valeur ajoutée du café camerounais en le transformant localement plutôt que de l'exporter brut. L'usine, implantée à Bafoussam, dispose d'une capacité de torréfaction de 5 000 tonnes par an et de lignes d'emballage automatisées pour les formats consommateurs (250 g, 500 g, 1 kg) et professionnels (5 kg, 25 kg). Un laboratoire de contrôle qualité certifié ISO 22000 garantit la traçabilité de la graine au sachet. Le programme inclut un volet social majeur : 1 500 caféiculteurs organisés en 45 coopératives bénéficient de prix d'achat garantis supérieurs de 20 % au cours mondial, d'intrants fournis à crédit et de formations en bonnes pratiques agricoles. La marque « Arabica des Hauts Plateaux » est désormais distribuée dans 4 pays et a remporté la médaille d'or au Salon de l'Agriculture de Paris 2025.",
+      "Ce projet phare de Syel Agroalimentaire vise à capter la valeur ajoutée du café congolais en le transformant localement plutôt que de l'exporter brut. L'usine, implantée à Bukavu, dispose d'une capacité de torréfaction de 5 000 tonnes par an et de lignes d'emballage automatisées pour les formats consommateurs (250 g, 500 g, 1 kg) et professionnels (5 kg, 25 kg). Un laboratoire de contrôle qualité certifié ISO 22000 garantit la traçabilité de la graine au sachet. Le programme inclut un volet social majeur : 1 500 caféiculteurs organisés en 45 coopératives au Kivu bénéficient de prix d'achat garantis supérieurs de 20 % au cours mondial, d'intrants fournis à crédit et de formations en bonnes pratiques agricoles. La marque « Arabica du Kivu » est désormais distribuée en RDC et a remporté la médaille d'or au Salon de l'Agriculture de Paris 2025.",
     impact:
       "1 500 producteurs intégrés dans la chaîne de valeur, revenus augmentés de 35 %",
     beneficiaries: 1500,
@@ -98,15 +98,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "plateforme-digitale-pad",
-    title: "Plateforme Digitale du Port Autonome de Douala",
+    slug: "plateforme-digitale-matadi",
+    title: "Plateforme Digitale du Port de Matadi (OVM)",
     category: "Technologies",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-technologies",
     description:
       "Déploiement d'un système intégré de gestion portuaire connectant 15 modules opérationnels, réduisant les délais de traitement des conteneurs de 40 %.",
     longDescription:
-      "Le projet de digitalisation du Port Autonome de Douala (PAD) est la plus grande réalisation de Syel Technologies à ce jour. Face à la congestion chronique du plus grand port d'Afrique centrale (traitant plus de 10 millions de tonnes de marchandises par an), le PAD a confié à Syel Technologies la conception et le déploiement d'une plateforme de gestion intégrée. Le système connecte 15 modules : manifeste électronique, gestion des escales, tracking des conteneurs, facturation automatisée, guichet unique dématérialisé, vidéosurveillance intelligente, etc. L'architecture cloud hybride garantit une disponibilité de 99,9 % et le respect des normes internationales de l'Organisation Maritime Internationale. Le projet a mobilisé 45 ingénieurs pendant 18 mois et a inclus la formation de 300 agents portuaires. Les résultats sont spectaculaires : le temps moyen de séjour des conteneurs est passé de 18 à 11 jours, et les recettes portuaires ont augmenté de 22 %.",
+      "Le projet de digitalisation du Port de Matadi et de l'Office des Voies Maritimes (OVM) est la plus grande réalisation de Syel Technologies à ce jour. Face à la congestion chronique du principal port de la RDC (traitant plus de 10 millions de tonnes de marchandises par an), l'OVM a confié à Syel Technologies la conception et le déploiement d'une plateforme de gestion intégrée. Le système connecte 15 modules : manifeste électronique, gestion des escales, tracking des conteneurs, facturation automatisée, guichet unique dématérialisé, vidéosurveillance intelligente, etc. L'architecture cloud hybride garantit une disponibilité de 99,9 % et le respect des normes internationales de l'Organisation Maritime Internationale. Le projet a mobilisé 45 ingénieurs pendant 18 mois et a inclus la formation de 300 agents portuaires. Les résultats sont spectaculaires : le temps moyen de séjour des conteneurs est passé de 18 à 11 jours, et les recettes portuaires ont augmenté de 22 %.",
     impact:
       "Délais de traitement réduits de 40 %, recettes portuaires en hausse de 22 %",
     beneficiaries: 5000,
@@ -123,15 +123,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "syel-mall-douala",
-    title: "Syel Mall Douala — Centre Commercial & Business",
+    slug: "syel-mall-kinshasa",
+    title: "Syel Mall Kinshasa — Centre Commercial & Business",
     category: "BTP",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-btp",
     description:
-      "Construction d'un centre commercial et d'affaires de 25 000 m² au cœur de Douala, comprenant 80 boutiques, un hypermarché, des bureaux et un parking de 500 places.",
+      "Construction d'un centre commercial et d'affaires de 25 000 m² au cœur de Kinshasa (Gombe), comprenant 80 boutiques, un hypermarché, des bureaux et un parking de 500 places.",
     longDescription:
-      "Le Syel Mall Douala est le projet emblématique de Syel BTP dans le domaine du bâtiment commercial. Situé dans le quartier de Bonamoussadi, l'un des pôles de croissance les plus dynamiques de Douala, le complexe s'étend sur 25 000 m² répartis sur 4 niveaux. Il comprend un hypermarché de 3 000 m², 80 boutiques, une aire de restauration de 12 enseignes, un espace de coworking de 1 500 m², des bureaux de standing sur deux étages et un parking souterrain de 500 places. La construction, réalisée en 24 mois avec des matériaux locaux à 60 %, a mobilisé jusqu'à 600 ouvriers en phase de pointe. Le bâtiment intègre des technologies vertes : panneaux solaires en toiture (200 kW), récupération des eaux de pluie, climatisation centralisée haute efficacité et éclairage LED intelligent. Le Syel Mall a été inauguré en mars 2025 et affiche un taux d'occupation de 92 % dès la première année.",
+      "Le Syel Mall Kinshasa est le projet emblématique de Syel BTP dans le domaine du bâtiment commercial. Situé dans le quartier de la Gombe, l'un des pôles de croissance les plus dynamiques de Kinshasa, le complexe s'étend sur 25 000 m² répartis sur 4 niveaux. Il comprend un hypermarché de 3 000 m², 80 boutiques, une aire de restauration de 12 enseignes, un espace de coworking de 1 500 m², des bureaux de standing sur deux étages et un parking souterrain de 500 places. La construction, réalisée en 24 mois avec des matériaux locaux à 60 %, a mobilisé jusqu'à 600 ouvriers en phase de pointe. Le bâtiment intègre des technologies vertes : panneaux solaires en toiture (200 kW), récupération des eaux de pluie, climatisation centralisée haute efficacité et éclairage LED intelligent. Le Syel Mall a été inauguré en mars 2025 et affiche un taux d'occupation de 92 % dès la première année.",
     impact:
       "1 200 emplois directs créés, 92 % de taux d'occupation dès l'ouverture",
     beneficiaries: 1200,
@@ -148,15 +148,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "jardins-de-bonaberi",
-    title: "Les Jardins de Bonabéri — Résidence Premium",
+    slug: "jardins-de-la-gombe",
+    title: "Les Jardins de la Gombe — Résidence Premium",
     category: "Immobilier",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-immobilier",
     description:
       "Programme résidentiel haut de gamme de 280 appartements avec piscine, salle de sport et espaces verts, primé au MIPIM Africa 2024 pour son design architectural.",
     longDescription:
-      "Les Jardins de Bonabéri est le programme immobilier phare de Syel Immobilier, une résidence premium située dans le quartier en plein développement de Bonabéri à Douala. Le projet comprend 280 appartements (T2, T3 et T4) répartis dans 8 immeubles de 6 étages, entourés de 2 hectares d'espaces verts paysagers. Les équipements collectifs incluent une piscine olympique, une salle de fitness, une aire de jeux pour enfants, un local commercial et une conciergerie. Chaque appartement bénéficie d'une finition premium : cuisine équipée, climatisation réversible, fibre optique et interphone vidéo. Le programme a été conçu par le cabinet d'architecture Kéré Design et a remporté le prix du meilleur projet résidentiel au MIPIM Africa 2024. Grâce à des partenariats de financement avec Afriland First Bank et Ecobank, Syel Immobilier propose des plans d'accession sur 15 à 25 ans, rendant ces logements accessibles à la classe moyenne supérieure. 95 % des unités ont été vendues avant la livraison finale.",
+      "Les Jardins de la Gombe est le programme immobilier phare de Syel Immobilier, une résidence premium située dans le quartier de la Gombe à Kinshasa. Le projet comprend 280 appartements (T2, T3 et T4) répartis dans 8 immeubles de 6 étages, entourés de 2 hectares d'espaces verts paysagers. Les équipements collectifs incluent une piscine olympique, une salle de fitness, une aire de jeux pour enfants, un local commercial et une conciergerie. Chaque appartement bénéficie d'une finition premium : cuisine équipée, climatisation réversible, fibre optique et interphone vidéo. Le programme a été conçu par le cabinet d'architecture Kéré Design et a remporté le prix du meilleur projet résidentiel au MIPIM Africa 2024. Grâce à des partenariats de financement avec Rawbank et Ecobank RDC, Syel Immobilier propose des plans d'accession sur 15 à 25 ans, rendant ces logements accessibles à la classe moyenne supérieure. 95 % des unités ont été vendues avant la livraison finale.",
     impact:
       "280 familles logées, prix d'excellence MIPIM Africa 2024",
     beneficiaries: 280,
@@ -173,15 +173,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "electrification-rurale-est",
-    title: "Programme d'Électrification Rurale — Région de l'Est",
+    slug: "electrification-rurale-kivu",
+    title: "Programme d'Électrification Rurale — Kivu",
     category: "Énergie",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-energie",
     description:
-      "Installation de mini-réseaux solaires hybrides dans 120 villages de la région de l'Est du Cameroun, apportant l'électricité à plus de 80 000 personnes pour la première fois.",
+      "Installation de mini-réseaux solaires hybrides dans 120 villages du Nord-Kivu et du Sud-Kivu, apportant l'électricité à plus de 80 000 personnes pour la première fois.",
     longDescription:
-      "Le Programme d'Électrification Rurale de la Région de l'Est est le plus grand projet d'accès à l'énergie jamais entrepris par Syel Énergie. Financé par la Banque Mondiale et l'Agence Française de Développement, ce programme vise à installer des mini-réseaux solaires hybrides (solaire + batteries + groupes diesel de secours) dans 120 villages isolés où le taux d'accès à l'électricité est inférieur à 5 %. Chaque mini-réseau est dimensionné pour alimenter entre 200 et 500 foyers, ainsi que les infrastructures communautaires (centre de santé, école, pompe à eau). Le modèle économique repose sur un opérateur local formé par Syel Énergie, qui assure la maintenance et la collecte des paiements via mobile money. Les 40 premiers villages ont été raccordés en 2025, et le programme s'achèvera en 2027. L'impact attendu est transformationnel : accès à la lumière, conservation des médicaments, irrigation, accès à l'information et développement d'activités économiques nocturnes.",
+      "Le Programme d'Électrification Rurale du Kivu est le plus grand projet d'accès à l'énergie jamais entrepris par Syel Énergie en RDC. Financé par la Banque Mondiale et l'Agence Française de Développement, ce programme vise à installer des mini-réseaux solaires hybrides (solaire + batteries + groupes diesel de secours) dans 120 villages isolés où le taux d'accès à l'électricité est inférieur à 5 %. Chaque mini-réseau est dimensionné pour alimenter entre 200 et 500 foyers, ainsi que les infrastructures communautaires (centre de santé, école, pompe à eau). Le modèle économique repose sur un opérateur local formé par Syel Énergie, qui assure la maintenance et la collecte des paiements via mobile money. Les 40 premiers villages ont été raccordés en 2025, et le programme s'achèvera en 2027. L'impact attendu est transformationnel : accès à la lumière, conservation des médicaments, irrigation, accès à l'information et développement d'activités économiques nocturnes.",
     impact:
       "80 000 personnes accèdent à l'électricité pour la première fois",
     beneficiaries: 80000,
@@ -197,15 +197,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "erp-ecobank-afrique-centrale",
-    title: "Déploiement ERP Ecobank Afrique Centrale",
+    slug: "erp-ecobank-rdc",
+    title: "Déploiement ERP Ecobank RDC",
     category: "Technologies",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-technologies",
     description:
-      "Migration et intégration du système ERP SAP S/4HANA pour les 5 filiales d'Ecobank en Afrique centrale, unifiant la gestion financière et les opérations bancaires.",
+      "Migration et intégration du système ERP SAP S/4HANA pour Ecobank en RDC, unifiant la gestion financière et les opérations bancaires.",
     longDescription:
-      "Syel Technologies a été sélectionnée par Ecobank Transnational Incorporated pour piloter la migration vers SAP S/4HANA de ses cinq filiales d'Afrique centrale (Cameroun, Gabon, Congo, RCA, Tchad). Ce projet stratégique vise à unifier les systèmes de gestion financière, de conformité réglementaire et de reporting sur une plateforme unique hébergée dans un data center Tier III à Douala. L'équipe projet de 35 consultants certifiés SAP a conduit l'analyse des processus existants, la configuration du système, la migration de 8 années de données historiques et la formation de 450 utilisateurs. Le déploiement suit une approche par vagues : le Cameroun et le Gabon sont opérationnels depuis janvier 2026, et les trois autres pays seront migrés d'ici décembre 2026. Les gains attendus incluent une réduction de 50 % des délais de clôture comptable et une conformité renforcée avec les normes COBAC.",
+      "Syel Technologies a été sélectionnée par Ecobank RDC pour piloter la migration vers SAP S/4HANA de ses agences en République Démocratique du Congo. Ce projet stratégique vise à unifier les systèmes de gestion financière, de conformité réglementaire et de reporting sur une plateforme unique hébergée dans un data center Tier III à Kinshasa. L'équipe projet de 35 consultants certifiés SAP a conduit l'analyse des processus existants, la configuration du système, la migration de 8 années de données historiques et la formation de 450 utilisateurs. Le déploiement suit une approche par vagues sur les principales villes (Kinshasa, Lubumbashi, Goma). Les gains attendus incluent une réduction de 50 % des délais de clôture comptable et une conformité renforcée avec les normes de la BCC.",
     impact:
       "5 filiales bancaires unifiées, délais de clôture réduits de 50 %",
     beneficiaries: 450,
@@ -221,15 +221,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "residence-yaounde-2030",
-    title: "Résidence Yaoundé 2030 — Logements Sociaux",
+    slug: "residence-kinshasa-2030",
+    title: "Résidence Kinshasa 2030 — Logements Sociaux",
     category: "Immobilier",
-    region: "Afrique Centrale",
+    region: "République Démocratique du Congo",
     branch: "syel-immobilier",
     description:
-      "Programme de construction de 500 logements sociaux accessibles à Yaoundé, en partenariat avec le Ministère de l'Habitat et la Banque de l'Habitat du Cameroun.",
+      "Programme de construction de 500 logements sociaux accessibles à Kinshasa, en partenariat avec le Ministère de l'Urbanisme et l'habitat et les banques locales.",
     longDescription:
-      "Résidence Yaoundé 2030 est un programme ambitieux de logements sociaux porté par Syel Immobilier en partenariat avec le Ministère de l'Habitat et du Développement Urbain et la Banque de l'Habitat du Cameroun (BHC). Situé dans la zone d'aménagement de Olembé, le programme prévoit la construction de 500 logements (T2 et T3) répartis dans 20 immeubles de 4 étages, avec des infrastructures communes : crèche, espace commercial, terrain de sport et parking. Le prix de vente, plafonné par convention avec l'État, est rendu accessible grâce à des prêts immobiliers sur 25 ans à taux bonifié (5,5 % par an). Le projet intègre des standards de construction durable : briques en terre compressée, toitures végétalisées, panneaux solaires pour les parties communes et gestion des eaux usées par phytoépuration. La livraison des premiers lots est prévue pour fin 2027.",
+      "Résidence Kinshasa 2030 est un programme ambitieux de logements sociaux porté par Syel Immobilier en partenariat avec le Ministère de l'Urbanisme et de l'Habitat de la RDC. Situé dans la zone d'aménagement de la commune de Limete, le programme prévoit la construction de 500 logements (T2 et T3) répartis dans 20 immeubles de 4 étages, avec des infrastructures communes : crèche, espace commercial, terrain de sport et parking. Le prix de vente, plafonné par convention avec l'État, est rendu accessible grâce à des prêts immobiliers sur 25 ans à taux bonifié. Le projet intègre des standards de construction durable : briques en terre compressée, toitures végétalisées, panneaux solaires pour les parties communes et gestion des eaux usées par phytoépuration. La livraison des premiers lots est prévue pour fin 2027.",
     impact:
       "500 familles à revenus modestes accèdent à la propriété",
     beneficiaries: 500,

@@ -41,9 +41,9 @@ const advantages = [
     icon: Globe2,
     title: "Ancrage Africain, Vision Globale",
     description:
-      "Enracinés au Cameroun depuis 2010, nous opérons dans 8 pays avec un bureau à Paris — combinant connaissance locale et ambition internationale.",
-    stat: "8+",
-    statLabel: "pays d'opération",
+      "Enracinés en République Démocratique du Congo depuis 2010, nous opérons à Kinshasa, Lubumbashi, Goma, Bukavu et Matadi — combinant connaissance locale et ambition nationale.",
+    stat: "5+",
+    statLabel: "villes d'implantation",
     accent: "bg-base-800",
     accentLight: "bg-base-50",
     accentBorder: "border-base-100",
@@ -52,7 +52,7 @@ const advantages = [
     icon: Lightbulb,
     title: "Innovation Continue",
     description:
-      "De la digitalisation portuaire aux mini-réseaux solaires, nous investissons dans les technologies qui transforment les industries africaines.",
+      "De la digitalisation du Port de Matadi aux mini-réseaux solaires, nous investissons dans les technologies qui transforment les industries congolaises.",
     stat: "40%",
     statLabel: "gains d'efficacité",
     accent: "bg-primary-500",
@@ -89,7 +89,7 @@ export function WhyChooseUs() {
         <div ref={ref}>
           <SectionHeading
             eyebrow="Pourquoi Nous"
-            title="What Sets Groupe Syel Apart"
+            title="Ce qui distingue le Groupe Syel"
             highlight="Groupe Syel"
             subtitle="A unique combination of local expertise, diversified capabilities, and an unwavering commitment to operational excellence."
             centered
@@ -175,8 +175,8 @@ export function WhyChooseUs() {
             {/* Photo */}
             <div className="shrink-0 w-20 h-20 lg:w-24 lg:h-24 rounded-full overflow-hidden border-2 border-primary-500/40 shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80"
-                alt="Paul-Henri Nkoulou, PDG"
+                src="/teams/olivier.jpeg"
+                alt="Olivier Kameshera, Président-Directeur Général du Groupe Syel"
                 width={96}
                 height={96}
                 className="object-cover w-full h-full"

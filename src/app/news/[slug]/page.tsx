@@ -57,7 +57,7 @@ export default function NewsArticlePage() {
             moved.
           </p>
           <Button href="/news" icon={<ArrowLeft className="h-4 w-4" />}>
-            Back to News & Insights
+            Retour aux actualités
           </Button>
         </div>
       </section>
@@ -135,7 +135,7 @@ export default function NewsArticlePage() {
               className="mb-12 inline-flex items-center gap-2 text-sm font-medium text-teal-600 hover:text-teal-700 transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
-              Back to News & Insights
+              Retour aux actualités
             </Link>
 
             {/* Article content */}

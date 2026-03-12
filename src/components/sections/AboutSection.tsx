@@ -78,14 +78,14 @@ export function AboutSection() {
             <div className="absolute -top-6 -left-6 w-48 h-48 bg-primary-100 rounded-3xl -z-10 hidden lg:block" />
             <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-gold-100 rounded-3xl -z-10 hidden lg:block" />
 
-            {/* Image principale */}
-            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            {/* Image principale — logo */}
+            <div className="relative rounded-2xl overflow-hidden shadow-xl bg-warm-50">
               <div className="aspect-[4/3]">
                 <Image
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
-                  alt="Équipe du Groupe Syel"
+                  src="/logo-groupe-syel.png"
+                  alt="Logo du Groupe Syel"
                   fill
-                  className="object-cover"
+                  className="object-contain object-center"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
@@ -109,16 +109,16 @@ export function AboutSection() {
               transition={{ duration: 0.7, delay: 0.3, ease: cubicEase }}
               className="absolute -bottom-6 right-0 lg:-bottom-8 lg:-right-8 w-[45%] lg:w-[50%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white z-10"
             >
-              <div className="aspect-[4/3]">
+              <div className="aspect-[4/3] relative bg-warm-50">
                 <Image
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
-                  alt="Opérations de construction du Groupe Syel"
+                  src="/logo-groupe-syel.png"
+                  alt="Logo du Groupe Syel"
                   fill
-                  className="object-cover"
+                  className="object-contain object-center"
                   sizes="(max-width: 1024px) 40vw, 25vw"
                 />
               </div>
-            </motion.div>
+            </motion.div> 
 
             {/* Motif de points décoratif */}
             <div
@@ -149,7 +149,7 @@ export function AboutSection() {
             <div className="mt-3 w-16 h-1 rounded-full bg-gradient-to-r from-primary-500 to-gold-400" />
 
             <p className="mt-6 text-warm-600 text-base lg:text-[1.05rem] leading-relaxed">
-              Fondé en 2010 à Kinshasa, RDC, le Groupe Syel est passé à un groupe diversifié le plus
+              Fondé en 2012 à Kinshasa, RDC, le Groupe Syel est passé à un groupe diversifié le plus
               important d&apos;Afrique centrale — offrant l&apos;excellence dans les domaines
               de l&apos;énergie, du transport, de l&apos;agroalimentaire, de la technologie,
               de la construction et de l&apos;immobilier.
@@ -161,6 +161,8 @@ export function AboutSection() {
               de ce que les entreprises africaines peuvent accomplir sur la scène
               mondiale.
             </p>
+
+
 
             {/* Points forts */}
             <ul className="mt-7 space-y-3">

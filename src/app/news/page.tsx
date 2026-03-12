@@ -64,7 +64,7 @@ export default function NewsPage() {
             className="mx-auto max-w-3xl text-center"
           >
             <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-              News & Insights
+              Actualités & Infos
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/85">
               Stay informed about Groupe Syel&apos;s latest developments, industry

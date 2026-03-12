@@ -42,7 +42,7 @@ export function Testimonials() {
       <div className="container-custom">
         <SectionHeading
           eyebrow="Client Testimonials"
-          title="What Our Partners Say"
+          title="Ce que disent nos partenaires"
           highlight="Our Partners"
           centered
         />

@@ -31,8 +31,8 @@ export function NewsGrid() {
       <div className="container-custom">
         <SectionHeading
           eyebrow="Latest Updates"
-          title="News & Insights"
-          highlight="Insights"
+          title="Actualités & Infos"
+          highlight="Infos"
           centered
         />
 

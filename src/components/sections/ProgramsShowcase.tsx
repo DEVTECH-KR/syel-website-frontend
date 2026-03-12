@@ -59,7 +59,7 @@ const programs = [
     icon: Zap,
     title: "Énergie",
     description:
-      "Centrales solaires, mini-réseaux hybrides et solutions d'électrification — Syel Énergie accélère la transition énergétique de l'Afrique avec plus de 45 MW installés.",
+      "Centrales solaires, mini-réseaux hybrides et solutions d'électrification — Syel Énergie accélère la transition énergétique de la RDC avec plus de 45 MW installés.",
     stat: { value: 45, suffix: " MW", label: "Capacité installée" },
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
@@ -81,7 +81,7 @@ const programs = [
     icon: Wheat,
     title: "Agroalimentaire",
     description:
-      "Transformation locale du café, du manioc et de l'huile de palme — créant de la valeur ajoutée pour 3 000 agriculteurs partenaires à travers le Cameroun.",
+      "Transformation locale du café, du manioc et de l'huile de palme — créant de la valeur ajoutée pour 3 000 agriculteurs partenaires à travers la RDC.",
     stat: { value: 3000, suffix: "+", label: "Agriculteurs partenaires" },
     image:
       "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80",
@@ -92,7 +92,7 @@ const programs = [
     icon: Monitor,
     title: "Technologies",
     description:
-      "Transformation digitale, intégration ERP, cybersécurité et cloud — Syel Technologies accompagne les entreprises et institutions africaines vers l'excellence numérique.",
+      "Transformation digitale, intégration ERP, cybersécurité et cloud — Syel Technologies accompagne les entreprises et institutions congolaises vers l'excellence numérique.",
     stat: { value: 320, suffix: "+", label: "Ingénieurs & consultants" },
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",

@@ -73,7 +73,7 @@ function OurStory() {
               eyebrow="Qui Nous Sommes"
               title="Notre Histoire"
               highlight="Histoire"
-              subtitle="Un parcours d'ambition, de diversification et d'engagement sans faille pour construire l'avenir économique du Cameroun."
+              subtitle="Un parcours d'ambition, de diversification et d'engagement sans faille pour construire l'avenir économique de la République Démocratique du Congo."
             />
 
             <div className="mt-8 space-y-5 text-warm-700 leading-relaxed">
@@ -90,7 +90,7 @@ function OurStory() {
                 Ce qui a commencé comme une entreprise énergétique ciblée s&apos;est rapidement développé
                 lorsque l&apos;équipe a identifié des marchés mal desservis dans des secteurs clés. En
                 trois ans, le Groupe Syel s&apos;est diversifié dans le transport et la logistique,
-                tirant parti de la position de Douala en tant que capitale économique du Cameroun.
+                tirant parti de la position de Kinshasa en tant que capitale politique et économique de la RDC, et du Port de Matadi comme principale porte d'entrée maritime.
                 Le principe fondateur était clair : offrir l&apos;excellence opérationnelle,
                 investir dans les talents locaux et construire des infrastructures qui
                 transforment les communautés et les industries.
@@ -117,7 +117,7 @@ function OurStory() {
           >
             <div className="overflow-hidden rounded-2xl shadow-hero">
               <Image
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
+                src="/about.jpg"
                 alt="L'équipe du Groupe Syel au travail"
                 width={800}
                 height={600}
@@ -142,21 +142,21 @@ function OurStory() {
 const milestones = [
   {
     year: "2010",
-    title: "Fondation à Douala",
+    title: "Fondation à Kinshasa",
     description:
-      "Le Groupe Syel est établi à Douala, au Cameroun, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié.",
+      "Le Groupe Syel est établi à Kinshasa, en République Démocratique du Congo, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié.",
   },
   {
     year: "2012",
     title: "Lancement de Syel Transport",
     description:
-      "Expansion dans la logistique et le transport, capitalisant sur l'emplacement stratégique du port de Douala pour construire un réseau régional de fret et de transport de passagers.",
+      "Expansion dans la logistique et le transport, capitalisant sur l'emplacement stratégique du Port de Matadi et de Kinshasa pour construire un réseau national de fret et de transport de marchandises.",
   },
   {
     year: "2014",
     title: "Expansion Agroalimentaire",
     description:
-      "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers le Cameroun.",
+      "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers la RDC.",
   },
   {
     year: "2016",
@@ -178,9 +178,9 @@ const milestones = [
   },
   {
     year: "2023",
-    title: "Expansion Régionale",
+    title: "Expansion Nationale",
     description:
-      "Extension des opérations au-delà du Cameroun vers les marchés voisins d'Afrique centrale, établissant des partenariats et des bureaux de projet au Gabon et en Guinée équatoriale.",
+      "Extension des opérations à travers toute la RDC, avec l'ouverture de bureaux à Lubumbashi, Goma et Bukavu, renforçant la présence du groupe dans les provinces clés.",
   },
   {
     year: "2025",
@@ -394,7 +394,6 @@ function MissionVisionValues() {
 
 function LeadershipTeam() {
   const { ref, isInView } = useInView({ threshold: 0.1 });
-  const globalLeaders = team.filter((m) => !m.branch);
 
   return (
     <section className="section-padding bg-white" ref={ref}>
@@ -419,7 +418,7 @@ function LeadershipTeam() {
           animate={isInView ? "visible" : "hidden"}
           className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
         >
-          {globalLeaders.map((member) => (
+          {team.map((member) => (
             <motion.div key={member.name} variants={staggerItem}>
               <Card className="group h-full">
                 <div className="relative overflow-hidden">

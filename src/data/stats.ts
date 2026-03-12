@@ -6,7 +6,7 @@ export interface Stat {
 }
 
 export const globalStats: Stat[] = [
-  { label: "Pays d'opération", value: 8, suffix: "+", icon: "Globe" },
+  { label: "Villes en RDC", value: 9, suffix: "+", icon: "Globe" },
   { label: "Filiales", value: 6, suffix: "", icon: "Building2" },
   { label: "Projets réalisés", value: 200, suffix: "+", icon: "FolderHeart" },
   { label: "Collaborateurs", value: 3500, suffix: "+", icon: "Users" },
@@ -36,11 +36,11 @@ export interface Partner {
 
 export const partners: Partner[] = [
   { name: "Banque Africaine de Développement", logo: "BAD" },
-  { name: "Société Générale Cameroun", logo: "SGC" },
+  { name: "Rawbank / Société Générale Congo", logo: "SGC" },
   { name: "Total Energies Afrique", logo: "TEA" },
   { name: "Bolloré Transport & Logistics", logo: "BTL" },
   { name: "Orange Business Services", logo: "OBS" },
   { name: "Ecobank Transnational", logo: "ETI" },
-  { name: "Port Autonome de Douala", logo: "PAD" },
-  { name: "Ministère des Travaux Publics", logo: "MINTP" },
+  { name: "Office des Voies Maritimes / Port de Matadi", logo: "OVM" },
+  { name: "Ministère des Infrastructures (RDC)", logo: "MINTP" },
 ];

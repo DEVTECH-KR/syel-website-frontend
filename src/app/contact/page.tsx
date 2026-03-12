@@ -278,11 +278,11 @@ function ContactInfo() {
         <div className="mt-4 space-y-3">
           <div className="flex items-start gap-3 text-sm text-warm-700">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-teal-500" />
-            <span>Boulevard de la Liberté, Akwa, Douala, Cameroon</span>
+            <span>Boulevard du 30 Juin, Gombe, Kinshasa, République Démocratique du Congo</span>
           </div>
           <div className="flex items-center gap-3 text-sm text-warm-700">
             <Phone className="h-4 w-4 shrink-0 text-teal-500" />
-            <span>+237 233 42 15 80</span>
+            <span>+243 815 123 450</span>
           </div>
           <div className="flex items-center gap-3 text-sm text-warm-700">
             <Mail className="h-4 w-4 shrink-0 text-teal-500" />

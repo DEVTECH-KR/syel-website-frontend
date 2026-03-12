@@ -45,7 +45,7 @@ export function Footer() {
       <div
         className="h-1 w-full bg-gradient-to-r from-primary-500 via-primary-400 to-gold-400"
         aria-hidden="true"
-      />
+      />/.
 
       <div className="container-custom py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
@@ -54,7 +54,7 @@ export function Footer() {
             <Link href="/" className="inline-flex items-center gap-0.5 mb-5">
               <span className="font-heading text-2xl tracking-tight text-white">
                 Groupe
-              </span>
+              </span> 
               <span
                 className="mx-1.5 h-5 w-px bg-base-600"
                 aria-hidden="true"
@@ -65,9 +65,9 @@ export function Footer() {
             </Link>
 
             <p className="text-sm leading-relaxed text-warm-500 mb-6">
-              Un groupe diversifié qui stimule l&apos;excellence dans les secteurs
-              de l&apos;énergie, du transport, de l&apos;agroalimentaire, de la technologie,
-              de la construction et de l&apos;immobilier, de Kinshasa au monde entier.
+              Un groupe diversifié qui stimule l&apos;excellence dans les secteurs de l&apos;énergie, 
+              du transport, de l&apos;agroalimentaire, de la technologie, de la construction et 
+              de l&apos;immobilier en République Démocratique du Congo
             </p>
 
             <div className="flex items-center gap-3">
@@ -156,7 +156,7 @@ export function Footer() {
                   <br />
                   Kinshasa, RDC
                 </span>
-              </li>
+              </li> 
             </ul>
 
             {/* Newsletter */}

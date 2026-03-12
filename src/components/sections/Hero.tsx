@@ -24,7 +24,7 @@ const slides: HeroSlide[] = [
     headline: "Stimuler la croissance.\nDans tous les secteurs d'activité.",
     highlight: "Depuis 2010.",
     subtitle:
-      "Le groupe Syel se positionne comme un acteur économique majeur et un partenaire stratégique de premier plan en République du Congo. Fort de son expertise multisectorielle, il contribue de manière significative au progrès et au développement dans les domaines de l'énergie, des transports, de l'agroalimentaire, des technologies, de la construction et de l'immobilier, avec des activités qui s'étendent à l'Afrique et au-delà.",
+      "Le Groupe Syel se positionne comme un acteur économique majeur et un partenaire stratégique de premier plan en République Démocratique du Congo. Fort de son expertise multisectorielle, il contribue au progrès et au développement dans les domaines de l'énergie, des transports, de l'agroalimentaire, des technologies, de la construction et de l'immobilier, avec des activités ancrées en RDC et une ambition continentale.",
   },
   {
     type: "image",
@@ -42,7 +42,7 @@ const slides: HeroSlide[] = [
     headline: "Faire avancer\nl'Afrique.",
     highlight: "En toute fiabilité.",
     subtitle:
-      "Avec une flotte moderne et une couverture stratégique des corridors de Douala à N'Djamena, Syel Transport est le partenaire logistique de confiance pour les entreprises d'Afrique centrale.",
+      "Avec une flotte moderne et une couverture stratégique des corridors Kinshasa–Matadi, Kinshasa–Lubumbashi et Kinshasa–Goma, Syel Transport est le partenaire logistique de confiance pour les entreprises de la RDC.",
   },
   {
     type: "image",
@@ -51,7 +51,7 @@ const slides: HeroSlide[] = [
     headline: "De la ferme\nà la table.",
     highlight: "L'excellence à chaque étape.",
     subtitle:
-      "Nous collaborons avec des milliers d'agriculteurs locaux, transformons des produits agricoles de qualité et apportons les meilleurs produits camerounais aux marchés de la région et du monde entier.",
+      "Nous collaborons avec des milliers d'agriculteurs locaux, transformons des produits agricoles de qualité et apportons les meilleurs produits congolais aux marchés de la RDC et du monde entier.",
   },
   {
     type: "image",

@@ -44,22 +44,22 @@ function AnimatedCounter({
 }
 
 const stats = [
-  { value: 8, suffix: "+", label: "Pays", icon: <Globe className="w-6 h-6" /> },
+  { value: 9, suffix: "+", label: "Villes en RDC", icon: <Globe className="w-6 h-6" /> },
   { value: 6, suffix: "", label: "Filiales", icon: <Building2 className="w-6 h-6" /> },
   { value: 3500, suffix: "+", label: "Employés", icon: <Users className="w-6 h-6" /> },
   { value: 200, suffix: "+", label: "Projets", icon: <FolderHeart className="w-6 h-6" /> },
 ];
 
 const cities = [
-  { name: "Douala", flag: "🇨🇲", hq: true },
-  { name: "Yaoundé", flag: "🇨🇲" },
-  { name: "Bafoussam", flag: "🇨🇲" },
-  { name: "Libreville", flag: "🇬🇦" },
-  { name: "N'Djamena", flag: "🇹🇩" },
-  { name: "Brazzaville", flag: "🇨🇬" },
-  { name: "Abidjan", flag: "🇨🇮" },
-  { name: "Lagos", flag: "🇳🇬" },
-  { name: "Paris", flag: "🇫🇷" },
+  { name: "Kinshasa", flag: "🇨🇩", hq: true },
+  { name: "Lubumbashi", flag: "🇨🇩" },
+  { name: "Goma", flag: "🇨🇩" },
+  { name: "Bukavu", flag: "🇨🇩" },
+  { name: "Mbuji-Mayi", flag: "🇨🇩" },
+  { name: "Matadi", flag: "🇨🇩" },
+  { name: "Kisangani", flag: "🇨🇩" },
+  { name: "Kananga", flag: "🇨🇩" },
+  { name: "Kolwezi", flag: "🇨🇩" },
 ];
 
 export function GlobalMap() {
@@ -97,7 +97,8 @@ export function GlobalMap() {
             eyebrow="Notre Présence"
             title="Stratégiquement Positionnés en Afrique et au-delà"
             highlight="Afrique et au-delà"
-            subtitle="De notre siège à Douala aux opérations couvrant 8 pays, le Groupe Syel maintient une empreinte solide à travers les marchés les plus dynamiques du continent."
+            subtitle="Le Groupe Syel est établi à Kinshasa , en République Démocratique du Congo, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié
+            Depuis notre siège à Kinshasa, en République Démocratique du Congo, jusqu'à nos opérations couvrant 8 pays, le Groupe Syel maintient une empreinte solide à travers les marchés les plus dynamiques du continent."
             centered
             light
           />
@@ -192,7 +193,7 @@ export function GlobalMap() {
             className="mt-14 max-w-2xl mx-auto text-center"
           >
             <p className="text-warm-400 text-sm lg:text-base leading-relaxed">
-              Avec des racines profondes au Cameroun et une présence croissante en Afrique
+              Avec des racines profondes à Kinshasa et une présence croissante en Afrique
               centrale et de l&apos;Ouest, le Groupe Syel construit l&apos;infrastructure,
               la logistique et l&apos;ossature numérique dont le continent a besoin pour prospérer.
             </p>

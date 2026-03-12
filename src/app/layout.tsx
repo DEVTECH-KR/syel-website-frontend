@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     template: "%s | Groupe Syel",
   },
   description:
-    "Groupe Syel is a diversified corporate group headquartered in Douala, Cameroon, driving excellence across energy, transport, agri-food, technology, construction, and real estate.",
+    "Groupe Syel is a diversified corporate group headquartered in Kinshasa, Democratic Republic of the Congo, driving excellence across energy, transport, agri-food, technology, construction, and real estate.",
   keywords: [
     "Groupe Syel",
     "corporate group",
-    "Cameroon",
+    "Democratic Republic of the Congo",
     "energy",
     "transport",
     "agri-food",
