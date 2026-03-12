@@ -40,9 +40,9 @@ function PageHero() {
 
       <div className="container-custom relative z-10 py-28 text-center">
         <motion.div variants={fadeInUp} initial="hidden" animate="visible">
-          <h1 className="font-heading text-white">Get in Touch</h1>
+          <h1 className="font-heading text-white">Contactez-nous</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-warm-200 md:text-xl">
-            We&rsquo;d love to hear from you. Reach out to the Groupe Syel team.
+            Nous serions ravis de vous lire. Contactez l&rsquo;équipe du Groupe Syel.
           </p>
         </motion.div>
       </div>
@@ -273,12 +273,12 @@ function ContactInfo() {
       <div className="rounded-2xl bg-warm-50 p-6">
         <h3 className="flex items-center gap-2 font-heading text-lg font-bold text-base-700">
           <Building2 className="h-5 w-5 text-teal-500" />
-          Headquarters
+          Siège
         </h3>
         <div className="mt-4 space-y-3">
           <div className="flex items-start gap-3 text-sm text-warm-700">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-teal-500" />
-            <span>Boulevard du 30 Juin, Gombe, Kinshasa, République Démocratique du Congo</span>
+            <span>Avenue Coteaux 4660, Gombe Kinshasa</span>
           </div>
           <div className="flex items-center gap-3 text-sm text-warm-700">
             <Phone className="h-4 w-4 shrink-0 text-teal-500" />
@@ -287,11 +287,25 @@ function ContactInfo() {
           <div className="flex items-center gap-3 text-sm text-warm-700">
             <Mail className="h-4 w-4 shrink-0 text-teal-500" />
             <a
-              href="mailto:info@groupesyel.com"
-              className="transition-colors hover:text-teal-600"
+href="mailto:info@groupesyel.cd"
+                className="transition-colors hover:text-teal-600"
             >
-              info@groupesyel.com
+              info@groupesyel.cd
             </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Usine */}
+      <div className="rounded-2xl bg-warm-50 p-6">
+        <h3 className="flex items-center gap-2 font-heading text-lg font-bold text-base-700">
+          <Building2 className="h-5 w-5 text-teal-500" />
+          Usine
+        </h3>
+        <div className="mt-4 space-y-3">
+          <div className="flex items-start gap-3 text-sm text-warm-700">
+            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-teal-500" />
+            <span>Limete Industriel, 1er Rue DILANDOSE, Avenue Mpela Nº23B, Kinshasa</span>
           </div>
         </div>
       </div>
@@ -393,7 +407,7 @@ function BranchOffices() {
             eyebrow="Our Offices"
             title="Subsidiary Locations"
             highlight="Locations"
-            subtitle="Get in touch with any of our subsidiary offices."
+            subtitle="Prenez contact avec l'une de nos filiales."
             centered
           />
         </motion.div>

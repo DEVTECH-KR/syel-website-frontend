@@ -134,27 +134,25 @@ export function Footer() {
               <li className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 mt-0.5 text-primary-400 shrink-0" />
                 <a
-                  href="mailto:info@groupesyel.com"
+                  href="mailto:info@groupesyel.cd"
                   className="text-sm text-warm-500 hover:text-primary-300 transition-colors"
                 >
-                  info@groupesyel.com
+                  info@groupesyel.cd
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 mt-0.5 text-primary-400 shrink-0" />
                 <a
-                  href="tel:+237233421580"
+                  href="tel:+243815123456"
                   className="text-sm text-warm-500 hover:text-primary-300 transition-colors"
                 >
-                  +257 62395155
+                  +243 815 123 456
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary-400 shrink-0" />
                 <span className="text-sm text-warm-500">
-                  Boulevard de la Liberté
-                  <br />
-                  Kinshasa, RDC
+                  Avenue Coteaux 4660, Gombe Kinshasa
                 </span>
               </li> 
             </ul>

@@ -31,9 +31,9 @@ export const branches: Branch[] = [
     projectCount: 38,
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
-    contactEmail: "energie@groupesyel.com",
+    contactEmail: "energie@groupesyel.cd",
     contactPhone: "+243 815 123 450",
-    address: "Boulevard du 30 Juin, Gombe, Kinshasa, République Démocratique du Congo",
+    address: "Avenue Coteaux 4660, Gombe Kinshasa",
   },
   {
     slug: "syel-transport",
@@ -50,7 +50,7 @@ export const branches: Branch[] = [
     projectCount: 52,
     image:
       "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
-    contactEmail: "transport@groupesyel.com",
+    contactEmail: "transport@groupesyel.cd",
     contactPhone: "+243 815 123 451",
     address:
       "Zone industrielle de Limete, Avenue de la Révolution, Kinshasa, République Démocratique du Congo",
@@ -70,7 +70,7 @@ export const branches: Branch[] = [
     projectCount: 24,
     image:
       "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
-    contactEmail: "agro@groupesyel.com",
+    contactEmail: "agro@groupesyel.cd",
     contactPhone: "+243 815 123 452",
     address: "Avenue du Commerce, Zone Industrielle, Lubumbashi, RDC",
   },
@@ -89,9 +89,9 @@ export const branches: Branch[] = [
     projectCount: 45,
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
-    contactEmail: "tech@groupesyel.com",
+    contactEmail: "tech@groupesyel.cd",
     contactPhone: "+243 815 123 453",
-    address: "Gombe, Kinshasa, République Démocratique du Congo",
+    address: "Avenue Coteaux 4660, Gombe Kinshasa",
   },
   {
     slug: "syel-btp",
@@ -108,9 +108,9 @@ export const branches: Branch[] = [
     projectCount: 34,
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-    contactEmail: "btp@groupesyel.com",
+    contactEmail: "btp@groupesyel.cd",
     contactPhone: "+243 815 123 454",
-    address: "Limete, Kinshasa, République Démocratique du Congo",
+    address: "Limete Industriel, 1er Rue DILANDOSE, Avenue Mpela Nº23B, Kinshasa",
   },
   {
     slug: "syel-immobilier",
@@ -127,8 +127,8 @@ export const branches: Branch[] = [
     projectCount: 18,
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
-    contactEmail: "immobilier@groupesyel.com",
+    contactEmail: "immobilier@groupesyel.cd",
     contactPhone: "+243 815 123 455",
-    address: "Gombe, Kinshasa, République Démocratique du Congo",
+    address: "Avenue Coteaux 4660, Gombe Kinshasa",
   },
 ];

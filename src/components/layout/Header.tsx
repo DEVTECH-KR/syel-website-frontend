@@ -161,13 +161,13 @@ export function Header() {
                 {/* Contact info — desktop only */}
                 <div className="hidden lg:flex items-center gap-6">
                   <a
-                    href="mailto:info@groupesyel.com"
+                    href="mailto:info@groupesyel.cd"
                     className="flex items-center gap-2 text-sm text-warm-400 hover:text-primary-300 transition-colors group"
                   >
                     <div className="flex items-center justify-center w-8 h-8 rounded-full bg-base-700 group-hover:bg-primary-600 transition-colors">
                       <Mail className="w-3.5 h-3.5 text-primary-400 group-hover:text-white transition-colors" />
                     </div>
-                    <span className="hidden xl:inline">info@groupesyel.com</span>
+                    <span className="hidden xl:inline">info@groupesyel.cd</span>
                   </a>
 
                   <div className="flex items-center gap-2 group">

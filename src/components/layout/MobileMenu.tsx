@@ -216,11 +216,11 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   Contact
                 </p>
                 <a
-                  href="mailto:info@groupesyel.com"
+                  href="mailto:info@groupesyel.cd"
                   className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-warm-400 hover:text-primary-300 hover:bg-base-700 transition-colors"
                 >
                   <Mail className="w-4 h-4 text-primary-400 shrink-0" />
-                  info@groupesyel.com
+                  info@groupesyel.cd
                 </a>
                 <a
                   href="tel:+237233421580"
