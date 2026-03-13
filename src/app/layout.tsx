@@ -17,6 +17,10 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   title: {
     default: "Groupe Syel | Diversified Excellence Across Industries",
     template: "%s | Groupe Syel",
