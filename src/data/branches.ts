@@ -44,8 +44,8 @@ export const branches: Branch[] = [
     description:
       "Syel Transport opère une flotte de plus de 350 véhicules assurant le transport de marchandises, la logistique portuaire et la distribution sur les corridors économiques de la RDC.",
     longDescription:
-      "Fondée en 2010 en même temps que le Groupe Syel, Syel Transport est la filiale historique du groupe. Spécialisée dans le transport routier de marchandises, la logistique portuaire et la gestion de la chaîne d'approvisionnement, elle opère sur les corridors Kinshasa–Matadi, Kinshasa–Lubumbashi et Kinshasa–Goma. La flotte comprend plus de 350 camions, semi-remorques et véhicules spécialisés, gérés depuis un hub logistique de 12 000 m² situé dans la zone industrielle de Limete à Kinshasa. Syel Transport est le partenaire logistique de référence pour les grands importateurs, les organisations humanitaires et les projets d'infrastructure en RDC. En 2024, la filiale a lancé un système de suivi GPS en temps réel et un portail client digital, améliorant les délais de livraison de 35 %. L'entreprise emploie 850 collaborateurs, dont 480 chauffeurs professionnels certifiés.",
-    established: "2010",
+      "Fondée en 2012 en même temps que le Groupe Syel, Syel Transport est la filiale historique du groupe. Spécialisée dans le transport routier de marchandises, la logistique portuaire et la gestion de la chaîne d'approvisionnement, elle opère sur les corridors Kinshasa–Matadi, Kinshasa–Lubumbashi et Kinshasa–Goma. La flotte comprend plus de 350 camions, semi-remorques et véhicules spécialisés, gérés depuis un hub logistique de 12 000 m² situé dans la zone industrielle de Limete à Kinshasa. Syel Transport est le partenaire logistique de référence pour les grands importateurs, les organisations humanitaires et les projets d'infrastructure en RDC. En 2024, la filiale a lancé un système de suivi GPS en temps réel et un portail client digital, améliorant les délais de livraison de 35 %. L'entreprise emploie 850 collaborateurs, dont 480 chauffeurs professionnels certifiés.",
+    established: "2012",
     memberCount: 850,
     projectCount: 52,
     image:

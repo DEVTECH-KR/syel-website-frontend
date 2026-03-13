@@ -47,7 +47,7 @@ function PageHero() {
           <h1 className="font-heading text-white">À Propos du Groupe Syel</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-warm-200 md:text-xl">
             Un groupe diversifié qui stimule l&apos;innovation, l&apos;excellence et la
-            croissance durable à travers la RDC depuis 2010.
+            croissance durable à travers la RDC depuis 2012.
           </p>
         </motion.div>
       </div>
@@ -79,7 +79,7 @@ function OurStory() {
             <div className="mt-8 space-y-5 text-warm-700 leading-relaxed">
               <p>
                 
-                Le Groupe Syel a été fondé en 2010 à KINSHASA/RDC par un groupe
+                Le Groupe Syel a été fondé en 2012 à KINSHASA/RDC par un groupe
                 d&apos;entrepreneurs visionnaires qui ont vu l&apos;opportunité de construire un
                 conglomérat de classe mondiale ancré dans l&apos;excellence africaine. Commençant
                 avec une seule entreprise de distribution d&apos;énergie, les fondateurs ont combiné
@@ -96,7 +96,7 @@ function OurStory() {
                 transforment les communautés et les industries.
               </p>
               <p>
-                En quinze ans, le Groupe Syel est passé de cette seule entreprise
+                En plus de dix ans, le Groupe Syel est passé de cette seule entreprise
                 à un groupe diversifié avec six filiales couvrant l&apos;énergie,
                 le transport, l&apos;agroalimentaire, la technologie, la construction et
                 l&apos;immobilier. Avec plus de 1 200 employés et des opérations à travers
@@ -141,7 +141,7 @@ function OurStory() {
 
 const milestones = [
   {
-    year: "2010",
+    year: "2012",
     title: "Fondation à Kinshasa",
     description:
       "Le Groupe Syel est établi à Kinshasa, en République Démocratique du Congo, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié.",

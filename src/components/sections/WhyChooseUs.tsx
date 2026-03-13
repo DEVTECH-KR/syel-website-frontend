@@ -41,7 +41,7 @@ const advantages = [
     icon: Globe2,
     title: "Ancrage Africain, Vision Globale",
     description:
-      "Enracinés en République Démocratique du Congo depuis 2010, nous opérons à Kinshasa, Lubumbashi, Goma, Bukavu et Matadi — combinant connaissance locale et ambition nationale.",
+      "Enracinés en République Démocratique du Congo depuis 2012, nous opérons à Kinshasa, Lubumbashi, Goma, Bukavu et Matadi — combinant connaissance locale et ambition nationale.",
     stat: "5+",
     statLabel: "villes d'implantation",
     accent: "bg-base-800",

@@ -22,7 +22,7 @@ const slides: HeroSlide[] = [
     src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
     eyebrow: "Groupe Syel — Excellence diversifiée",
     headline: "Stimuler la croissance.\nDans tous les secteurs d'activité.",
-    highlight: "Depuis 2010.",
+    highlight: "Depuis 2012.",
     subtitle:
       "Le Groupe Syel se positionne comme un acteur économique majeur et un partenaire stratégique de premier plan en République Démocratique du Congo. Fort de son expertise multisectorielle, il contribue au progrès et au développement dans les domaines de l'énergie, des transports, de l'agroalimentaire, des technologies, de la construction et de l'immobilier, avec des activités ancrées en RDC et une ambition continentale.",
   },

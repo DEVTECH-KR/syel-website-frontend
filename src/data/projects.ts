@@ -98,6 +98,32 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "elikya-usine-pate-arachide-kwilu",
+    title: "Elikya : Usines de Pâte d'Arachide du Kwilu",
+    category: "Agroalimentaire",
+    region: "Avenue Coteaux 4660, Gombe Kinshasa",
+    branch: "syel-agroalimentaire",
+    description:
+      "Unité de transformation de l'arachide en pâte (Elikya) du Kwilu, implantée à Kinshasa. Production de pâte d'arachide de qualité pour le marché local et régional.",
+    longDescription:
+      "Elikya est la marque phare de Syel Agroalimentaire dédiée à la transformation de l'arachide en pâte dans la région du Kwilu. L'usine, dont le siège opérationnel est situé Avenue Coteaux 4660 à Gombe Kinshasa, transforme des arachides issues des coopératives du Kwilu en pâte d'arachide naturelle et grillée, conformément aux normes d'hygiène et de qualité. L'unité dispose d'une capacité de production de plusieurs tonnes par mois, avec des lignes de torréfaction, de broyage et d'emballage. Elikya travaille en partenariat avec des centaines de producteurs locaux, leur garantissant des débouchés stables et un prix juste. La marque est distribuée dans les grandes surfaces et marchés de Kinshasa et des provinces voisines, contribuant à la sécurité alimentaire et à la valorisation du terroir congolais.",
+    impact:
+      "Valorisation du terroir du Kwilu, création d'emplois locaux, pâte d'arachide de qualité pour le marché congolais",
+    beneficiaries: 800,
+    status: "active",
+    progress: 100,
+    startDate: "2024-01-01",
+    image: "/pictures_news/Elikya.jpeg",
+    gallery: [
+      "/pictures_news/elikya1.jpeg",
+      "/pictures_news/elikya2.jpeg",
+      "/pictures_news/elikya3.jpeg",
+      "/pictures_news/elikya4.jpeg",
+      "/pictures_news/elikya5.jpeg",
+      "/pictures_news/elikya6.jpeg",
+    ],
+  },
+  {
     slug: "plateforme-digitale-matadi",
     title: "Plateforme Digitale du Port de Matadi (OVM)",
     category: "Technologies",

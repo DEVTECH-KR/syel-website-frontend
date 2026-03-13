@@ -12,7 +12,7 @@ export const team: TeamMember[] = [
   {
     name: "Olivier Kameshera",
     role: "Président-Directeur Général",
-    bio: "Ingénieur diplômé de l'École Polytechnique de Paris et titulaire d'un MBA de HEC Paris, Olivier Kameshera a fondé le Groupe Syel en 2010 à l'âge de 32 ans avec un seul camion de transport. Visionnaire et bâtisseur, il a transformé une petite entreprise de logistique en un groupe diversifié de 3 500 collaborateurs opérant dans 6 secteurs stratégiques. Avant de créer Syel, il a travaillé 8 ans chez Bolloré Africa Logistics, où il a occupé des postes de direction en RDC et dans la sous-région. Olivier est membre du conseil d'administration de la Fédération des Entreprises du Congo (FEC) et intervient régulièrement au Forum Économique Africain.",
+    bio: "Ingénieur diplômé de l'École Polytechnique de Paris et titulaire d'un MBA de HEC Paris, Olivier Kameshera a fondé le Groupe Syel en 2012 à l'âge de 32 ans avec un seul camion de transport. Visionnaire et bâtisseur, il a transformé une petite entreprise de logistique en un groupe diversifié de 3 500 collaborateurs opérant dans 6 secteurs stratégiques. Avant de créer Syel, il a travaillé 8 ans chez Bolloré Africa Logistics, où il a occupé des postes de direction en RDC et dans la sous-région. Olivier est membre du conseil d'administration de la Fédération des Entreprises du Congo (FEC) et intervient régulièrement au Forum Économique Africain.",
     image: "/teams/olivier.jpeg",
     linkedin: "https://linkedin.com/in/paul-henri-nkoulou",
     twitter: "https://twitter.com/phnkoulou",

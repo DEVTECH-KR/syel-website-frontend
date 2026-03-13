@@ -21,7 +21,10 @@ const categoryColors: Record<string, "default" | "primary" | "gold" | "outline">
   "Immobilier": "default",
 };
 
-const featured = projects.slice(0, 3);
+const elikyaSlug = "elikya-usine-pate-arachide-kwilu";
+const elikyaProject = projects.find((p) => p.slug === elikyaSlug);
+const others = projects.filter((p) => p.slug !== elikyaSlug).slice(0, 2);
+const featured = elikyaProject ? [elikyaProject, ...others] : projects.slice(0, 3);
 
 export function FeaturedProjects() {
   const { ref, isInView } = useInView({ threshold: 0.1 });
