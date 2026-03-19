@@ -117,7 +117,7 @@ function OurStory() {
           >
             <div className="overflow-hidden rounded-2xl shadow-hero">
               <Image
-                src="/about.jpg"
+                src="/pictures_news/image3.jpg"
                 alt="L'équipe du Groupe Syel au travail"
                 width={800}
                 height={600}
