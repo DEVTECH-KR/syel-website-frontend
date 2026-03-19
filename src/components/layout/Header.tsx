@@ -30,17 +30,17 @@ import { cn } from "@/lib/utils";
 import { MobileMenu } from "./MobileMenu";
 
 const navLinks = [
-  { label: "Home", href: "/", icon: Home },
-  { label: "About", href: "/about", icon: Info },
-  { label: "Subsidiaries", href: "/branches", icon: Building2, hasDropdown: true },
-  { label: "Projects", href: "/projects", icon: FolderHeart },
-  { label: "News", href: "/news", icon: Newspaper },
+  { label: "Accueil", href: "/", icon: Home },
+  { label: "À propos", href: "/about", icon: Info },
+  { label: "Filiales", href: "/branches", icon: Building2, hasDropdown: true },
+  { label: "Projets", href: "/projects", icon: FolderHeart },
+  { label: "Actualités", href: "/news", icon: Newspaper },
   { label: "Contact", href: "/contact", icon: MessageCircle },
 ];
 
 const subsidiarySectors = [
   {
-    sector: "Energy",
+    sector: "Énergie",
     icon: Zap,
     subsidiaries: [
       { name: "Syel Énergie", href: "/branches/syel-energie" },
@@ -54,14 +54,14 @@ const subsidiarySectors = [
     ],
   },
   {
-    sector: "Agri-food",
+    sector: "Agroalimentaire",
     icon: Wheat,
     subsidiaries: [
       { name: "Syel Agroalimentaire", href: "/branches/syel-agroalimentaire" },
     ],
   },
   {
-    sector: "Technology",
+    sector: "Technologie",
     icon: Cpu,
     subsidiaries: [
       { name: "Syel Technologies", href: "/branches/syel-technologies" },
@@ -75,7 +75,7 @@ const subsidiarySectors = [
     ],
   },
   {
-    sector: "Real Estate",
+    sector: "Immobilier",
     icon: Building,
     subsidiaries: [
       { name: "Syel Immobilier", href: "/branches/syel-immobilier" },
@@ -176,7 +176,7 @@ export function Header() {
                     </div>
                     <div className="hidden xl:block">
                       <p className="text-[10px] uppercase tracking-wider text-warm-600 leading-none">
-                        Call Us
+                        Appelez-nous
                       </p>
                       <a
                         href="tel:+243815123456"
@@ -192,7 +192,7 @@ export function Header() {
                 <button
                   onClick={() => setMobileOpen(true)}
                   className="lg:hidden p-2 -mr-2 text-warm-400 hover:text-white hover:bg-base-700 rounded-lg transition-colors"
-                  aria-label="Open navigation menu"
+                  aria-label="Ouvrir le menu"
                 >
                   <Menu className="w-6 h-6" />
                 </button>
@@ -283,7 +283,7 @@ export function Header() {
                                     href="/subsidiaries"
                                     className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary-400 hover:text-primary-300 transition-colors"
                                   >
-                                    View All Subsidiaries
+                                    Voir toutes les filiales
                                     <ArrowRight className="w-3.5 h-3.5" />
                                   </Link>
                                 </div>
@@ -319,7 +319,7 @@ export function Header() {
                 className="inline-flex items-center gap-2 px-6 py-2 bg-primary-500 hover:bg-primary-400 text-white text-[13px] font-semibold rounded-full transition-colors duration-200 shadow-sm hover:shadow-md"
               >
                 <Briefcase className="w-3.5 h-3.5" />
-                Join Us
+                Rejoignez-nous
               </Link>
             </div>
           </div>

@@ -43,7 +43,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Client Testimonials"
           title="Ce que disent nos partenaires"
-          highlight="Our Partners"
+          highlight="nos partenaires"
           centered
         />
 

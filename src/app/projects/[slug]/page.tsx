@@ -59,11 +59,11 @@ export default function ProjectDetailPage() {
           Project Not Found
         </h1>
         <p className="mt-4 text-warm-600">
-          The project you&apos;re looking for doesn&apos;t exist.
+          Le projet que vous recherchez n&apos;existe pas.
         </p>
         <Button href="/projects" variant="primary" className="mt-8">
           <ArrowLeft className="h-4 w-4" />
-          Back to All Projects
+          Retour à tous les projets
         </Button>
       </main>
     );
@@ -151,9 +151,9 @@ export default function ProjectDetailPage() {
               className="lg:col-span-3"
             >
               <SectionHeading
-                eyebrow="Overview"
-                title="About This Project"
-                highlight="This Project"
+                eyebrow="Aperçu"
+                title="À propos de ce projet"
+                highlight="ce projet"
               />
 
               <div className="mt-8">
@@ -264,7 +264,7 @@ export default function ProjectDetailPage() {
                   <div>
                     <div className="flex items-center justify-between text-xs text-warm-500">
                       <span className="font-semibold uppercase tracking-wider">
-                        Progress
+                        Progression
                       </span>
                       <span className="font-semibold text-base-700">
                         {project.progress}%
@@ -403,10 +403,10 @@ export default function ProjectDetailPage() {
         <section className="section-padding bg-warm-50">
           <div className="container-custom">
             <SectionHeading
-              eyebrow="Related"
-              title="Related Projects"
-              highlight="Projects"
-              subtitle="Explore more projects across our subsidiaries."
+              eyebrow="Voir aussi"
+              title="Projets similaires"
+              highlight="Projets"
+              subtitle="Découvrez d&apos;autres projets de nos filiales."
               centered
             />
 
@@ -445,7 +445,7 @@ export default function ProjectDetailPage() {
                         href={`/projects/${related.slug}`}
                         className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
                       >
-                        Learn More
+                        En savoir plus
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     </div>
@@ -465,7 +465,7 @@ export default function ProjectDetailPage() {
             className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to All Projects
+            Retour à tous les projets
           </Link>
         </div>
       </section>

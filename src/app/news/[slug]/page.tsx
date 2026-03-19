@@ -112,7 +112,7 @@ export default function NewsArticlePage() {
               <span className="text-warm-300">·</span>
               <span className="flex items-center gap-1 text-sm">
                 <Clock className="h-4 w-4" />
-                {article.readTime} min read
+                {article.readTime} min de lecture
               </span>
             </div>
           </motion.div>
@@ -228,7 +228,7 @@ export default function NewsArticlePage() {
                         </p>
                         <div className="mt-4 flex items-center justify-end border-t border-warm-100 pt-4">
                           <span className="inline-flex items-center gap-1 text-sm font-medium text-teal-600">
-                            Read More
+                            Lire la suite
                             <ArrowRight className="h-3.5 w-3.5" />
                           </span>
                         </div>

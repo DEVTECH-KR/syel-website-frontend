@@ -22,26 +22,26 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   title: {
-    default: "Groupe Syel | Diversified Excellence Across Industries",
+    default: "Groupe Syel | Excellence diversifiée à travers les industries",
     template: "%s | Groupe Syel",
   },
   description:
-    "Groupe Syel is a diversified corporate group headquartered in Kinshasa, Democratic Republic of the Congo, driving excellence across energy, transport, agri-food, technology, construction, and real estate.",
+    "Le Groupe Syel est un groupe diversifié dont le siège est à Kinshasa, en République Démocratique du Congo, œuvrant dans l'énergie, le transport, l'agroalimentaire, la technologie, la construction et l'immobilier.",
   keywords: [
     "Groupe Syel",
-    "corporate group",
-    "Democratic Republic of the Congo",
-    "energy",
+    "groupe diversifié",
+    "République Démocratique du Congo",
+    "énergie",
     "transport",
-    "agri-food",
-    "technology",
+    "agroalimentaire",
+    "technologie",
     "construction",
-    "real estate",
+    "immobilier",
   ],
   openGraph: {
-    title: "Groupe Syel | Diversified Excellence Across Industries",
+    title: "Groupe Syel | Excellence diversifiée à travers les industries",
     description:
-      "A diversified corporate group driving excellence across energy, transport, agri-food, technology, construction, and real estate.",
+      "Un groupe diversifié qui porte l'excellence dans l'énergie, le transport, l'agroalimentaire, la technologie, la construction et l'immobilier.",
     type: "website",
     locale: "en_US",
   },
@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="fr" className={`${inter.variable} ${playfair.variable}`}>
       <body className="font-body antialiased">
         <Header />
         <main>{children}</main>

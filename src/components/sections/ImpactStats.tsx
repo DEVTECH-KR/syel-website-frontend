@@ -55,8 +55,8 @@ export function ImpactStats() {
       <div className="container-custom relative z-10" ref={ref}>
         <SectionHeading
           eyebrow="Groupe Syel en Chiffres"
-          title="Numbers That Tell Our Story"
-          highlight="Our Story"
+          title="Des chiffres qui racontent notre histoire"
+          highlight="notre histoire"
           subtitle="Over 15 years of growth, diversification, and measurable impact across Central and West Africa."
           centered
         />

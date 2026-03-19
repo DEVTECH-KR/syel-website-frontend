@@ -19,7 +19,7 @@ import {
 import { useInView } from "@/hooks/useInView";
 
 const categories = [
-  "All",
+  "Tous",
   "Corporate",
   "Announcements",
   "Press",
@@ -28,13 +28,13 @@ const categories = [
 ];
 
 export default function NewsPage() {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState("Tous");
 
   const filteredArticles = useMemo(() => {
     const sorted = [...articles].sort(
       (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
-    if (activeCategory === "All") return sorted;
+    if (activeCategory === "Tous") return sorted;
     return sorted.filter((a) => a.category === activeCategory);
   }, [activeCategory]);
 
@@ -67,8 +67,7 @@ export default function NewsPage() {
               Actualités & Infos
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/85">
-              Stay informed about Groupe Syel&apos;s latest developments, industry
-              insights, and corporate announcements.
+              Restez informé des dernières actualités du Groupe Syel, des enjeux sectoriels et des annonces du groupe.
             </p>
           </motion.div>
         </div>
@@ -124,7 +123,7 @@ export default function NewsPage() {
                         <span>By {featuredArticle.author}</span>
                         <span className="flex items-center gap-1">
                           <Clock className="h-4 w-4" />
-                          {featuredArticle.readTime} min read
+                          {featuredArticle.readTime} min de lecture
                         </span>
                       </div>
                       <div className="mt-6">
@@ -182,10 +181,10 @@ export default function NewsPage() {
                         <div className="mt-4 flex items-center justify-between border-t border-warm-100 pt-4">
                           <span className="flex items-center gap-1 text-xs text-warm-400">
                             <Clock className="h-3.5 w-3.5" />
-                            {article.readTime} min read
+                            {article.readTime} min de lecture
                           </span>
                           <span className="inline-flex items-center gap-1 text-sm font-medium text-teal-600">
-                            Read More
+                            Lire la suite
                             <ArrowRight className="h-3.5 w-3.5" />
                           </span>
                         </div>
@@ -203,7 +202,7 @@ export default function NewsPage() {
         <section className="section-padding">
           <div className="container-custom text-center py-20">
             <p className="text-warm-500 text-lg">
-              No articles found in this category.
+              Aucun article dans cette catégorie.
             </p>
           </div>
         </section>

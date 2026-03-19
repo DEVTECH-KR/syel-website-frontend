@@ -27,21 +27,21 @@ import { cn } from "@/lib/utils";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const navLinks = [
-  { label: "Home", href: "/", icon: Home },
-  { label: "About", href: "/about", icon: Info },
-  { label: "Subsidiaries", href: "/subsidiaries", icon: Building2, hasChildren: true },
-  { label: "Projects", href: "/projects", icon: FolderHeart },
-  { label: "News", href: "/news", icon: Newspaper },
+  { label: "Accueil", href: "/", icon: Home },
+  { label: "À propos", href: "/about", icon: Info },
+  { label: "Filiales", href: "/branches", icon: Building2, hasChildren: true },
+  { label: "Projets", href: "/projects", icon: FolderHeart },
+  { label: "Actualités", href: "/news", icon: Newspaper },
   { label: "Contact", href: "/contact", icon: MessageCircle },
 ];
 
 const subsidiaryLinks = [
-  { name: "Syel Énergie", href: "/subsidiaries/syel-energie", icon: Zap },
-  { name: "Syel Transport", href: "/subsidiaries/syel-transport", icon: Truck },
-  { name: "Syel Agroalimentaire", href: "/subsidiaries/syel-agroalimentaire", icon: Wheat },
-  { name: "Syel Technologies", href: "/subsidiaries/syel-technologies", icon: Cpu },
-  { name: "Syel BTP", href: "/subsidiaries/syel-btp", icon: HardHat },
-  { name: "Syel Immobilier", href: "/subsidiaries/syel-immobilier", icon: Building },
+  { name: "Syel Énergie", href: "/branches/syel-energie", icon: Zap },
+  { name: "Syel Transport", href: "/branches/syel-transport", icon: Truck },
+  { name: "Syel Agroalimentaire", href: "/branches/syel-agroalimentaire", icon: Wheat },
+  { name: "Syel Technologies", href: "/branches/syel-technologies", icon: Cpu },
+  { name: "Syel BTP", href: "/branches/syel-btp", icon: HardHat },
+  { name: "Syel Immobilier", href: "/branches/syel-immobilier", icon: Building },
 ];
 
 interface MobileMenuProps {
@@ -108,7 +108,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <button
                 onClick={onClose}
                 className="rounded-lg p-2 text-warm-500 hover:bg-base-700 hover:text-white transition-colors"
-                aria-label="Close menu"
+                aria-label="Fermer le menu"
               >
                 <X className="h-5 w-5" />
               </button>
@@ -240,7 +240,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-primary-500 hover:bg-primary-400 text-white text-sm font-semibold rounded-full transition-colors shadow-md"
               >
                 <Briefcase className="w-4 h-4" />
-                Join Us
+                Rejoignez-nous
               </Link>
             </div>
           </motion.div>

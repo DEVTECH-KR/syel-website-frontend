@@ -17,7 +17,7 @@ import {
 const quickLinks = [
   { label: "Accueil", href: "/" },
   { label: "À Propos", href: "/about" },
-  { label: "Filiales", href: "/subsidiaries" },
+  { label: "Filiales", href: "/branches" },
   { label: "Projets", href: "/projects" },
   { label: "Actualités", href: "/news" },
   { label: "Contact", href: "/contact" },
@@ -45,7 +45,7 @@ export function Footer() {
       <div
         className="h-1 w-full bg-gradient-to-r from-primary-500 via-primary-400 to-gold-400"
         aria-hidden="true"
-      />/.
+      />
 
       <div className="container-custom py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">

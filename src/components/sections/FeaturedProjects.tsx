@@ -80,7 +80,7 @@ export function FeaturedProjects() {
 
                   <div className="mt-5">
                     <div className="mb-1 flex items-center justify-between text-xs text-warm-500">
-                      <span>Progress</span>
+                      <span>Progression</span>
                       <span className="font-medium text-primary-600">{project.progress}%</span>
                     </div>
                     <div className="h-2 overflow-hidden rounded-full bg-warm-200">
@@ -97,7 +97,7 @@ export function FeaturedProjects() {
                     href={`/projects/${project.slug}`}
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary-600 transition-colors hover:text-primary-700"
                   >
-                    Learn More
+                    En savoir plus
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ export function FeaturedProjects() {
 
         <div className="mt-14 text-center">
           <Button href="/projects" variant="outline" icon={<ArrowRight className="h-4 w-4" />}>
-            View All Projects
+            Voir tous les projets
           </Button>
         </div>
       </div>

@@ -184,7 +184,7 @@ export function ProgramsShowcase() {
                 href="/projects"
                 className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-white transition-colors group/link"
               >
-                Explore Programs
+                Découvrir les programmes
                 <ArrowRight className="w-4 h-4 transition-transform group-hover/link:translate-x-1" />
               </Link>
             </div>
@@ -244,7 +244,7 @@ export function ProgramsShowcase() {
                   href="/projects"
                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary-600 hover:text-primary-700 transition-colors group/link"
                 >
-                  Learn More
+                  En savoir plus
                   <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-1" />
                 </Link>
 

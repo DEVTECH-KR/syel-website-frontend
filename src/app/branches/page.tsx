@@ -61,10 +61,10 @@ export default function BranchesPage() {
             className="max-w-2xl"
           >
             <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-              Our Subsidiaries
+              Nos filiales
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-warm-200 md:text-xl">
-              Discover the diversified business portfolio that powers Groupe Syel.
+              Découvrez le portefeuille d&apos;activités diversifié qui fait la force du Groupe Syel.
             </p>
           </motion.div>
         </div>
@@ -129,14 +129,14 @@ export default function BranchesPage() {
                         <span className="font-semibold text-base-700">
                           {branch.memberCount}
                         </span>{" "}
-                        members
+                        collaborateurs
                       </div>
                       <div className="flex items-center gap-1.5 text-sm text-warm-600">
                         <FolderHeart className="h-4 w-4 text-teal-500" />
                         <span className="font-semibold text-base-700">
                           {branch.projectCount}
                         </span>{" "}
-                        projects
+                        projets
                       </div>
                     </div>
 
@@ -144,7 +144,7 @@ export default function BranchesPage() {
                       href={`/branches/${branch.slug}`}
                       className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
                     >
-                      Explore Subsidiary
+                      Découvrir la filiale
                       <ArrowRight className="h-4 w-4" />
                     </Link>
                   </div>
@@ -161,7 +161,7 @@ export default function BranchesPage() {
               className="py-20 text-center"
             >
               <p className="text-lg text-warm-500">
-                No subsidiaries found in this sector yet.
+                Aucune filiale dans ce secteur pour le moment.
               </p>
             </motion.div>
           )}

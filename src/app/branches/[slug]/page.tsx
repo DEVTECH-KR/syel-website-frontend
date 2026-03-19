@@ -189,7 +189,7 @@ export default function BranchDetailPage() {
                     <Mail className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Email
+                        E-mail
                       </dt>
                       <dd className="text-base-700">{branch.contactEmail}</dd>
                     </div>
@@ -386,7 +386,7 @@ export default function BranchDetailPage() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-base-800">
-                      Email
+                      E-mail
                     </p>
                     <a
                       href={`mailto:${branch.contactEmail}`}

@@ -32,7 +32,7 @@ import {
 } from "@/lib/animations";
 
 const categoryTabs = [
-  "All",
+  "Tous",
   "Énergie",
   "Transport",
   "Agroalimentaire",
@@ -51,7 +51,7 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export default function ProjectsPage() {
-  const [activeTab, setActiveTab] = useState("All");
+  const [activeTab, setActiveTab] = useState("Tous");
   const { ref: heroRef, isInView: heroInView } = useInView({ threshold: 0.2 });
   const { ref: gridRef, isInView: gridInView } = useInView({ threshold: 0.1 });
   const { ref: statsRef, isInView: statsInView } = useInView({
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
   });
 
   const filteredProjects =
-    activeTab === "All"
+    activeTab === "Tous"
       ? projects
       : projects.filter((p) => p.category === activeTab);
 
@@ -82,10 +82,10 @@ export default function ProjectsPage() {
             className="max-w-2xl"
           >
             <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-              Projects & Achievements
+              Projets et réalisations
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-warm-200 md:text-xl">
-              Explore our projects driving growth and innovation across key sectors.
+              Découvrez nos projets qui impulsent la croissance et l&apos;innovation dans nos secteurs clés.
             </p>
           </motion.div>
         </div>
@@ -157,7 +157,7 @@ export default function ProjectsPage() {
                     {/* Progress bar */}
                     <div className="mt-4">
                       <div className="flex items-center justify-between text-xs text-warm-500">
-                        <span>Progress</span>
+                        <span>Progression</span>
                         <span className="font-semibold text-base-700">
                           {project.progress}%
                         </span>
@@ -175,14 +175,14 @@ export default function ProjectsPage() {
                       <span className="font-semibold text-base-700">
                         {project.beneficiaries.toLocaleString()}
                       </span>{" "}
-                      beneficiaries
+                      bénéficiaires
                     </div>
 
                     <Link
                       href={`/projects/${project.slug}`}
                       className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 transition-colors hover:text-teal-700"
                     >
-                      Learn More
+                      En savoir plus
                       <ArrowRight className="h-4 w-4" />
                     </Link>
                   </div>
@@ -199,7 +199,7 @@ export default function ProjectsPage() {
               className="py-20 text-center"
             >
               <p className="text-lg text-warm-500">
-                No projects found in this category yet.
+                Aucun projet dans cette catégorie pour le moment.
               </p>
             </motion.div>
           )}
@@ -217,10 +217,10 @@ export default function ProjectsPage() {
             className="mb-12 text-center"
           >
             <p className="text-sm font-semibold uppercase tracking-widest text-teal-300">
-              Our Reach
+              Notre portée
             </p>
             <h2 className="mt-3 font-heading text-3xl font-bold text-white md:text-4xl">
-              Our Impact in Numbers
+              Notre impact en chiffres
             </h2>
           </motion.div>
 

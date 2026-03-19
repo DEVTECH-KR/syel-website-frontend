@@ -70,7 +70,7 @@ export function NewsGrid() {
                     </span>
                     <span className="inline-flex items-center gap-1">
                       <Clock className="h-3.5 w-3.5" />
-                      {article.readTime} min read
+                      {article.readTime} min de lecture
                     </span>
                   </div>
 
@@ -86,7 +86,7 @@ export function NewsGrid() {
                     href={`/news/${article.slug}`}
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary-600 transition-colors hover:text-primary-700"
                   >
-                    Read More
+                    Lire la suite
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
@@ -97,7 +97,7 @@ export function NewsGrid() {
 
         <div className="mt-14 text-center">
           <Button href="/news" variant="outline" icon={<ArrowRight className="h-4 w-4" />}>
-            View All News
+            Voir toutes les actualités
           </Button>
         </div>
       </div>

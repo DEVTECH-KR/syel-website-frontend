@@ -153,37 +153,37 @@ const milestones = [
       "Expansion dans la logistique et le transport, capitalisant sur l'emplacement stratégique du Port de Matadi et de Kinshasa pour construire un réseau national de fret et de transport de marchandises.",
   },
   {
-    year: "2014",
+    year: "2012",
     title: "Expansion Agroalimentaire",
     description:
       "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers la RDC.",
   },
   {
-    year: "2016",
+    year: "2012",
     title: "Technologie & Innovation",
     description:
       "Lancement de Syel Technologies pour piloter la transformation numérique, offrant des solutions informatiques, du développement logiciel et des services de connectivité aux entreprises et aux communautés.",
   },
   {
-    year: "2018",
+    year: "2012",
     title: "Construction & Immobilier",
     description:
       "Entrée dans les secteurs de la construction et de l'immobilier avec Syel BTP et Syel Immobilier, livrant des projets d'infrastructure et des développements de logements modernes.",
   },
   {
-    year: "2020",
+    year: "2012",
     title: "1 000+ Employés",
     description:
       "Dépassement du millier d'employés dans toutes les filiales, renforçant notre engagement en faveur de la création d'emplois et du développement professionnel en Afrique centrale.",
   },
   {
-    year: "2023",
+    year: "2012",
     title: "Expansion Nationale",
     description:
       "Extension des opérations à travers toute la RDC, avec l'ouverture de bureaux à Lubumbashi, Goma et Bukavu, renforçant la présence du groupe dans les provinces clés.",
   },
   {
-    year: "2025",
+    year: "2012",
     title: "Transformation Numérique",
     description:
       "Lancement d'une plateforme numérique intégrée connectant toutes les filiales, partenaires et clients en temps réel, permettant une plus grande efficacité et transparence au sein du groupe.",

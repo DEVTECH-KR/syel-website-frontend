@@ -21,10 +21,10 @@ const slides: HeroSlide[] = [
     type: "image",
     src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
     eyebrow: "Groupe Syel — Excellence diversifiée",
-    headline: "Stimuler la croissance.\nDans tous les secteurs d'activité.",
+    headline: "Stimuler la croissance\nDans tous les secteurs.",
     highlight: "Depuis 2012.",
     subtitle:
-      "Le Groupe Syel se positionne comme un acteur économique majeur et un partenaire stratégique de premier plan en République Démocratique du Congo. Fort de son expertise multisectorielle, il contribue au progrès et au développement dans les domaines de l'énergie, des transports, de l'agroalimentaire, des technologies, de la construction et de l'immobilier, avec des activités ancrées en RDC et une ambition continentale.",
+      "Acteur économique majeur en RDC, le Groupe Syel développe des solutions innovantes dans l'énergie, les transports, l'agroalimentaire et les infrastructures, avec une ambition résolument continentale.",
   },
   {
     type: "image",
@@ -33,7 +33,7 @@ const slides: HeroSlide[] = [
     headline: "Éclairer la voie\nvers un avenir durable.",
     highlight: "Une énergie propre pour tous.",
     subtitle:
-      "Des fermes solaires aux projets hydroélectriques, Syel Énergie fournit des solutions énergétiques fiables et durables qui alimentent la croissance économique et améliorent la vie de millions de personnes à travers le continent.",
+      "Pionnier des énergies renouvelables en Afrique, Syel Énergie développe des solutions solaires et hydroélectriques pour alimenter durablement les foyers et les industries.",
   },
   {
     type: "image",
@@ -42,7 +42,7 @@ const slides: HeroSlide[] = [
     headline: "Faire avancer\nl'Afrique.",
     highlight: "En toute fiabilité.",
     subtitle:
-      "Avec une flotte moderne et une couverture stratégique des corridors Kinshasa–Matadi, Kinshasa–Lubumbashi et Kinshasa–Goma, Syel Transport est le partenaire logistique de confiance pour les entreprises de la RDC.",
+      "Avec une flotte moderne couvrant les corridors stratégiques Kinshasa–Matadi, Lubumbashi et Goma, Syel Transport assure une logistique fiable pour les entreprises de RDC.",
   },
   {
     type: "image",
@@ -51,7 +51,7 @@ const slides: HeroSlide[] = [
     headline: "De la ferme\nà la table.",
     highlight: "L'excellence à chaque étape.",
     subtitle:
-      "Nous collaborons avec des milliers d'agriculteurs locaux, transformons des produits agricoles de qualité et apportons les meilleurs produits congolais aux marchés de la RDC et du monde entier.",
+      "En collaboration avec des milliers d'agriculteurs locaux, Syel Agroalimentaire transforme et valorise les produits congolais pour les marchés nationaux et internationaux.",
   },
   {
     type: "image",
@@ -60,7 +60,7 @@ const slides: HeroSlide[] = [
     headline: "Construire les industries\nde demain.",
     highlight: "Dès aujourd'hui.",
     subtitle:
-      "Grâce à des technologies de pointe, une construction de classe mondiale et des développements immobiliers visionnaires, Groupe Syel façonne les infrastructures d'une Afrique moderne.",
+      "Technologies de pointe, constructions d'exception et immobilier visionnaire : Groupe Syel façonne les infrastructures de l'Afrique moderne.",
   },
 ];
 
@@ -136,7 +136,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-[75vh] lg:h-[calc(100vh-118px)] min-h-[480px] lg:min-h-[650px] flex items-center justify-center overflow-hidden"
+      className="relative h-screen max-h-[800px] min-h-[600px] sm:min-h-[650px] lg:min-h-[750px] xl:min-h-[800px] flex items-center justify-center overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -192,7 +192,7 @@ export function Hero() {
       </div>
 
       {/* ===== Contenu ===== */}
-      <div className="container-custom relative z-10 text-center pb-10 lg:pb-20 lg:pt-8">
+      <div className="container-custom relative z-10 text-center px-4 sm:px-6 lg:px-8 mx-auto w-full">
         <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={`text-${current}`}
@@ -200,18 +200,18 @@ export function Hero() {
             initial="enter"
             animate="center"
             exit="exit"
-            className="mx-auto max-w-4xl"
+            className="mx-auto w-full max-w-3xl lg:max-w-4xl px-4"
           >
             <motion.p
               initial="hidden"
               animate="visible"
               variants={fadeInUp}
-              className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-gold-400"
+              className="mb-4 sm:mb-6 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-gold-400"
             >
               {slide.eyebrow}
             </motion.p>
 
-            <h1 className="font-heading text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight text-white">
               {slide.headline.split("\n").map((line, i) => (
                 <span key={i}>
                   {line}
@@ -221,15 +221,12 @@ export function Hero() {
               <span className="text-gold-400">{slide.highlight}</span>
             </h1>
 
-            <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/90 md:text-xl">
+            <p className="mx-auto mt-4 sm:mt-6 md:mt-8 max-w-xl sm:max-w-2xl text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/90 px-2">
               {slide.subtitle}
             </p>
 
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button href="/subsidiaries" size="lg">
-                Nos Filiales
-              </Button>
-              <Button href="/about" variant="outline-light" size="lg">
+            <div className="mt-6 sm:mt-8 md:mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <Button href="/about" variant="outline-light" size="lg" className="w-full sm:w-auto min-w-[200px]">
                 En Savoir Plus
               </Button>
             </div>
@@ -240,25 +237,25 @@ export function Hero() {
       {/* ===== Navigation par flèches ===== */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-11 h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200 lg:left-8"
+        className="absolute left-2 sm:left-4 lg:left-8 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 lg:w-11 lg:h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200"
         aria-label="Diapositive précédente"
       >
-        <ChevronLeft className="w-5 h-5" />
+        <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
       </button>
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-11 h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200 lg:right-8"
+        className="absolute right-2 sm:right-4 lg:right-8 top-1/2 z-20 -translate-y-1/2 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 lg:w-11 lg:h-11 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 hover:bg-white/20 hover:text-white transition-all duration-200"
         aria-label="Diapositive suivante"
       >
-        <ChevronRight className="w-5 h-5" />
+        <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
       </button>
 
       {/* ===== Compteur de diapositives ===== */}
-      <div className="absolute bottom-5 right-6 z-20 flex items-center gap-2 text-white/50 text-sm font-medium lg:right-12">
-        <span className="text-white text-lg font-heading font-bold">
+      <div className="absolute bottom-5 right-4 sm:right-6 lg:right-12 z-20 flex items-center gap-2 text-white/50 text-xs sm:text-sm font-medium">
+        <span className="text-white text-base sm:text-lg font-heading font-bold">
           {String(current + 1).padStart(2, "0")}
         </span>
-        <span className="w-6 h-px bg-white/30" />
+        <span className="w-4 sm:w-6 h-px bg-white/30" />
         <span>{String(slides.length).padStart(2, "0")}</span>
       </div>
 
@@ -267,13 +264,13 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-14 left-1/2 z-10 -translate-x-1/2"
+        className="absolute bottom-8 sm:bottom-14 left-1/2 z-10 -translate-x-1/2 hidden sm:block"
       >
         <motion.div
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
         >
-          <ChevronDown className="h-5 w-5 text-white/25" />
+          <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5 text-white/25" />
         </motion.div>
       </motion.div>
     </section>

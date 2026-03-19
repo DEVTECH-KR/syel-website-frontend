@@ -41,13 +41,6 @@ export function CTABanner() {
             >
               Contactez-Nous
             </Button>
-            <Button
-              href="/careers"
-              variant="outline-light"
-              size="lg"
-            >
-              Rejoignez Notre Équipe
-            </Button>
           </div>
         </motion.div>
       </div>

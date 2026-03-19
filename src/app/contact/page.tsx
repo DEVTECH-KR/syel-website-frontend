@@ -67,24 +67,24 @@ interface FormErrors {
 }
 
 const subjectOptions = [
-  "General Inquiry",
-  "Partnership",
-  "Careers",
-  "Business Proposal",
-  "Media/Press",
-  "Other",
+  "Demande générale",
+  "Partenariat",
+  "Carrières",
+  "Proposition commerciale",
+  "Médias / Presse",
+  "Autre",
 ];
 
 function validate(data: FormData): FormErrors {
   const errors: FormErrors = {};
-  if (!data.name.trim()) errors.name = "Full name is required.";
-  if (!data.email.trim()) errors.email = "Email is required.";
+  if (!data.name.trim()) errors.name = "Le nom complet est requis.";
+  if (!data.email.trim()) errors.email = "L'adresse e-mail est requise.";
   else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email))
-    errors.email = "Enter a valid email address.";
-  if (!data.subject) errors.subject = "Please select a subject.";
-  if (!data.message.trim()) errors.message = "Message is required.";
+    errors.email = "Veuillez entrer une adresse e-mail valide.";
+  if (!data.subject) errors.subject = "Veuillez sélectionner un sujet.";
+  if (!data.message.trim()) errors.message = "Le message est requis.";
   else if (data.message.trim().length < 10)
-    errors.message = "Message must be at least 10 characters.";
+    errors.message = "Le message doit contenir au moins 10 caractères.";
   return errors;
 }
 
@@ -141,13 +141,13 @@ function ContactForm() {
           htmlFor="name"
           className="mb-1.5 block text-sm font-medium text-base-700"
         >
-          Full Name
+          Nom complet
         </label>
         <input
           id="name"
           name="name"
           type="text"
-          placeholder="Your full name"
+          placeholder="Votre nom complet"
           value={form.name}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -169,7 +169,7 @@ function ContactForm() {
           htmlFor="email"
           className="mb-1.5 block text-sm font-medium text-base-700"
         >
-          Email Address
+          Adresse e-mail
         </label>
         <input
           id="email"
@@ -197,7 +197,7 @@ function ContactForm() {
           htmlFor="subject"
           className="mb-1.5 block text-sm font-medium text-base-700"
         >
-          Subject
+          Sujet
         </label>
         <select
           id="subject"
@@ -215,7 +215,7 @@ function ContactForm() {
           )}
         >
           <option value="" disabled>
-            Select a subject
+            Choisir un sujet
           </option>
           {subjectOptions.map((opt) => (
             <option key={opt} value={opt}>
@@ -240,7 +240,7 @@ function ContactForm() {
           id="message"
           name="message"
           rows={5}
-          placeholder="How can we help?"
+          placeholder="Comment pouvons-nous vous aider ?"
           value={form.message}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -258,7 +258,7 @@ function ContactForm() {
       </div>
 
       <Button type="submit" size="lg" className="w-full" icon={<Send className="h-4 w-4" />}>
-        Send Message
+        Envoyer le message
       </Button>
     </form>
   );
@@ -314,15 +314,15 @@ href="mailto:info@groupesyel.cd"
       <div className="rounded-2xl bg-warm-50 p-6">
         <h3 className="flex items-center gap-2 font-heading text-lg font-bold text-base-700">
           <Clock className="h-5 w-5 text-teal-500" />
-          Office Hours
+          Horaires d&apos;ouverture
         </h3>
         <div className="mt-4 space-y-2 text-sm text-warm-700">
-          <p>Monday &ndash; Friday</p>
+          <p>Lundi &ndash; Vendredi</p>
           <p className="font-semibold text-base-700">
-            8:00 AM &ndash; 5:30 PM WAT
+            8 h 00 &ndash; 17 h 30 (WAT)
           </p>
           <p className="text-warm-500">
-            Saturday &amp; Sunday: Closed
+            Samedi &amp; Dimanche : Fermé
           </p>
         </div>
       </div>
@@ -331,7 +331,7 @@ href="mailto:info@groupesyel.cd"
       <div className="rounded-2xl bg-warm-50 p-6">
         <h3 className="flex items-center gap-2 font-heading text-lg font-bold text-base-700">
           <Globe className="h-5 w-5 text-teal-500" />
-          Follow Us
+          Suivez-nous
         </h3>
         <div className="mt-4 flex gap-3">
           {[
@@ -369,10 +369,9 @@ function ContactGrid() {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
-            <h2 className="font-heading line-accent">Send Us a Message</h2>
+            <h2 className="font-heading line-accent">Envoyez-nous un message</h2>
             <p className="mt-6 mb-8 text-warm-600">
-              Fill out the form below and a member of our team will get back to
-              you within two business days.
+              Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.
             </p>
             <ContactForm />
           </motion.div>
@@ -404,7 +403,7 @@ function BranchOffices() {
           animate={isInView ? "visible" : "hidden"}
         >
           <SectionHeading
-            eyebrow="Our Offices"
+            eyebrow="Nos bureaux"
             title="Subsidiary Locations"
             highlight="Locations"
             subtitle="Prenez contact avec l'une de nos filiales."
