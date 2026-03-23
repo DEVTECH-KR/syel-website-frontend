@@ -19,14 +19,14 @@ import {
   staggerItem,
 } from "@/lib/animations";
 
-const regionTabs = [
-  "All",
-  "Africa",
-  "Europe",
-  "Americas",
-  "Asia",
-  "Middle East",
-];
+// const regionTabs = [
+//   "All",
+//   "Africa",
+//   "Europe",
+//   "Americas",
+//   "Asia",
+//   "Middle East",
+// ];
 
 export default function BranchesPage() {
   const [activeTab, setActiveTab] = useState("All");
@@ -71,7 +71,7 @@ export default function BranchesPage() {
       </section>
 
       {/* Filter Tabs */}
-      <section className="border-b border-warm-200 bg-white">
+      {/* <section className="border-b border-warm-200 bg-white">
         <div className="container-custom py-4">
           <Tabs
             tabs={regionTabs}
@@ -79,7 +79,7 @@ export default function BranchesPage() {
             onTabChange={setActiveTab}
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Branch Cards Grid */}
       <section className="section-padding bg-warm-50">
@@ -102,9 +102,9 @@ export default function BranchesPage() {
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                       unoptimized
                     />
-                    <div className="absolute left-4 top-4">
+                    {/* <div className="absolute left-4 top-4">
                       <Badge variant="primary">{branch.region}</Badge>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="flex flex-1 flex-col p-6">

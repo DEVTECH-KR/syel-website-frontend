@@ -90,7 +90,7 @@ function OurStory() {
                 Ce qui a commencé comme une entreprise énergétique ciblée s&apos;est rapidement développé
                 lorsque l&apos;équipe a identifié des marchés mal desservis dans des secteurs clés. En
                 trois ans, le Groupe Syel s&apos;est diversifié dans le transport et la logistique,
-                tirant parti de la position de Kinshasa en tant que capitale politique et économique de la RDC, et du Port de Matadi comme principale porte d'entrée maritime.
+                tirant parti de la position de Kinshasa en tant que capitale politique et économique de la RDC, et du Port de Matadi comme principale porte d&apos;entrée maritime.
                 Le principe fondateur était clair : offrir l&apos;excellence opérationnelle,
                 investir dans les talents locaux et construire des infrastructures qui
                 transforment les communautés et les industries.
