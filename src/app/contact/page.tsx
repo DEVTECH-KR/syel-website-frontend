@@ -319,7 +319,7 @@ href="mailto:info@groupesyel.cd"
         <div className="mt-4 space-y-2 text-sm text-warm-700">
           <p>Lundi &ndash; Vendredi</p>
           <p className="font-semibold text-base-700">
-            8 h 00 &ndash; 17 h 30 (WAT)
+            8 h 00 &ndash; 16 h 00 (WAT)
           </p>
           <p className="text-warm-500">
             Samedi &amp; Dimanche : Fermé

@@ -73,18 +73,15 @@ function OurStory() {
               eyebrow="Qui Nous Sommes"
               title="Notre Histoire"
               highlight="Histoire"
-              subtitle="Un parcours d'ambition, de diversification et d'engagement sans faille pour construire l'avenir économique de la République Démocratique du Congo."
+              subtitle="Un parcours d'ambition, de diversification et d'engagement sans faille pour construire l'avenir économique en République Démocratique du Congo."
             />
 
             <div className="mt-8 space-y-5 text-warm-700 leading-relaxed">
               <p>
                 
-                Le Groupe Syel a été fondé en 2012 à KINSHASA/RDC par un groupe
+                La Société Groupe Syel a été fondé en 2012 à KINSHASA/RDC par un groupe
                 d&apos;entrepreneurs visionnaires qui ont vu l&apos;opportunité de construire un
-                conglomérat de classe mondiale ancré dans l&apos;excellence africaine. Commençant
-                avec une seule entreprise de distribution d&apos;énergie, les fondateurs ont combiné
-                une expertise locale approfondie avec les meilleures pratiques internationales pour
-                créer une entreprise capable de rivaliser sur la scène mondiale.
+                conglomérat de classe mondiale ancré dans l&apos;excellence africaine.
               </p>
               <p>
                 Ce qui a commencé comme une entreprise énergétique ciblée s&apos;est rapidement développé
@@ -147,43 +144,44 @@ const milestones = [
       "Le Groupe Syel est établi à Kinshasa, en République Démocratique du Congo, avec un accent initial sur la distribution d'énergie, jetant les bases d'un groupe d'entreprises diversifié.",
   },
   {
-    year: "2012",
+    year: "2015",
     title: "Lancement de Syel Transport",
     description:
       "Expansion dans la logistique et le transport, capitalisant sur l'emplacement stratégique du Port de Matadi et de Kinshasa pour construire un réseau national de fret et de transport de marchandises.",
   },
   {
-    year: "2012",
-    title: "Expansion Agroalimentaire",
-    description:
-      "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers la RDC.",
-  },
-  {
-    year: "2012",
-    title: "Technologie & Innovation",
-    description:
-      "Lancement de Syel Technologies pour piloter la transformation numérique, offrant des solutions informatiques, du développement logiciel et des services de connectivité aux entreprises et aux communautés.",
-  },
-  {
-    year: "2012",
-    title: "Construction & Immobilier",
-    description:
-      "Entrée dans les secteurs de la construction et de l'immobilier avec Syel BTP et Syel Immobilier, livrant des projets d'infrastructure et des développements de logements modernes.",
-  },
-  {
-    year: "2012",
-    title: "1 000+ Employés",
-    description:
-      "Dépassement du millier d'employés dans toutes les filiales, renforçant notre engagement en faveur de la création d'emplois et du développement professionnel en Afrique centrale.",
-  },
-  {
-    year: "2012",
+    year: "2019",
     title: "Expansion Nationale",
     description:
       "Extension des opérations à travers toute la RDC, avec l'ouverture de bureaux à Lubumbashi, Goma et Bukavu, renforçant la présence du groupe dans les provinces clés.",
   },
   {
-    year: "2012",
+    year: "2020",
+    title: "Expansion Agroalimentaire",
+    description:
+      "Création de Syel Agroalimentaire pour investir dans la transformation alimentaire et les chaînes de valeur agricoles, soutenant les agriculteurs locaux et la sécurité alimentaire à travers la RDC.",
+  },
+  {
+    year: "2023",
+    title: "Technologie & Innovation",
+    description:
+      "Lancement de Syel Technologies pour piloter la transformation numérique, offrant des solutions informatiques, du développement logiciel et des services de connectivité aux entreprises et aux communautés.",
+  },
+  {
+    year: "2025",
+    title: "Construction & Immobilier",
+    description:
+      "Entrée dans les secteurs de la construction et de l'immobilier avec Syel BTP et Syel Immobilier, livrant des projets d'infrastructure et des développements de logements modernes.",
+  },
+  {
+    year: "2025",
+    title: "1 000+ Employés",
+    description:
+      "Dépassement du millier d'employés dans toutes les filiales, renforçant notre engagement en faveur de la création d'emplois et du développement professionnel en Afrique centrale.",
+  },
+  
+  {
+    year: "2026",
     title: "Transformation Numérique",
     description:
       "Lancement d'une plateforme numérique intégrée connectant toutes les filiales, partenaires et clients en temps réel, permettant une plus grande efficacité et transparence au sein du groupe.",
@@ -205,7 +203,7 @@ function Timeline() {
             eyebrow="Notre Parcours"
             title="Étapes Clés"
             highlight="Clés"
-            subtitle="D'une seule entreprise énergétique à un groupe diversifié — voici les étapes qui ont façonné le Groupe Syel."
+            subtitle="D'une seule entreprise énergétique à un groupe diversifié — voici les étapes qui ont façonné la Société Groupe Syel."
             centered
           />
         </motion.div>

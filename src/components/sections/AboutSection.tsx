@@ -149,7 +149,7 @@ export function AboutSection() {
             <div className="mt-3 w-16 h-1 rounded-full bg-gradient-to-r from-primary-500 to-gold-400" />
 
             <p className="mt-6 text-warm-600 text-base lg:text-[1.05rem] leading-relaxed">
-              Fondé en 2012 à Kinshasa, RDC, le Groupe Syel est passé à un groupe diversifié le plus
+              Fondé en 2012 à Kinshasa, RDC, la Société Groupe Syel est passé à un groupe diversifié le plus
               important d&apos;Afrique centrale — offrant l&apos;excellence dans les domaines
               de l&apos;énergie, du transport, de l&apos;agroalimentaire, de la technologie,
               de la construction et de l&apos;immobilier.

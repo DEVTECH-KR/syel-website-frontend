@@ -38,7 +38,7 @@ export const projects: Project[] = [
     beneficiaries: 50000,
     status: "active",
     progress: 78,
-    startDate: "2023-06-01",
+    startDate: "2015-06-01",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
     gallery: [
@@ -62,13 +62,13 @@ export const projects: Project[] = [
     beneficiaries: 15000,
     status: "completed",
     progress: 100,
-    startDate: "2022-01-15",
-    endDate: "2024-12-31",
+    startDate: "2015-06-01",
+    endDate: "2017-12-31",
     image:
       "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80",
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1661907153090-93759d68acb1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80",
     ],
   },
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     description:
       "Construction et mise en exploitation d'une unité moderne de torréfaction et d'emballage de café arabica, en partenariat avec 1 500 producteurs du Nord-Kivu et du Sud-Kivu.",
     longDescription:
-      "Ce projet phare de Syel Agroalimentaire vise à capter la valeur ajoutée du café congolais en le transformant localement plutôt que de l'exporter brut. L'usine, implantée à Bukavu, dispose d'une capacité de torréfaction de 5 000 tonnes par an et de lignes d'emballage automatisées pour les formats consommateurs (250 g, 500 g, 1 kg) et professionnels (5 kg, 25 kg). Un laboratoire de contrôle qualité certifié ISO 22000 garantit la traçabilité de la graine au sachet. Le programme inclut un volet social majeur : 1 500 caféiculteurs organisés en 45 coopératives au Kivu bénéficient de prix d'achat garantis supérieurs de 20 % au cours mondial, d'intrants fournis à crédit et de formations en bonnes pratiques agricoles. La marque « Arabica du Kivu » est désormais distribuée en RDC et a remporté la médaille d'or au Salon de l'Agriculture de Paris 2025.",
+      "Ce projet phare de Syel Agroalimentaire vise à capter la valeur ajoutée du café congolais en le transformant localement plutôt que de l'exporter brut. L'usine, implantée à Bukavu, dispose d'une capacité de torréfaction de 5 000 tonnes par an et de lignes d'emballage automatisées pour les formats consommateurs (250 g, 500 g, 1 kg) et professionnels (5 kg, 25 kg). Un laboratoire de contrôle qualité certifié ISO 22000 garantit la traçabilité de la graine au sachet. Le programme inclut un volet social majeur : 1 500 caféiculteurs organisés en 45 coopératives au Kivu bénéficient de prix d'achat garantis supérieurs de 20 % au cours mondial, d'intrants fournis à crédit et de formations en bonnes pratiques agricoles.",
     impact:
       "1 500 producteurs intégrés dans la chaîne de valeur, revenus augmentés de 35 %",
     beneficiaries: 1500,
@@ -99,7 +99,7 @@ export const projects: Project[] = [
   },
   {
     slug: "elikya-usine-pate-arachide-kwilu",
-    title: "Elikya : Usines de Pâte d'Arachide du Kwilu",
+    title: "Elikya : Usines de Pâte d'Arachide ",
     category: "Agroalimentaire",
     region: "Avenue Coteaux 4660, Gombe Kinshasa",
     branch: "syel-agroalimentaire",
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     beneficiaries: 800,
     status: "active",
     progress: 100,
-    startDate: "2024-01-01",
+    startDate: "2020-01-01",
     image: "/pictures_news/Elikya.jpeg",
     gallery: [
       "/pictures_news/elikya1.jpeg",

@@ -56,7 +56,7 @@ export default function ProjectDetailPage() {
     return (
       <main className="flex min-h-[60vh] flex-col items-center justify-center section-padding">
         <h1 className="font-heading text-3xl font-bold text-base-800">
-          Project Not Found
+          Projet non trouvé
         </h1>
         <p className="mt-4 text-warm-600">
           Le projet que vous recherchez n&apos;existe pas.
@@ -88,7 +88,7 @@ export default function ProjectDetailPage() {
 
   return (
     <main>
-      {/* Project Hero */}
+      {/* Hero du projet */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden">
         <Image
           src={project.image}
@@ -117,10 +117,15 @@ export default function ProjectDetailPage() {
                       ? "gold"
                       : "primary"
                 }
-              >
-                {project.status.charAt(0).toUpperCase() +
-                  project.status.slice(1)}
+              >                
+                {project.status === "active"
+                  ? "En cours"
+                  : project.status === "completed"
+                    ? "Terminé"
+                    : project.status.charAt(0).toUpperCase() +
+                      project.status.slice(1)}
               </Badge>
+
             </div>
             <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               {project.title}
@@ -132,14 +137,14 @@ export default function ProjectDetailPage() {
               </span>
               <span className="flex items-center gap-2">
                 <Calendar className="h-5 w-5" />
-                Started {formatDate(project.startDate)}
+                Débuté le {formatDate(project.startDate)}
               </span>
             </div>
           </motion.div>
         </div>
       </section>
-
-      {/* Project Overview */}
+    
+      {/* Aperçu du projet */}
       <section className="section-padding">
         <div className="container-custom">
           <div className="grid gap-12 lg:grid-cols-5">
@@ -150,7 +155,7 @@ export default function ProjectDetailPage() {
               animate={overviewInView ? "visible" : "hidden"}
               className="lg:col-span-3"
             >
-              <SectionHeading
+              <SectionHeading                                          
                 eyebrow="Aperçu"
                 title="À propos de ce projet"
                 highlight="ce projet"
@@ -178,7 +183,7 @@ export default function ProjectDetailPage() {
 
               <div className="mt-8 rounded-xl bg-teal-50 p-6">
                 <h3 className="font-heading text-lg font-bold text-teal-800">
-                  Impact Statement
+                  Déclaration d&apos;impact
                 </h3>
                 <p className="mt-2 text-teal-700 leading-relaxed">
                   {project.impact}
@@ -194,14 +199,14 @@ export default function ProjectDetailPage() {
             >
               <Card hoverable={false} className="p-6">
                 <h3 className="font-heading text-lg font-bold text-base-800">
-                  Key Facts
+                  Chiffres clés
                 </h3>
                 <dl className="mt-5 space-y-4">
                   <div className="flex items-start gap-3">
                     <Tag className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Category
+                        Catégorie
                       </dt>
                       <dd className="text-base-700">{project.category}</dd>
                     </div>
@@ -210,7 +215,7 @@ export default function ProjectDetailPage() {
                     <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Region
+                        Région
                       </dt>
                       <dd className="text-base-700">{project.region}</dd>
                     </div>
@@ -219,10 +224,14 @@ export default function ProjectDetailPage() {
                     <Clock className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Status
+                        Statut
                       </dt>
                       <dd className="text-base-700 capitalize">
-                        {project.status}
+                        {project.status === "active"
+                          ? "En cours"
+                          : project.status === "completed"
+                            ? "Terminé"
+                            : project.status}
                       </dd>
                     </div>
                   </div>
@@ -230,7 +239,7 @@ export default function ProjectDetailPage() {
                     <Calendar className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Start Date
+                        Date de début
                       </dt>
                       <dd className="text-base-700">
                         {formatDate(project.startDate)}
@@ -239,22 +248,22 @@ export default function ProjectDetailPage() {
                   </div>
                   {project.endDate && (
                     <div className="flex items-start gap-3">
-                      <Calendar className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
+                      {/* <Calendar className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                       <div>
                         <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                          End Date
+                          Date de fin
                         </dt>
                         <dd className="text-base-700">
                           {formatDate(project.endDate)}
                         </dd>
-                      </div>
+                      </div> */}
                     </div>
                   )}
                   <div className="flex items-start gap-3">
                     <Users className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" />
                     <div>
                       <dt className="text-xs font-semibold uppercase tracking-wider text-warm-500">
-                        Beneficiaries
+                        Bénéficiaires
                       </dt>
                       <dd className="text-base-700">
                         {project.beneficiaries.toLocaleString()}
@@ -284,7 +293,7 @@ export default function ProjectDetailPage() {
         </div>
       </section>
 
-      {/* Impact Metrics */}
+      {/* Métriques d'impact */}
       <section className="section-padding bg-warm-50">
         <div className="container-custom">
           <motion.div
@@ -298,19 +307,19 @@ export default function ProjectDetailPage() {
               Impact
             </p>
             <h2 className="mt-3 font-heading text-3xl font-bold text-base-800 md:text-4xl">
-              Project Impact Metrics
+              Mesures d&apos;impact du projet
             </h2>
           </motion.div>
 
           <div className="grid gap-8 sm:grid-cols-3">
             <Counter
               value={project.beneficiaries}
-              label="Beneficiaries Reached"
+              label="Bénéficiaires touchés"
               icon={<Users className="h-8 w-8" />}
             />
             <Counter
               value={project.progress}
-              label="Project Completion"
+              label="Avancement du projet"
               suffix="%"
               icon={<BarChart3 className="h-8 w-8" />}
             />
@@ -326,26 +335,27 @@ export default function ProjectDetailPage() {
                       )
                     )
                   : Math.ceil(
+                      // eslint-disable-next-line react-hooks/purity
                       (Date.now() -
                         new Date(project.startDate).getTime()) /
                         (1000 * 60 * 60 * 24 * 30)
                     )
               }
-              label="Months of Impact"
+              label="Mois d&apos;impact"
               icon={<Calendar className="h-8 w-8" />}
             />
           </div>
         </div>
       </section>
 
-      {/* Photo Gallery */}
+      {/* Galerie photos */}
       {project.gallery.length > 0 && (
         <section className="section-padding">
           <div className="container-custom">
             <SectionHeading
-              eyebrow="Gallery"
-              title="Photo Gallery"
-              highlight="Gallery"
+              eyebrow="Galerie"
+              title="Galerie photos"
+              highlight="Galerie"
               centered
             />
 
@@ -366,7 +376,7 @@ export default function ProjectDetailPage() {
                   <div className="relative aspect-[4/3]">
                     <Image
                       src={img}
-                      alt={`${project.title} gallery image ${i + 1}`}
+                      alt={`${project.title} - image de galerie ${i + 1}`}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                       unoptimized
@@ -386,7 +396,7 @@ export default function ProjectDetailPage() {
                 <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg">
                   <Image
                     src={selectedImage}
-                    alt={`${project.title} gallery`}
+                    alt={`${project.title} - galerie`}
                     fill
                     className="object-cover"
                     unoptimized
@@ -398,7 +408,7 @@ export default function ProjectDetailPage() {
         </section>
       )}
 
-      {/* Related Projects */}
+      {/* Projets similaires */}
       {fallbackProjects.length > 0 && (
         <section className="section-padding bg-warm-50">
           <div className="container-custom">
@@ -409,7 +419,7 @@ export default function ProjectDetailPage() {
               subtitle="Découvrez d&apos;autres projets de nos filiales."
               centered
             />
-
+            
             <motion.div
               ref={relatedRef}
               variants={staggerContainer}
@@ -456,8 +466,10 @@ export default function ProjectDetailPage() {
           </div>
         </section>
       )}
+    
 
-      {/* Back link */}
+      {/* Lien de retour */}
+       b
       <section className="border-t border-warm-200 bg-white">
         <div className="container-custom py-8">
           <Link
