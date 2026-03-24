@@ -27,7 +27,7 @@ export const team: TeamMember[] = [
   {
     name: "Jean Kameshera",
     role: "Directeur des Opérations (COO)",
-    bio: "Ingénieur logiciel diplômé de Bujumbura Christian University BCU, Jean Kameshera pilote l'ensemble des opérations et coordonnant les 6 filiales dela Société Groupe Syel.",
+    bio: "Ingénieur logiciel diplômé de Bujumbura Christian University BCU, Jean Kameshera pilote l'ensemble des opérations et coordonnant les 6 filiales de la Société Groupe Syel.",
     image: "/teams/jean.jpeg",
     linkedin: "https://linkedin.com/in/emmanuel-abanda",
   },
