@@ -30,7 +30,7 @@ export const branches: Branch[] = [
     memberCount: 620,
     projectCount: 38,
     image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
+      "../pictures_news/Syel_energy.jpeg",
     contactEmail: "energie@groupesyel.cd",
     contactPhone: "+243 815 123 450",
     address: "Avenue Coteaux 4660, Gombe Kinshasa",
