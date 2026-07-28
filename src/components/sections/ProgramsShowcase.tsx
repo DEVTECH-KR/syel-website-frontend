@@ -59,7 +59,7 @@ const programs = [
     icon: Zap,
     title: "Énergie",
     description:
-      "Centrales solaires, mini-réseaux hybrides et solutions d'électrification — Syel Énergie accélère la transition énergétique de la RDC avec plus de 45 MW installés.",
+      "Centrales solaires, mini-réseaux hybrides et solutions d'électrification — Syel Energy accélère la transition énergétique de la RDC avec plus de 45 MW installés.",
     stat: { value: 45, suffix: " MW", label: "Capacité installée" },
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",

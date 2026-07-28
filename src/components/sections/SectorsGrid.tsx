@@ -28,7 +28,7 @@ interface Sector {
 const sectors: Sector[] = [
   {
     icon: Zap,
-    title: "Syel Énergie",
+    title: "Syel Energy",
     slug: "syel-energie",
     description:
       "Solaire, thermique et hybride — 45 MW de capacité installée à travers la République Démocratique du Congo.",

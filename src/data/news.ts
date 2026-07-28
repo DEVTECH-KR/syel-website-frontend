@@ -16,14 +16,14 @@ export const articles: Article[] = [
     slug: "groupe-syel-inaugure-centrale-solaire-lubumbashi",
     title: "Groupe Syel inaugure la plus grande centrale solaire du Katanga",
     excerpt:
-      "Avec 30 MW de capacité installée, la centrale solaire de Lubumbashi marque une étape décisive dans la stratégie énergétique de Syel Énergie et dans l'électrification du Haut-Katanga.",
-    content: `Le 15 novembre 2025, le Groupe Syel a officiellement inauguré la Centrale Solaire de Lubumbashi, un investissement de 28 milliards de francs congolais qui positionne Syel Énergie comme un acteur incontournable de la transition énergétique en République Démocratique du Congo. La cérémonie, présidée par le Ministre de l'Énergie et des Ressources Hydrauliques en présence du Gouverneur du Haut-Katanga et de représentants de la Banque Africaine de Développement, a rassemblé plus de 500 invités sur le site de la centrale.
+      "Avec 30 MW de capacité installée, la centrale solaire de Lubumbashi marque une étape décisive dans la stratégie énergétique de Syel Energy et dans l'électrification du Haut-Katanga.",
+    content: `Le 15 novembre 2025, le Groupe Syel a officiellement inauguré la Centrale Solaire de Lubumbashi, un investissement de 28 milliards de francs congolais qui positionne Syel Energy comme un acteur incontournable de la transition énergétique en République Démocratique du Congo. La cérémonie, présidée par le Ministre de l'Énergie et des Ressources Hydrauliques en présence du Gouverneur du Haut-Katanga et de représentants de la Banque Africaine de Développement, a rassemblé plus de 500 invités sur le site de la centrale.
 
 Avec ses 90 000 panneaux photovoltaïques monocristallins déployés sur 60 hectares, la centrale de Lubumbashi produit 30 MW d'énergie propre — suffisamment pour alimenter 50 000 foyers et réduire les émissions de CO₂ de 25 000 tonnes par an. Le système de stockage par batteries lithium-ion de 10 MWh assure une continuité de service même après le coucher du soleil, une innovation majeure pour la région.
 
 "Ce projet illustre notre conviction que l'énergie solaire n'est pas seulement une alternative écologique, mais la solution la plus économiquement viable pour électrifier la RDC", a déclaré Olivier Kameshera, Président-Directeur Général du Groupe Syel, lors de son discours inaugural. "Nous avons formé 50 techniciens locaux qui assureront la maintenance de cette centrale pendant les 25 prochaines années. C'est un investissement dans l'avenir énergétique du pays."
 
-La construction a duré 18 mois et a mobilisé plus de 400 ouvriers locaux, générant un impact économique significatif pour la communauté de Lubumbashi. Le succès de ce projet ouvre la voie à deux nouvelles centrales prévues à Kinshasa et à Goma, portant l'ambition de Syel Énergie à 100 MW de capacité solaire installée en RDC d'ici 2028.`,
+La construction a duré 18 mois et a mobilisé plus de 400 ouvriers locaux, générant un impact économique significatif pour la communauté de Lubumbashi. Le succès de ce projet ouvre la voie à deux nouvelles centrales prévues à Kinshasa et à Goma, portant l'ambition de Syel Energy à 100 MW de capacité solaire installée en RDC d'ici 2028.`,
     category: "Corporate",
     author: "Olivier Kameshera",
     authorRole: "Président-Directeur Général, Groupe Syel",
@@ -52,14 +52,14 @@ Le rapport détaille également la stratégie 2026-2030 du Groupe Syel, articul�
   },
   {
     slug: "partenariat-strategique-total-energies",
-    title: "Syel Énergie signe un partenariat stratégique avec TotalEnergies Africa",
+    title: "Syel Energy signe un partenariat stratégique avec TotalEnergies Africa",
     excerpt:
       "Un accord-cadre de 5 ans permettra aux deux entreprises de co-développer des projets d'énergie renouvelable à travers la République Démocratique du Congo.",
-    content: `Syel Énergie et TotalEnergies Africa ont signé le 10 février 2026 un accord-cadre de partenariat stratégique d'une durée de 5 ans pour le co-développement de projets d'énergie renouvelable en République Démocratique du Congo. L'accord, signé au siège du Groupe Syel à Kinshasa en présence des deux PDG et de représentants du gouvernement congolais, prévoit un investissement conjoint de 50 milliards de francs congolais (environ 20 millions de dollars américains) sur la période 2026-2031.
+    content: `Syel Energy et TotalEnergies Africa ont signé le 10 février 2026 un accord-cadre de partenariat stratégique d'une durée de 5 ans pour le co-développement de projets d'énergie renouvelable en République Démocratique du Congo. L'accord, signé au siège du Groupe Syel à Kinshasa en présence des deux PDG et de représentants du gouvernement congolais, prévoit un investissement conjoint de 50 milliards de francs congolais (environ 20 millions de dollars américains) sur la période 2026-2031.
 
 Le partenariat couvre trois domaines principaux : la construction de centrales solaires de moyenne puissance (10-50 MW) à Kinshasa, Lubumbashi, Goma et Mbuji-Mayi ; le développement de stations-service équipées de bornes de recharge pour véhicules électriques ; et la mise en place de programmes de formation conjoints pour les techniciens en énergies renouvelables. Quatre projets pilotes sont déjà identifiés, dont une centrale solaire de 20 MW à Goma et un réseau de 15 bornes de recharge rapide à Kinshasa.
 
-"Ce partenariat associe l'expertise mondiale de TotalEnergies en matière d'énergies renouvelables avec la connaissance approfondie du terrain et des communautés locales de Syel Énergie", a déclaré Olivier Kameshera. "Ensemble, nous avons la capacité d'accélérer significativement la transition énergétique de la sous-région." Patrick Pouyanné, PDG de TotalEnergies, a salué "un modèle de collaboration Sud-Nord qui place les compétences africaines au cœur de la stratégie énergétique du continent."`,
+"Ce partenariat associe l'expertise mondiale de TotalEnergies en matière d'énergies renouvelables avec la connaissance approfondie du terrain et des communautés locales de Syel Energy", a déclaré Olivier Kameshera. "Ensemble, nous avons la capacité d'accélérer significativement la transition énergétique de la sous-région." Patrick Pouyanné, PDG de TotalEnergies, a salué "un modèle de collaboration Sud-Nord qui place les compétences africaines au cœur de la stratégie énergétique du continent."`,
     category: "Announcements",
     author: "Olivier Kameshera",
     authorRole: "Président-Directeur Général, Groupe Syel",
@@ -129,9 +129,9 @@ Suite à cette récompense, Syel Agroalimentaire a signé des contrats de distri
     title: "Groupe Syel annonce son expansion à l'Est de la République Démocratique du Congo",
     excerpt:
       "Le Groupe Syel renforce sa présence à l'Est de la RDC avec l'ouverture de bureaux à Bukavu et Goma, et des projets dans l'énergie, le BTP et les technologies.",
-    content: `Le Groupe Syel a annoncé le 5 février 2026 l'ouverture de deux nouveaux bureaux régionaux à Bukavu (Sud-Kivu) et Goma (Nord-Kivu), marquant une étape majeure dans sa stratégie d'ancrage à travers toute la République Démocratique du Congo. Cette extension géographique concerne trois filiales : Syel Énergie, Syel BTP et Syel Technologies, qui disposent déjà de projets en cours de contractualisation dans les deux provinces.
+    content: `Le Groupe Syel a annoncé le 5 février 2026 l'ouverture de deux nouveaux bureaux régionaux à Bukavu (Sud-Kivu) et Goma (Nord-Kivu), marquant une étape majeure dans sa stratégie d'ancrage à travers toute la République Démocratique du Congo. Cette extension géographique concerne trois filiales : Syel Energy, Syel BTP et Syel Technologies, qui disposent déjà de projets en cours de contractualisation dans les deux provinces.
 
-À Bukavu, Syel Énergie est en négociation avancée pour la construction d'une centrale solaire de 15 MW en périphérie de la ville, tandis que Syel BTP a été présélectionnée pour un projet de construction de 200 logements sociaux. À Goma, Syel Technologies a remporté un appel d'offres pour la digitalisation des services de la Régie de distribution d'eau (REGIDESO), et Syel BTP participe à la construction d'un centre commercial de 15 000 m² au centre-ville.
+À Bukavu, Syel Energy est en négociation avancée pour la construction d'une centrale solaire de 15 MW en périphérie de la ville, tandis que Syel BTP a été présélectionnée pour un projet de construction de 200 logements sociaux. À Goma, Syel Technologies a remporté un appel d'offres pour la digitalisation des services de la Régie de distribution d'eau (REGIDESO), et Syel BTP participe à la construction d'un centre commercial de 15 000 m² au centre-ville.
 
 "L'Est de la RDC représente un bassin économique stratégique avec un potentiel de croissance considérable", a expliqué Olivier Kameshera, Président-Directeur Général du Groupe Syel. "Notre modèle, éprouvé à Kinshasa et à Lubumbashi, est parfaitement transposable à ces provinces. Nous arrivons avec notre expertise, nos standards de qualité et notre engagement à former et employer localement."
 

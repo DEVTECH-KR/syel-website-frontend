@@ -43,7 +43,7 @@ const subsidiarySectors = [
     sector: "Énergie",
     icon: Zap,
     subsidiaries: [
-      { name: "Syel Énergie", href: "/branches/syel-energie" },
+      { name: "Syel Energy", href: "/branches/syel-energie" },
     ],
   },
   {

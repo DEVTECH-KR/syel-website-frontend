@@ -36,7 +36,7 @@ const navLinks = [
 ];
 
 const subsidiaryLinks = [
-  { name: "Syel Énergie", href: "/branches/syel-energie", icon: Zap },
+  { name: "Syel Energy", href: "/branches/syel-energie", icon: Zap },
   { name: "Syel Transport", href: "/branches/syel-transport", icon: Truck },
   { name: "Syel Agroalimentaire", href: "/branches/syel-agroalimentaire", icon: Wheat },
   { name: "Syel Technologies", href: "/branches/syel-technologies", icon: Cpu },

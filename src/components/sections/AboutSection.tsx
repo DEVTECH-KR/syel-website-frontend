@@ -12,7 +12,6 @@ import { useInView } from "@/hooks/useInView";
 import { useCountUp } from "@/hooks/useCountUp";
 
 const cubicEase = [0.22, 1, 0.36, 1] as const;
-
 function StatCounter({
   value,
   suffix,

@@ -29,11 +29,11 @@ const slides: HeroSlide[] = [
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&q=80",
-    eyebrow: "Syel Énergie",
+    eyebrow: "Syel Energy",
     headline: "Éclairer la voie\nvers un avenir durable.",
     highlight: "Une énergie propre pour tous.",
     subtitle:
-      "Pionnier des énergies renouvelables en Afrique, Syel Énergie développe des solutions solaires et hydroélectriques pour alimenter durablement les foyers et les industries.",
+      "Pionnier des énergies renouvelables en Afrique, Syel Energy développe des solutions solaires et hydroélectriques pour alimenter durablement les foyers et les industries.",
   },
   {
     type: "image",

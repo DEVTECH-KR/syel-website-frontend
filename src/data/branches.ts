@@ -18,14 +18,14 @@ export interface Branch {
 export const branches: Branch[] = [
   {
     slug: "syel-energie",
-    name: "Syel Énergie",
+    name: "Syel Energy",
     region: "Africa",
     country: "République Démocratique du Congo",
     city: "Kinshasa",
     description:
       "Notre filiale énergie développe des solutions de production et de distribution d'énergie solaire, thermique et hybride à travers la République Démocratique du Congo.",
     longDescription:
-      "Syel Énergie, créée en 2012, est le pilier énergétique du Groupe Syel. Basée à Kinshasa avec des bureaux opérationnels à Lubumbashi et Goma, la filiale conçoit, construit et exploite des centrales solaires photovoltaïques, des groupes électrogènes industriels et des mini-réseaux hybrides pour les zones rurales et périurbaines. Syel Énergie a installé plus de 45 MW de capacité solaire cumulée en République Démocratique du Congo. L'entreprise fournit également des solutions d'électrification hors réseau pour les entreprises minières du Katanga et les camps industriels. En 2025, Syel Énergie a remporté un contrat majeur pour l'électrification de 120 villages dans les provinces du Nord-Kivu et du Sud-Kivu, consolidant sa position de leader dans les énergies renouvelables en RDC. L'équipe de 620 ingénieurs, techniciens et commerciaux porte une vision claire : accélérer la transition énergétique du pays.",
+      "Syel Energy, créée en 2012, est le pilier énergétique du Groupe Syel. Basée à Kinshasa avec des bureaux opérationnels à Lubumbashi et Goma, la filiale conçoit, construit et exploite des centrales solaires photovoltaïques, des groupes électrogènes industriels et des mini-réseaux hybrides pour les zones rurales et périurbaines. Syel Energy a installé plus de 45 MW de capacité solaire cumulée en République Démocratique du Congo. L'entreprise fournit également des solutions d'électrification hors réseau pour les entreprises minières du Katanga et les camps industriels. En 2025, Syel Energy a remporté un contrat majeur pour l'électrification de 120 villages dans les provinces du Nord-Kivu et du Sud-Kivu, consolidant sa position de leader dans les énergies renouvelables en RDC. L'équipe de 620 ingénieurs, techniciens et commerciaux porte une vision claire : accélérer la transition énergétique du pays.",
     established: "2012",
     memberCount: 620,
     projectCount: 38,

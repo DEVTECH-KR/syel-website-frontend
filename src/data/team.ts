@@ -6,6 +6,7 @@ export interface TeamMember {
   branch?: string;
   linkedin?: string;
   twitter?: string;
+  facebook?: string;
 }
 
 export const team: TeamMember[] = [
@@ -14,6 +15,7 @@ export const team: TeamMember[] = [
     role: "Président-Directeur Général",
     bio: "Ingénieur diplômé de l’École Supérieure des Métiers d’Informatique et de Commerce ESMICOM Kinshasa, Olivier Kameshera a fondé le Groupe. Syel.",
     image: "/teams/olivier.jpeg",
+    facebook: "https://www.facebook.com/share/1CBDDeVMtR/?mibextid=wwXIfr",
     linkedin: "https://linkedin.com/in/paul-henri-nkoulou",
     twitter: "https://twitter.com/phnkoulou",
   },
@@ -22,14 +24,16 @@ export const team: TeamMember[] = [
     role: "Directrice Financière (CFO)",
     bio: "Syntiche Kanku supervise la stratégie financière, la trésorerie et les relations investisseurs du Groupe Syel.",
     image: "/teams/syntiche.jpeg",
+    facebook: "https://www.facebook.com/share/1Cve6Wf1F4/?mibextid=wwXIfr",
     linkedin: "https://linkedin.com/in/nadege-fotso",
   },
   {
     name: "Jean Kameshera",
     role: "Directeur des Opérations (COO)",
-    bio: "Ingénieur logiciel diplômé de Bujumbura Christian University BCU, Jean Kameshera pilote l'ensemble des opérations et coordonnant les 6 filiales de la Société Groupe Syel.",
+    bio: "Ingénieur logiciel diplômé de Bujumbura Christian University BCU, Jean Kameshera pilote l'ensemble des opérations et coordonne les 6 filiales de la Société Groupe Syel.",
     image: "/teams/jean.jpeg",
-    linkedin: "https://linkedin.com/in/emmanuel-abanda",
+    facebook: "https://www.facebook.com/share/1CkLTfYErC/?mibextid=wwXIfr",
+    linkedin: "https://linkedin.com/in/jean.kameshera",
   },
   {
     name: "Eliezer Kameshera",

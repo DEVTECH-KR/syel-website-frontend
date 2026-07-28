@@ -430,10 +430,28 @@ function LeadershipTeam() {
                   {/* Superposition sociale au survol */}
                   <div className="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-base-900/80 via-base-900/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <div className="flex gap-3 pb-4">
+                      {member.facebook && (
+                        <a
+                          href={member.facebook}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Facebook"
+                          className="flex h-9 w-9 items-center justify-center rounded-full bg-white/20 text-white backdrop-blur-sm transition-colors hover:bg-white/40"
+                        >
+                          <svg
+                            viewBox="0 0 24 24"
+                            className="h-5 w-5 shrink-0"
+                            fill="currentColor"
+                            aria-hidden
+                          >
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                          </svg>
+                        </a>
+                      )}
                       {member.linkedin && (
                         <a
                           href={member.linkedin}
-                          target="_blank"
+                          target=" _blank"
                           rel="noopener noreferrer"
                           className="flex h-9 w-9 items-center justify-center rounded-full bg-white/20 text-white backdrop-blur-sm transition-colors hover:bg-white/40"
                         >
